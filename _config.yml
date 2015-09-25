@@ -5,7 +5,7 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               [el rincón de] mautemático
+title:               El rincón de mautemático
 tagline:             Las Cosas son como deben, no como deberían Ser.
 url:                 https://github.com/mautematico/blog
 paginate:            1
