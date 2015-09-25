@@ -13,6 +13,13 @@
     {% endif %}
   </title>
 
+  {% if page.url contains "/page" %}
+  {% assign canonical = "/" %}
+  {% else %}
+  {% assign canonical = page.url|remove:'index.html' %}
+  {% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ canonical }}">
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
 
