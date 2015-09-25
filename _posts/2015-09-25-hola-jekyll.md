@@ -2,6 +2,8 @@
 layout: post
 title: "Hola, jekyll"
 date: "2015-09-25"
+tags:
+- jekyll
 ---
 
 Una vez tuve un blog. Este blog en jekyll es mi <del>primer</del> segundo intento por revivir (de nuevo) mi varias veces muerto rincón de mautemático.
