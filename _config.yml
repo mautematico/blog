@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               El rincón de mautemático
 tagline:             Las Cosas son como deben, no como deberían Ser.
 url:                 https://jekyll.mautematico.com
-paginate:            1
+paginate:            11
 baseurl:             ''
 
 # Assets
