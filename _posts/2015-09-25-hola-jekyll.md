@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hola, jekyll"
-date: "2015-09-25"
+date: 2015-09-25 11:09:09 -06:00
 tags:
 - jekyll
 ---
