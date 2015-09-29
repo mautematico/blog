@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>El rincón de Mautemático!</title>
+	<atom:link href="http://blog.mautematico.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.mautematico.com</link>
+	<description>Las Cosas son como deben, no como deberían Ser.</description>
+	<lastBuildDate>Mon, 08 Nov 2010 22:38:42 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.1</generator>
+		<item>
+		<title>Código para sumar dos números</title>
+		<link>http://blog.mautematico.com/2010/11/02/codigo-para-sumar-dos-numeros/</link>
+		<comments>http://blog.mautematico.com/2010/11/02/codigo-para-sumar-dos-numeros/#comments</comments>
+		<pubDate>Wed, 03 Nov 2010 00:18:02 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[C/C++]]></category>
+		<category><![CDATA[Mates]]></category>
+		<category><![CDATA[Programación]]></category>
+		<category><![CDATA[ocio]]></category>
+		<category><![CDATA[C]]></category>
+		<category><![CDATA[compilar]]></category>
+		<category><![CDATA[enteros]]></category>
+		<category><![CDATA[programa]]></category>
+		<category><![CDATA[sencillo]]></category>
+		<category><![CDATA[simple]]></category>
+		<category><![CDATA[sumar]]></category>
+		<category><![CDATA[variables]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=500</guid>
+		<description><![CDATA[Dos posts seguidos sobre el mismo tema? :S&#8230; creo que le han absorbido las ideas a mi cabeza!&#8230; Hoy, pretendiendo que éste sea un post simple, voy a presentarles un código simple: uno en C++ que suma dos números dados por el usuario (a y b). AH!.. números enteros: #include &#60;iostream&#62; //Libreria requerida para usar]]></description>
+			<content:encoded><![CDATA[<blockquote><p>Dos posts seguidos sobre el mismo tema? :S&#8230; creo que le han absorbido las ideas a mi cabeza!&#8230; </p></blockquote>
+<p>Hoy, pretendiendo que éste sea un post simple, voy a presentarles un código simple: uno en C++ que suma dos números dados por el usuario (a y b). AH!.. números enteros:</p>
+<pre class="brush: cpp;">
+#include &lt;iostream&gt;	//Libreria requerida para usar cin y cout
+
+using namespace std;	//instruccion para el uso de cin y cout
+
+int a,b;		//definimos dos variables de tipo int (integer=entero)
+int main()		//Aquí va la función principal de nuestro programa
+{
+cin&gt;&gt;a&gt;&gt;b;		//Leemos del teclado los enteros a y b
+cout&lt;&lt;endl&lt;&lt;a+b&lt;&lt;endl;	//imprimimos un salto de linea (endl), la suma de a+b y luego otro salto de línea
+
+//	Descomentar para usar como ejecutable en windows
+//    system(&quot;Title Programita que suma dos numeros&quot;);
+//    system(&quot;PAUSE&quot;);
+    return 0;
+}
+</pre>
+<p>Por si se lo preguntan, hay que compilarlo.<br />
+Pueden compilarlo desde terminal/consola, pero en caso que estén en:<br />
+Linux o MacOS: Pueden usar algo como <a href="http://www.codeblocks.org">CodeBlocks</a><br />
+Windows: <a href="http://www.codeblocks.org">CodeBlocks</a> o <a href="http://www.bloodshed.net/dev/devcpp.html">Dev-C++</a><br />
+BSD y demás: JA!&#8230; como si tuviera lectores usuarios de BSD que no tuvieran maneras chidas de compilar <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/smile.png' alt=':)' class='wp-smiley' /> </p>
+<p>Puede que se me pasaran algunas cosas, para eso están los comentarios :). Obviamente acepto sugerencias!<br />
+Nota al margen: estoy pensando a que destinar <a href="http://www.geeksoy.com/">www.geeksoy.com </a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/11/02/codigo-para-sumar-dos-numeros/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>¡Hola Mundo! en C/C++</title>
+		<link>http://blog.mautematico.com/2010/07/13/hola-mundo-en-c/</link>
+		<comments>http://blog.mautematico.com/2010/07/13/hola-mundo-en-c/#comments</comments>
+		<pubDate>Wed, 14 Jul 2010 00:35:34 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[C/C++]]></category>
+		<category><![CDATA[Programación]]></category>
+		<category><![CDATA[Código]]></category>
+		<category><![CDATA[simple]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=434</guid>
+		<description><![CDATA[<blockquote>El siguiente post es un borrador que dejé abandonado hace ya algún tiempo, con la idea en mente de publicar algunos códigos y problemas que he resuelto en lo que he logrado participar de la OMI :), ésta vez mostraré un par de códigos, uno en C y otro en C++, ambos imprimen "Hola Mundo" a la pantalla</blockquote>
+<a href="http://blog.mautematico.com/wp-content/uploads/2010/07/hola-mundo.jpg"><img class="alignright size-thumbnail wp-image-474" title="hola-mundo" src="http://blog.mautematico.com/wp-content/uploads/2010/07/hola-mundo-150x150.jpg" alt="" width="150" height="150" /></a>
+La <a title="OMI" href="http://www.olimpiadadeinformatica.org.mx/" target="_blank">Olimpiada Mexicana de Informática</a> es un concurso de programación a nivel medio superior en México (aunque puedes participar desde primaria, según recuerdo). En ésta competencia hay dos sesiones de examen, una del simulador "Karel el Robot", y otra propiamente de programación. El lenguaje con mayor aceptación parece ser C/C++.
+
+De manera técnica, no tengo mucho que contarles de C/C++, lo que sí se es que con ellos (C++ es una extensión de C) puedes programar practicamente cualquier cosa, desde un simple "Hola Mundo" portable a varias plataformas, hasta un complejo sistema operativo completo!... Víctor (VicOMM) se molestará si no menciono que Cplusplus está orientado a la manipulación de objetos, aunque yo no estoy bien enterado de eso porque a penas se muy poco...
+
+Bueno, basta ya, les mostraré un par de códigos para imprimir a la pantalla "Hola mundo"
+
+El siguiente código, escrito en C, imprime a la pantalla el clásico mensaje "Hola mundo", y termina su ejecución:
+
+[cpp]
+#include <stdio .h>
+
+int main()
+{
+        printf("Hola mundo");
+        return 0;
+}
+[/cpp]</stdio>]]></description>
+			<content:encoded><![CDATA[<blockquote><p>El siguiente post es un borrador que dejé abandonado hace ya algún tiempo, con la idea en mente de publicar algunos códigos y problemas que he resuelto en lo que he logrado participar de la OMI :), ésta vez mostraré un par de códigos, uno en C y otro en C++, ambos imprimen &#8220;Hola Mundo&#8221; a la pantalla</p></blockquote>
+<p><a href="http://blog.mautematico.com/wp-content/uploads/2010/07/hola-mundo.jpg"><img class="alignright size-thumbnail wp-image-474" title="hola-mundo" src="http://blog.mautematico.com/wp-content/uploads/2010/07/hola-mundo-150x150.jpg" alt="" width="150" height="150" /></a><br />
+La <a title="OMI" href="http://www.olimpiadadeinformatica.org.mx/" target="_blank">Olimpiada Mexicana de Informática</a> es un concurso de programación a nivel medio superior en México (aunque puedes participar desde primaria, según recuerdo). En ésta competencia hay dos sesiones de examen, una del simulador &#8220;Karel el Robot&#8221;, y otra propiamente de programación. El lenguaje con mayor aceptación parece ser C/C++.</p>
+<p>De manera técnica, no tengo mucho que contarles de C/C++, lo que sí se es que con ellos (C++ es una extensión de C) puedes programar practicamente cualquier cosa, desde un simple &#8220;Hola Mundo&#8221; portable a varias plataformas, hasta un complejo sistema operativo completo!&#8230; Víctor (VicOMM) se molestará si no menciono que Cplusplus está orientado a la manipulación de objetos, aunque yo no estoy bien enterado de eso porque a penas se muy poco&#8230;</p>
+<p>Bueno, basta ya, les mostraré un par de códigos para imprimir a la pantalla &#8220;Hola mundo&#8221;</p>
+<p>El siguiente código, escrito en C, imprime a la pantalla el clásico mensaje &#8220;Hola mundo&#8221;, y termina su ejecución:</p>
+<pre class="brush: cpp;">
+#include &lt;stdio.h&gt;
+
+int main()
+{
+        printf(&quot;Hola mundo&quot;);
+        return 0;
+}
+</pre>
+<p><span id="more-434"></span>Y el siguiente código hace lo mismo, pero usando las clases y librerías de C++:</p>
+<pre class="brush: cpp;">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+    cout &lt;&lt; &quot;Hola Mundo&quot; &lt;&lt; endl;
+    return 0;
+}
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/07/13/hola-mundo-en-c/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Mí día de Ayer</title>
+		<link>http://blog.mautematico.com/2010/07/10/mi-dia-de-ayer/</link>
+		<comments>http://blog.mautematico.com/2010/07/10/mi-dia-de-ayer/#comments</comments>
+		<pubDate>Sat, 10 Jul 2010 22:49:40 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Cosas]]></category>
+		<category><![CDATA[Mis revoltosos pensamientos]]></category>
+		<category><![CDATA[ayer]]></category>
+		<category><![CDATA[Día]]></category>
+		<category><![CDATA[emociones]]></category>
+
+		<guid isPermaLink="false">http://mautematico.co.cc/?p=425</guid>
+		<description><![CDATA[Sí. No se me ocurrió un título más descriptivo para el post de hoy. La verdad es que ni siquiera iba a haber post de hoy, bueno, en realidad, sí iba a haberlo. Sería de Frets on Fire. Finalmente decidí este título, pues es lo que pretendo que trate el escrito que (algunos) están a]]></description>
+			<content:encoded><![CDATA[<p>Sí. No se me ocurrió un título más descriptivo para el post de hoy. La verdad es que ni siquiera iba a haber post de hoy, bueno, en realidad, sí iba a haberlo. Sería de Frets on Fire. Finalmente decidí este título, pues es lo que pretendo que trate el escrito que (algunos) están a punto de leer.</p>
+<p><span id="more-425"></span>Comenzó como practicamente comienza cualquier otro: algunas personas en el planeta morían, otras, muy pequeñas, venían a la vida. Otras más se daban cuenta que iban por un camino ni muy acertado ni muy divertido, y decidieron cambiar&#8230; otras hicieron lo que la humanidad llama “madurar”. Sí, era un día normal.</p>
+<p>Desperté no muy tarde, a pesar de estar de “vacaciones”, pues mi padre me pediría el día anterior que atendiera cierto asunto en el municipio de Tequisquiapan, antes de comenzar con los míos respecto de la OMM (Registro en el hotel de la ciudad de Querétaro, comida, entrenamiento en la UAQ&#8230;)</p>
+<p>Es así como esperaba a que alguno de mis padres me dieran el dinero requerido para realizar esa desviación y atender tal asunto. Por azares del destino, ya en la dulcería, mi madre terminó por comunicarme una no muy agradable noticia, que habría(mos) preferido mantener alejada de mi padre por un tiempo. Algo salió mal: mi padre hizo una pregunta, que llevó a la revelación de la (no) mencionada noticia. Mi padre se molestó, la verdad es que se molestó muchísimo. Enfureció, diría yo.</p>
+<p>Sí, también yo me molesté, me molesté bastante. Pero yo me molesté por la actitud de mi padre ante la noticia. Muchas veces he preferido mantenerme al margen en situaciones como esa, pero en algunas otras no. Ésta fue una de esas algunas otras. Por supuesto, entonces mi padre se molestó también conmigo (ah, porque se lo hice saber – y lease como el aclare de un &lt;&lt;despiste&gt;&gt;, no como lo que el llamaría &lt;&lt;un reto&gt;&gt; &#8211; )&#8230;</p>
+<p>Con la frustración (entre otros sentimientos de esos que no hacen el bien muy a menudo) invadiendo mi ser, me salí de la tienda. No, no era una de esas rabietas de adolescente pre-universitario de “me voy de la casa”, es que ya se llegaba la hora de partir para mí. Por su parte, mi padre hizo lo propio -propio de sí mismo, no hablo de propiedad en cuanto a cordialidad- y también se fue.</p>
+<p>En realidad resultaría que yo iría a comprar unas cosas -agujetas y saldo para mi teléfono (compre uno nuevo luego de que &lt;&lt;Pol&gt;&gt; me restregara que vendió el que perdí)- y regresaría a la dulcería, pues había olvidado algo: mi desodorante. Así es como tuve una charla con mi madre, una charla de una media hora, sobre muchas cosas, de esas que las personas no dicen muy a menudo.</p>
+<p>Algo tenía que hacer y sí, algo se me ocurrió&#8230; Tomé el teléfono con la esperanza de no ser tan inoportuno al interrumpir alguna actividad importante: le llamé a (&#8230;que difícil es esto&#8230;) una amiga. ¡Que suerte, ha tomado la llamada!&#8230; y más suerte aún: no estaba haciendo lo que yo creía!&#8230; charlamos por un rato, media hora quizás, la verdad es que no lo se. Mi estado de ánimo mejoró notablemente -al menos yo lo noté-, pero llegó el momento de despedirnos, la red celular no ofreció mucho soporte en ese momento: la llamda se cortó a medio &lt;&lt;adiós&gt;&gt;. [Y en esta linea, en el pseudo anonimato, quiero agradecer a mi amiga por, una vez más, aún cuando quizás no lo note con mucha facilidad, ayudarme de una manera tan increíble en momentos así... Em: Gracias -así es, no es su “verdadero” nombre-]</p>
+<p>Y bueno, omitiré algunos detalles sin relevancia para el mundo, el caso es que arreglaría aquel asunto en Tequisquiapan como había acordado el día anterior, para luego dirigirme a lo que algunos llaman <em>mis cosas</em>. Ese día descubriría que aquel pasaje alterno para realizar mi viaje se percibe aún más solitario en autobús&#8230; más solitario y más caro. El chofer tenía lo que podría decirse música pop.</p>
+<p>Sí, la música: ese elemento tan importante en la vida de muchos de nosotros&#8230; que hace evocar sensaciones con un poder casi indiscutible. En ésta ocasión, recuerdos de momentos sumamente felices, en algún momento sabía que el siguiente tramo de la canción era “Porque las cosas de la vida contigo se viven mejor&#8230; (turu ruru)&#8230; todo es amor si estamos juntos los dos&#8230;”. Solté un suspiro, de esos que salen jalando consigo mocos de la nariz, de esos líquidos con un sabor saladito y que bien pueden lavarse con agua.</p>
+<p>En ese momento me dije a mi mismo: Mi mismo: debes escribir esto, o contárselo a alguien&#8230; ¡no es algo que puedas guardar hasta la tumba! (y, heme -en algún momento del espacio-tiempo en el pasado- aquí).</p>
+<p>Luego, bueno, luego llegaría el registro en el hotel, el entrenamiento, el “Turista Mundial (r)” que reemplazara la función de cine&#8230; Todo eso que acostumbramos hacer, porque es divertido. Aunque tenía en esta ocasión una razón más para mí: distraerme y ayudarme a sonreir.</p>
+<p>Sí, ya pronto voy a parar de escribir. Mentí a mi madre diciéndole que aún estaba lejos de casa, cuando en realidad veo patos mientras escribo, ya casi se me ha quitado el frío y me siento un poco mejor. Simplemente agregar algunas cosas que sucedieron hoy: tuve examen selectivo para la OMM, jugamos futbolito, no me depilaron porque México no ganara a Argentina, y no tengo ganas de llegar a mi casa.</p>
+<p>Hasta pronto, almas que de vez en cuando deambulan aquí cerca. Que la vida no sea tan cruel, y la voluntad evite doblegar eso que llamamos <em>espíritu. </em>Mauricio.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/07/10/mi-dia-de-ayer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Compact Menu 2, Extensión para Firefox</title>
+		<link>http://blog.mautematico.com/2010/06/26/compact-menu-2-extension-para-firefox/</link>
+		<comments>http://blog.mautematico.com/2010/06/26/compact-menu-2-extension-para-firefox/#comments</comments>
+		<pubDate>Sat, 26 Jun 2010 23:39:00 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[internet]]></category>
+		<category><![CDATA[espacio]]></category>
+		<category><![CDATA[menú]]></category>
+		<category><![CDATA[plugins]]></category>
+
+		<guid isPermaLink="false">http://mautematico.co.cc/?p=386</guid>
+		<description><![CDATA[Ya platicamos un poco sobre Mozilla Firefox, un navegador libre y multiplataforma que además soporta Extensiones. Bueno, Compact Menu 2 es una de estas tantas extensiones creadas por los usuarios de Firefox. La tarea de Compact Menu 2 es reemplazar la barra de menús (Archivo, Editar, Ver&#8230;) con un pequeño icono que despliega un menú]]></description>
+			<content:encoded><![CDATA[<p><img class="alignright" style="border: 0pt none; margin: 3px;" src="http://blog.mautematico.com/wp-content/uploads/2010/06/Compact-Menu-2.png" border="0" alt="" align="RIGHT" />Ya platicamos un poco sobre Mozilla Firefox, un navegador libre y multiplataforma que además soporta Extensiones.</p>
+<p>Bueno, <a title="Pagina de Compact=" target="_blank">Compact Menu 2</a> es una de estas tantas extensiones creadas por los usuarios de Firefox. La tarea de Compact Menu 2 es reemplazar la barra de menús (Archivo, Editar, Ver&#8230;) con un pequeño icono que despliega un menú contextual (ver imagen)<br />
+Todo esto ¿Para que?&#8230; bueno, eso ya es cosa de cada quien. Si bien no es una cosa mágica, es útil por ejemplo para “ganar”  espacio en la ventana de navegación si tenemos monitores de poca resolución, y principalmente para ocultar tal menú si no lo usamos con frecuencia.<br />
+La manera de instalar e implementar Compact Menu 2 es bastante simple, hay que ir a su página en el sitio de extensiones Mozilla, hacer clic en “Agregar a Firefox” y luego:</p>
+<ol>
+<li>Ocultar la barra de menús: Clic 	secundario en alguna región libre de las barras, deseleccionamos 	“Barra de menús”</li>
+<li>Agregar el botón Compact Menu 2: 	De nuevo clic secundario&gt;&gt; Personalizar. Buscamos el icono de 	Compact Menu (una especie de planeta azul con una flecha hacia 	abajo) y lo arrastramos al área de la ventana de firefox en que 	queremos que aparezca.</li>
+</ol>
+<p>Bien, ahora solamente un tip:  En  Windows podemos desplegar este menú igual que la barra de menús (con la tecla ALT), aunque en linux funcionará ALT+A para por ejemplo ir al submenú Archivo. Obviamente, además de esto, un clic en el icono también lo despliega.<br />
+Ahora sí, por si se les pasó dos veces el enlace de <a href="https://addons.mozilla.org/en-US/firefox/addon/4550/">Compact Menu 2</a>:</p>
+<p><a title="Compact Menu 2" href="https://addons.mozilla.org/en-US/firefox/addon/4550/" target="_blank">[IR A LA PÁGINA DE Compact Menu 2 EN MOZILLA FIREFOX]</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/06/26/compact-menu-2-extension-para-firefox/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Nuevo Lookgle, Google con fondo</title>
+		<link>http://blog.mautematico.com/2010/06/10/nuevo-lookgle-google-con-fondo/</link>
+		<comments>http://blog.mautematico.com/2010/06/10/nuevo-lookgle-google-con-fondo/#comments</comments>
+		<pubDate>Fri, 11 Jun 2010 01:25:29 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[internet]]></category>
+		<category><![CDATA[Doodles]]></category>
+		<category><![CDATA[Fondo]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Logo]]></category>
+		<category><![CDATA[Look]]></category>
+
+		<guid isPermaLink="false">http://mautematico.co.cc/?p=381</guid>
+		<description><![CDATA[Que le ha pasado a Google!&#8230; me lo cambiaron :S&#8230; Ay, no!&#8230; esque le puse una imagen de fondo :). Pues resulta que (sí, hablaré de Google otra vez!) ahora Google permite cambiar ese blanco-jodeme-la-vista por una imagen de fondo en la página principal del buscador, tal como pueden observar en esa mini-captura :). Basta]]></description>
+			<content:encoded><![CDATA[<p style="text-align: center;"><img class="aligncenter" title="Google-con-fondo_pequenio" src="http://blog.mautematico.com/wp-content/uploads/2010/06/Google-con-fondo_pequenio.png" alt="Google con Fondo" width="256" height="154" /></p>
+<p>Que le ha pasado a Google!&#8230; me lo cambiaron :S&#8230;</p>
+<p>Ay, no!&#8230; esque le puse una imagen de fondo :).</p>
+<p>Pues resulta que (sí, hablaré de Google otra vez!) ahora Google permite cambiar ese blanco-jodeme-la-vista por una imagen de fondo en la página principal del buscador, tal como pueden observar en esa mini-captura :).</p>
+<p>Basta con entrar a www.google.com o el dominio de su país e ir abajo a la izquierda, donde un enlace &#8220;Cambiar imagen de fondo&#8221; mostrará una ventana modal en la que podemos elegir el fondo que queremos aplicar. Los hay muy bonitos y, curiosamente, quedan con el logo en letras blancas :)&#8230;</p>
+<p>Me pregunto como le harán con los Doodles&#8230; haha.</p>
+<p>Ah, por cierto!, si no les permite cambiar, quizá sea por no tener cuenta Google e iniciar sesión. Basta con crearse una (o estar registrados en Youtube, Picassa, Gmail&#8230;)</p>
+<p>Buen día!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/06/10/nuevo-lookgle-google-con-fondo/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Aproximados de Pi y E con los numeros del 1 al 9</title>
+		<link>http://blog.mautematico.com/2010/06/02/aproximados-de-pi-y-e-con-los-numeros-del-1-al-9/</link>
+		<comments>http://blog.mautematico.com/2010/06/02/aproximados-de-pi-y-e-con-los-numeros-del-1-al-9/#comments</comments>
+		<pubDate>Wed, 02 Jun 2010 19:54:28 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://mautematico.co.cc/?p=369</guid>
+		<description><![CDATA[Aproximado de Pi Aproximado de e]]></description>
+			<content:encoded><![CDATA[<p style="text-align: center;">Aproximado de Pi<img class="aligncenter size-full wp-image-376" title="Aproximación de Pi" src="http://blog.mautematico.com/wp-content/uploads/2010/06/aproximacion_de_pi.png" alt="" width="344" height="161" /></p>
+<p style="text-align: center;">Aproximado de e</p>
+<p style="text-align: center;"><img class="aligncenter" title="aproximacion_de_e" src="../wp-content/uploads/2010/06/aproximacion_de_e.png" alt="" width="263" height="115" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/06/02/aproximados-de-pi-y-e-con-los-numeros-del-1-al-9/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>30 años de Pacman</title>
+		<link>http://blog.mautematico.com/2010/05/21/30-anos-de-pacman/</link>
+		<comments>http://blog.mautematico.com/2010/05/21/30-anos-de-pacman/#comments</comments>
+		<pubDate>Fri, 21 May 2010 18:01:15 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[internet]]></category>
+		<category><![CDATA[ocio]]></category>
+		<category><![CDATA[aniversario]]></category>
+		<category><![CDATA[Doodles]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[juegos]]></category>
+		<category><![CDATA[Pacman]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=352</guid>
+		<description><![CDATA[Así que, la bolita amarilla cumple ya 30 años!&#8230; Cielos, ¡es más viejo que yo! Bueno, yo ya sabía que es más viejo, lo que no sabía es que hoy es su cumpleaños, y resulta que Google me lo dijo. Sí, Google. Verán, estaba probando un diseño para un proyecto que tengo en mente, entonces]]></description>
+			<content:encoded><![CDATA[<p>Así que, la bolita amarilla cumple ya 30 años!&#8230; Cielos, ¡es más viejo que yo!</p>
+<p>Bueno, yo ya sabía que es más viejo, lo que no sabía es que hoy es su cumpleaños, y resulta que Google me lo dijo. Sí, Google.</p>
+<p>Verán, estaba probando un diseño para un proyecto que tengo en mente, entonces debía comparar las vistas en Mozilla Firefox, Internet Explorer y Opera (En Safari y Chrome lo miraría luego, pues no los tengo instalados en esta compu -parecen ser incompatibles con algo que tengo-). Cual es mi sorpresa que, al abrir Internet Explorer (que siempre me es necesario, porque sino me llevo la sorpresa que en Firefox se ve magnifico, pero en IE se desfasa tremendo&#8230;), y entra a Google.com.mx (mi pagina de inicio en IE, que no uso más que para estas pruebas)&#8230; estaba en segundo plano y comienza a sonar &#8220;Waka waka waka waka&#8230;&#8221;.</p>
+<p>Debo admitir que el sonidito me parece un poco molesto, pero resulta que me es también bastante familiar, aunque pensé &lt;&lt;Maldición.. publicidad otra vez!&gt;&gt;.  Restauro la ventana de IE y:</p>
+<p style="text-align: center;">
+<div class="wp-caption aligncenter" style="width: 420px"><a rel="prettyphoto" href="http://blog.mautematico.com/wp-content/uploads/2010/05/PacmanGoogleGrande.png" target="_blank"><img title="PacmanGoogle" src="http://blog.mautematico.com/wp-content/uploads/2010/05/PacmanGoogle.png" alt="Pacman en el logo de Google, 21 de Mayo 2010" width="410" height="215" /></a><p class="wp-caption-text">Pacman Google</p></div>
+<p style="text-align: center;">
+<p style="text-align: left;">Sí señores, Pacman en el logo de Google!</p>
+<p style="text-align: left;">Como ya es bien sabido (bueno, creo que muchos lo saben), Google reemplaza su logo con lo que llaman &#8220;Google Doodles&#8221;, conmemorando fechas importantes para la humanidad (¿?), como el 30 aniversario de Pacman! <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/smile.png' alt=':)' class='wp-smiley' /> (eso me recuerda el post del primer &#8220;alunizaje&#8221; -sí, aquel de tanta polémica- que nunca publiqué jaja)</p>
+<p style="text-align: left;">La versión de Pacman en el logo es completamente jugable, y de nuevo IE nos muestra diferencias: en Firefox te darías cuenta unicamente al ver la imagen del logo (colocada como un background), y al hacer clic (que usualmente te lleva a una busqueda relacionada con el Doodle), ¡EL JUEGO COMIENZA!&#8230; Por otro lado, en IE el juego comienza a jugarse (sí, el solito) desde que se abre&#8230;</p>
+<p style="text-align: left;">Seguramente Pacman no vivirá ahi hasta mañana, así que no dudes en jugarlo si quieres recordar viejos wakatiempos.</p>
+<p style="text-align: left;">P.D. 1 el botón &#8220;Insertar moneda&#8221; no está de adorno! <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/smile.png' alt=':)' class='wp-smiley' /> (AW&#8230;)</p>
+<p style="text-align: left;">P.D.2 en <a title="Feliz cumpleaños, Pac-man" href="http://www.fidelitypr.com/happyhour/2010/04/%C2%A1feliz-cumpleanos-pac-man/" target="_blank">HappyHour </a>cuentan un poco de la historia del quesito amarillo <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/smile.png' alt=':)' class='wp-smiley' /> </p>
+<p style="text-align: left;">P.D.3vi en <a title="Lg se basó en pacman para su logo" href="http://www.rutarelativa.com/la-imagen-cachonda-del-dia/imagen-cachonda-dia-17-lg-se-baso-pacman-crear-su-logo/trackback/" target="_blank">Rutarelativa</a> (que a su vez vió en <a title="Pacman oculto en el logo de LG" href="http://www.thalskarth.com.ar/2010/03/04/pacman-oculto-en-el-logo-de-lg/" target="_blank">Thalskarth</a>) como LG=Pacman&#8230;  <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/tongue.png' alt=':p' class='wp-smiley' /> </p>
+<p style="text-align: left;">Saludos a todos y ¡feliz cumpleaños, Pacman!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/05/21/30-anos-de-pacman/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sí, somos pequeños</title>
+		<link>http://blog.mautematico.com/2010/04/26/si-somos-pequenos/</link>
+		<comments>http://blog.mautematico.com/2010/04/26/si-somos-pequenos/#comments</comments>
+		<pubDate>Tue, 27 Apr 2010 00:38:38 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=338</guid>
+		<description><![CDATA[Me dieron ganas de cambiar (nuevamente) el template (la plantilla) del blog, pero es que, con tantas que hay, y lo dificil (indesiso) que soy, no me decidía por uno&#8230; Al fin me topé con el que está puesto ahora (Jambo), aunque con lo caprichoso que soy puede que lo cambie de nuevo&#8230; Bueno bueno,]]></description>
+			<content:encoded><![CDATA[<p>Me dieron ganas de cambiar (nuevamente) el template (la plantilla) del blog, pero es que, con tantas que hay, y lo dificil (indesiso) que soy, no me decidía por uno&#8230; Al fin me topé con el que está puesto ahora (<a title="Jambo - By Simplethemes" href="http://www.simplethemes.com/jambo-wordpress-theme.html" target="_blank">Jambo</a>), aunque con lo caprichoso que soy puede que lo cambie de nuevo&#8230;</p>
+<p>Bueno bueno, lo importante de esto del cambio de theme es el espacio que tiene a la derecha, según parece, dedicado a “videos destacados”, así que me puse a buscar un video que debiera estar ahí&#8230;<span id="more-338"></span></p>
+<p>Mientras buscaba el video para “featured”, pasaron por mi mente varias opciones: alguna canción, el trailer de una serie, otra canción, un video cómico, o quizás una canción de Mägo de Oz. De repente me acordé de los planetas y estrellas y lo mucho que me gustan, de aquel escrito “Te voy a contar un cuento”, e incluso vinieron a mi memoria los recuerdos de algunas charlas -telefónicas- sobre La Tierra, La Luna y El Sol y sus tamaños:</p>
+<p>“ – Sí, es muy grande, y muy bonita – dijo ella</p>
+<p>&#8211; Pues, grande grande no es – respondió él</p>
+<p>&#8211; ¡Por favor, Mauricio!&#8230; claro que es grande, es ¡ENORME! &#8212; replicó la chica</p>
+<p>&#8211; Mmm&#8230; pues no se, es relativo – se defendía el cursi chico</p>
+<p>&#8211; Bueno, sí, eso depende de con que la comparas, el Sol quizá, o la distancia de la Tierra al Sol&#8230; ¿tú con que la comparas para decir que es pequeña?&#8211; [...]”</p>
+<p>“&#8211;¡NO! Yo más que tú</p>
+<p>&#8211; ¡Que no! Que yo te gano&#8230;</p>
+<p>&#8211; ay ay!&#8230; a ver: ¿y cómo puedes saber que es más?</p>
+<p>&#8211; bueno, no lo se&#8230; ¿qué tanto es?</p>
+<p>&#8211; Amm&#8230; como La Tierra!</p>
+<p>&#8211; No no eh, te gano&#8230; Como el Sol</p>
+<p>&#8211; ¿Ah sí?, estaba siendo indulgente, como el Sistema Solar, quise decir</p>
+<p>&#8211; Mmm no, aún así no&#8230; de aqui “hasta allá”</p>
+<p>&#8211; Allá?, donde allá?&#8230; [...]</p>
+<p>&#8211;¡Ya ves, al final te gané!</p>
+<p>&#8211; ¡No no! Yo siempre uno más que tú</p>
+<p>&#8211; Ay sí, ay sí, pues el mío es más rápido&#8230;</p>
+<p>&#8211;Sí sí&#8230; cómo no!&#8230; a ver, ¿a que razón crece?</p>
+<p>&#8211; Amm ¡mucho sobre poquito!</p>
+<p>[...]”</p>
+<p>Sí, sí.. soy un cursi, ¿y qué?. Como sea, es que quería contar la historia.</p>
+<p>Al final, me topé con varios videos que comparan el tamaño de La Tierra con otros planetas y estrellas, elegí éste para compartir con ustedes:</p>
+<p><object type="application/x-shockwave-flash" style="width:410px; height:202px;" data="http://www.youtube.com/v/Z8BncJ7XMLk?color1=006699&amp;color2=54ABD6&amp;rel=0&amp;showsearch=0&amp;showinfo=0&amp;fs=1"><param name="movie" value="http://www.youtube.com/v/Z8BncJ7XMLk?color1=006699&amp;color2=54ABD6&amp;rel=0&amp;showsearch=0&amp;showinfo=0&amp;fs=1" /><param name="allowFullScreen" value="true" /></object></p>
+<p>Así que ¿aún te crees dueño del Universo?</p>
+<p>Peace</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/04/26/si-somos-pequenos/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Cuidado, porque muerden</title>
+		<link>http://blog.mautematico.com/2010/04/26/cuidado-porque-muerden/</link>
+		<comments>http://blog.mautematico.com/2010/04/26/cuidado-porque-muerden/#comments</comments>
+		<pubDate>Mon, 26 Apr 2010 21:21:58 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[ONMAS]]></category>
+		<category><![CDATA[10]]></category>
+		<category><![CDATA[amigos]]></category>
+		<category><![CDATA[matemáticas]]></category>
+		<category><![CDATA[nacional]]></category>
+		<category><![CDATA[olimpiada]]></category>
+		<category><![CDATA[recuerdos]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/2010/04/26/cuidado-porque-muerden/</guid>
+		<description><![CDATA[La verdad, no me consta que muerdan, pero así parece. Vean como estos raros ejemplares de un especimen denominado &#60;nerdus mate ñoñus secundarinus &#62; se protegen los unos a los otros, los machos de las hembras. Jaja.. ya en serio: los nueve chicos (cuatro chicas y 5 chicos) que aparecen en la foto son los]]></description>
+			<content:encoded><![CDATA[<div style="float: right; margin-left: 10px; margin-bottom: 10px;">
+<div class="wp-caption alignnone" style="width: 250px"><a class="lightbox" title="10 ONMAS" rel="prettyphoto" href="http://farm4.static.flickr.com/3388/4555796702_6ca8f3d36b_b.jpg" target="_blank"><img class="  " src="http://farm4.static.flickr.com/3388/4555796702_6ca8f3d36b_m.jpg" alt="" width="240" height="180" /></a><p class="wp-caption-text">De izquierda a derecha: Esme, Vero, Alicia, Damaris, Victor, Oswaldo, Daniel, Pablo (arriba), Gabriel</p></div>
+</div>
+<p>La verdad, no me consta que muerdan, pero así parece. Vean como estos raros ejemplares de un especimen denominado &lt;<em>nerdus mate ñoñus secundarinus</em> &gt; se protegen los unos a los otros, los machos de las hembras.</p>
+<p>Jaja.. ya en serio: los nueve chicos (cuatro chicas y 5 chicos) que aparecen en la foto son los representantes de Querétaro para la etapa nacional de la <strong>10 ONMAS.</strong><br />
+Auunque sigue siendo para mí un misterio esa extraña y fascinante división por (entre xD) género, dejaré de fastidiarlos al menos de aquí a jueves (cuando los veré una vez más).</p>
+<p>Citando lo que en alguna ocasión dijo el profesor Roberto: <strong><em>&#8220;Échenle huevos, aunque el pan salga amarillo&#8221;</em>, muchachos =D</strong>.</p>
+<pre><a title="Ver foto &quot;Cuidado, porque muerden&quot; en Flickr" href="http://www.flickr.com/photos/mautematico/4555796702/" target="_blank">También puedes ver la foto en Flickr [Clic]</a></pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/04/26/cuidado-porque-muerden/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>Firefox 3.6.2</title>
+		<link>http://blog.mautematico.com/2010/03/23/firefox-3-6-2/</link>
+		<comments>http://blog.mautematico.com/2010/03/23/firefox-3-6-2/#comments</comments>
+		<pubDate>Tue, 23 Mar 2010 21:45:24 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[internet]]></category>
+		<category><![CDATA[actualización]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Mac OS]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[navegador]]></category>
+		<category><![CDATA[Windows]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/2010/03/23/firefox-3-6-2/</guid>
+		<description><![CDATA[En el mundo de La Red, necesitamos un navegador para surfear la web, una de las alternativas que podemos elegir es Mozilla Firefox, de la fundación Mozilla. Firefox es uno de los navegadores que más terreno ha ganado durante los últimos años, personalmente aún recuerdo cuando instalé la versión 1.5 (¿o fue la  1?), ¡pues]]></description>
+			<content:encoded><![CDATA[<div id="attachment_334" class="wp-caption alignleft" style="width: 160px"><img class="size-thumbnail wp-image-334" title="Firefox" src="http://blog.mautematico.com/wp-content/uploads/2010/03/firefox_logo-150x150.png" alt="" width="150" height="150" /><p class="wp-caption-text">Logo Firefox</p></div>
+<p>En el mundo de La Red, necesitamos un navegador para <em>surfear</em> la web, una de las alternativas que podemos elegir es <strong><em>Mozilla Firefox</em></strong>, de la fundación Mozilla.</p>
+<p>Firefox es uno de los navegadores que más terreno ha ganado durante los últimos años, personalmente aún recuerdo cuando instalé la versión 1.5 (¿o fue la  1?), ¡pues me atrapó con la posibilidad de emplear pestañas para navegar usando una sola ventana!&#8230; Para entonces, Internet Explorer 6 venía preinstalado con Windows XP -sistema de fábrica de mi primer computadora-, y la alternativa para dicha función agregada era isntalar una barra -la entonces barra de MSN- que permitía agregar pestañas a IE, pero no mecautivó tanto como <em>El Zorro</em> que lo ofrecía desde la caja&#8230;</p>
+<p>Con el paso del tiempo -unos amm&#8230; ¿cuatro años?-  tales novedades se han vuelto cosas cotidianas, y han aparecido más razones para usar un navegador u otro (por ejemplo, Opera, Google Chrome, IE 7/8 ¿Safari? usan ya pestañas, algunos de ellos poseen cientos de plugins y son libres y gratis)</p>
+<p>Ahora bien, la nueva versión 3.6 de Mozilla Firefox viene con algunas novedades como la implementación de HTML5 para ver videos sin necesidad de usar flash, como siempre soporta plugins o addons, de los cuales habrá cientos o miles, desarrollados por la comunidad -todos aquellos que quieran hacerlo-.</p>
+<p>Una cosa extra que aparece con esta versión es &#8220;personas for Firefox&#8221;, que consiste básicamente en cambiar &#8220;el fondo&#8221; de la ventana del navegador, pudiendo elegir entre más de 300,000 actualmente disponibles.</p>
+<p>Para terminar, una cosa que me agrada de Firefox es la posibilidad de instalarlo tanto sobre Microsoft como sobre Mac OS y Linux&#8230; Actualmente lo tengo en Windows XP y Kubuntu 9.10 Karmic Koala.</p>
+<p>Ahora bien, podemos descargar la sub-versión 3.6.2 (que corrige algunos fallos importantes) y ver los requisitos del sistema en el siguente enlace:</p>
+<p><a href="http://www.mozilla-europe.org/es/firefox/system-requirements/">http://www.mozilla-europe.org/es/firefox/system-requirements/</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/03/23/firefox-3-6-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Girasol Azul</title>
+		<link>http://blog.mautematico.com/2010/03/17/girasol-azul/</link>
+		<comments>http://blog.mautematico.com/2010/03/17/girasol-azul/#comments</comments>
+		<pubDate>Wed, 17 Mar 2010 23:51:31 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/2010/03/17/girasol-azul/</guid>
+		<description><![CDATA[¡oh! ¡¡¿me has llamado rara?!!, pero si soy tan común como un girasol azul aleabril]]></description>
+			<content:encoded><![CDATA[<p style="text-align: center;"><a class="lightbox" rel="prettyphoto" href="http://blog.mautematico.com/wp-content/uploads/2010/03/BASE93.gif"><img class="aligncenter" title="Girasol Azul" src="http://blog.mautematico.com/wp-content/uploads/2010/03/BASE93-300x253.gif" alt="Girasol Azul" width="300" height="253" /></a><br />
+¡oh! ¡¡¿me has llamado rara?!!, pero si soy tan común como un girasol azul<br />
+<a href="http://alemisimagenes.blog.dada.net/post/597420/GIRASOL+AZUL">aleabril</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/03/17/girasol-azul/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>[el rincón de] mautemático</title>
+	<atom:link href="http://blog.mautematico.com/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.mautematico.com</link>
+	<description>Las Cosas son como deben, no como deberían Ser.</description>
+	<lastBuildDate>Sun, 04 Jan 2015 07:24:51 +0000</lastBuildDate>
+	<language>es-ES</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1</generator>
+	<item>
+		<title>&#8220;¡Hola, mundo!&#8221; en JavaScript, en la consola de Firefox</title>
+		<link>http://blog.mautematico.com/2015/hola-mundo-en-javascript.html</link>
+		<comments>http://blog.mautematico.com/2015/hola-mundo-en-javascript.html#comments</comments>
+		<pubDate>Sun, 04 Jan 2015 07:07:43 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=1023</guid>
+		<description><![CDATA[En el trozo de espacio-tiempo en que me encuentro al escribir esto, los pasos que intentaré describir a continuación suelen dar vida a pequeños monstruos, en sí mismos inofensivos, pero no por eso triviales. De hecho, cuentan las leyendas que monstruos temibles, atroces, feroces y hasta molestos han sido resultado de un proceso natural de &#8230; <a href="http://blog.mautematico.com/2015/hola-mundo-en-javascript.html" class="more-link">Continúa leyendo <span class="screen-reader-text">&#8220;¡Hola, mundo!&#8221; en JavaScript, en la consola de Firefox</span></a>]]></description>
+				<content:encoded><![CDATA[<p>En el trozo de espacio-tiempo en que me encuentro al escribir esto, los pasos que intentaré describir a continuación suelen dar <em>vida</em> a pequeños monstruos, en sí mismos inofensivos, pero no por eso triviales. De hecho, cuentan las leyendas que monstruos temibles, atroces, feroces y hasta molestos han sido resultado de un proceso natural de evolución y mutaciones de pequeños y tiernos monstruos, como esos a los que me referí en primer lugar.</p>
+<p>Me atrevo a suponer, anónimo y estimado internauta, que mis instrucciones permanecen vigentes y válidas en tu realidad actual, en ese futuro desde el que me lees. ¡Perdóname si no es así!</p>
+<p>Te advierto desde ya, que hoy (mi hoy) me atreví a ser fan del filtro de pixelado, una vez que me di cuenta que se escapa a mis capacidades actuales enviar este mensaje a los futuros sin la pérdida de, al menos, la información irrelevante en las imágenes.</p>
+<p>¡Te mostraré cómo programar el mensaje <em>¡Hola, mundo!</em> (mundo futuro, supongo) en JavaScript!</p>
+<p>Lo que necesitamos:</p>
+<ol>
+<li>Un programa donde escribir texto <span style="text-decoration: underline;">sin formato</span> (<em>a.k.a. texto plano</em>), para escribir nuestro programa.
+<ul>
+<li>Si colorea el código, ¡de lujo!</li>
+</ul>
+</li>
+<li>Un motor de ejecución JavaScript (<em>a.k.a máquina virtual JavaScript</em>), para ver nuestro programa en acción.</li>
+</ol>
+<p>En este momento de mi vida, una de las cosas que me encantan sobre JavaScript es que es realmente portable. ¡Casi todo lo que sea una computadora está listo para ejecutar un programa escrito en JS! Porque resulta ser que casi todo lo que sea una computadora tiene instalado un navegador Web que viene con lo que pedimos en el punto 2.</p>
+<p>Lo que usaremos:</p>
+<p><a title="Firefox, el mejor navegador Web" href="https://affiliates.mozilla.org/link/banner/54363" target="_blank"><strong>Mozilla Firefox</strong></a>, el mejor navegador Web de nuestro sistema solar. Con varios editores de texto plano incluidos.</p>
+<p>Yo usaré la versión 34 de Firefox (que es la más reciente y estable en este trozo de espacio-tiempo). Tú puedes usar la dos mil quince si así lo deseas. Con suerte.</p>
+<p>Una vez que tu Firefox haya iniciado, estás listo para aprender cómo abrir la Consola Web. Tienes varias opciones, mis favoritas son las primeras dos:</p>
+<ul>
+<li>CTRL + Shift + K (reemplaza CTRL por CMD si usas Pera OS)</li>
+<li>Shift + F12</li>
+<li>Presiona Alt y luego muévete por los menús que se muestran a continuación:</li>
+</ul>
+<figure style="width: 681px;" class="wp-caption aligncenter"><a href="http://blog.mautematico.com/wp-content/uploads/2015/01/abrir-consola-menú.png"><img src="http://blog.mautematico.com/wp-content/uploads/2015/01/abrir-consola-menú.png" alt="" width="681" height="388" /></a><figcaption class="wp-caption-text">Figura 1: Secuencia del menú para abrir la consola: Herramientas » Desarrollador Web » Consola Web</figcaption></figure>
+<p>¡Felicidades! ya completaste la mitad tediosa del camino. Ahora viene la mitad BBB (buena, breve y blue).</p>
+<p>Típicamente la consola hará un espacio a la derecha (»») de la pantalla para colocarse en él. La Consola Web viene acompañada de varios amigos, a quienes espero tener el placer de presentarte en otra ocasión. Por ahora:</p>
+<p>¡Consola del futuro, <em>anónimo y estimado internauta del futuro</em>, os presento!</p>
+<p>Consola no es en realidad un editor de texto, pero será un excelente auxiliar para la misión que me encomendaron encomendarte. Escribe en ella el siguiente código, y al final <em>mándalo</em>, con la tecla enter/intro/return/retorno de carro:</p>
+<pre class="brush: jscript; title: ; notranslate">
+alert(&quot;¡Hola, mundo!&quot;);
+</pre>
+<p>El resultado, como te prometí, suele ser un pequeño y tierno monstruo como el que te muestro a continuación:</p>
+<figure style="width: 587px;" class="wp-caption aligncenter"><img src="http://blog.mautematico.com/wp-content/uploads/2015/01/javascript-alert-consola1.png" alt="" width="587" height="334" /><figcaption class="wp-caption-text">Figura 2: Ventana emergente mostrando el texto &#8220;¡Hola, mundo!&#8221;, como se indica en la Consola Web</figcaption></figure>
+<p><em>Et voilá</em>, ¡ya has programado algo &#8211;no mucho- en JavaScript!</p>
+<p>Como quizás notaste, fue un programa muy simple y el monstruo creado no es, que digamos, muy molesto. Si juegas un poco con el texto en medio de las comillas podrás personalizar el mensaje y cambiarlo por un <em>¡Hola, cara de bola!</em>, y casi cualquier cosa que quieras.</p>
+<hr />
+<p>Bonus 1:</p>
+<p>En otro pasado programaba un poquito en C/C++ y escribí un post para que puedas seguir procrastinando un rato escribiendo <a title="¡Hola, mundo! en C/C++" href="http://blog.mautematico.com/2010/hola-mundo-en-c.html" target="_blank"><em>¡Hola, mundo!</em> en C/C++</a>.</p>
+<p>Te advierto que en aquel post no recomendé ningun compilador. Ahora te recomiendo CodeBlocks, que puedes descargar en un paquete junto con <em>gcc</em> y <em>g++ </em>(que son los compiladores que te recomiendo).</p>
+<p>Bonus 2 (zona de riesgo):</p>
+<p>Si tecleas al azar (incluyendo la tecla para borrar) infinitamente, la probabilidad de que en algún momento obtengas el siguiente código es 1 (100%):</p>
+<pre class="brush: jscript; title: ; notranslate">
+while(true) alert(&quot;dsda&quot;);
+</pre>
+<p>Código que suele dar vida a más monstruos. ¡No lo ejecutes!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2015/hola-mundo-en-javascript.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>¡Písele al gas!</title>
+		<link>http://blog.mautematico.com/2014/pisele-al-gas.html</link>
+		<comments>http://blog.mautematico.com/2014/pisele-al-gas.html#comments</comments>
+		<pubDate>Thu, 01 Jan 2015 00:02:48 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=1021</guid>
+		<description><![CDATA[¡Hey, 2015 (y 2014): písenle al gas!]]></description>
+				<content:encoded><![CDATA[<p>¡Hey, 2015 (y 2014): písenle al gas!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/pisele-al-gas.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lloro durante las películas</title>
+		<link>http://blog.mautematico.com/2014/lloro-durante-las-peliculas.html</link>
+		<comments>http://blog.mautematico.com/2014/lloro-durante-las-peliculas.html#comments</comments>
+		<pubDate>Wed, 31 Dec 2014 09:37:43 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=1016</guid>
+		<description><![CDATA[No a gritos desesperados, pero a veces se me apachurra el corazón, que acelera los latidos e incrementa mi presión arterial y&#8230; ¡pim! una lagrimita escurre por mi rostro.]]></description>
+				<content:encoded><![CDATA[<p>No a gritos desesperados, pero a veces se me apachurra el corazón, que acelera los latidos e incrementa mi presión arterial y&#8230; ¡pim! una lagrimita escurre por mi rostro.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/lloro-durante-las-peliculas.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title></title>
+		<link>http://blog.mautematico.com/2014/1011.html</link>
+		<comments>http://blog.mautematico.com/2014/1011.html#comments</comments>
+		<pubDate>Thu, 23 Oct 2014 08:02:06 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=1010</guid>
+		<description><![CDATA[No sé cuántos somos, pero somos muchísimos. Muchos más que 132; muchos más que unos cuantos. (Estudiantes de) ingenieros y científicos de todos los sabores. Trabajadores sociales, arquitectos, abogados y médicos. Economistas. Matemáticos. También me di cuenta de la presencia de trabajadores de distintas áreas. Vi letreros que decían MTS y otros con ESME. &#160; &#8230; <a href="http://blog.mautematico.com/2014/1011.html" class="more-link">Continúa leyendo <span class="screen-reader-text"></span></a>]]></description>
+				<content:encoded><![CDATA[<p>No sé cuántos somos, pero somos muchísimos.</p>
+<p>Muchos más que 132; muchos más que <em>unos cuantos.</em></p>
+<p>(Estudiantes de) ingenieros y científicos de todos los sabores. Trabajadores sociales, arquitectos, abogados y médicos. Economistas. Matemáticos.</p>
+<p>También me di cuenta de la presencia de trabajadores de distintas áreas. Vi letreros que decían <em>MTS</em> y otros con <em>ESME</em>.</p>
+<p>&nbsp;</p>
+<p>Nunca en mi vida había estado en medio de tantas personas, en medio de tanto calor. Yo conté al menos <em>seis horas</em><em>-gente</em>, y estoy bien seguro de que fueron varias más. Tomé algunas (muy malas) fotografías, y afortunadamente estoy seguro de que hay muchas más ya mismo en Internet; algunas de ellas son aéreas y tan amplias que, con el perdón de la expresión, el que no lo crea es peña.</p>
+<p>Y no acaba aquí. Sé que varios de mis amigos en el mundo también se unieron a la causa en protesta. Sé que miles de desconocidos al rededor del mundo hicieron lo propio.</p>
+<p>El reclamo particular es porque exigimos que nos regresen con vida a los 43 desaparecidos de Ayotzinapa.</p>
+<p>&nbsp;</p>
+<p>Tú no necesitas megáfono/altavoz –me dijeron-. Hablas muy fuerte.</p>
+<p>Pero todos hablamos más fuerte que yo. Gritamos. Todavía lo escucho.</p>
+<p><em>( :</em></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/1011.html/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Atarantado</title>
+		<link>http://blog.mautematico.com/2014/atarantado.html</link>
+		<comments>http://blog.mautematico.com/2014/atarantado.html#comments</comments>
+		<pubDate>Sat, 11 Oct 2014 18:25:41 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=1008</guid>
+		<description><![CDATA[Ando menso, torpe. Atolondrado. Atarantado. Y no me ha picado una tarántula; aunque imagino que si me picara (y suponiendo que no muero como desenlace de una reacción alérgica), descubriría por qué nos gusta usar la misma palabra para dos cosas tan distantes. Estoy escuchando a Andrés Calamaro: Antes de comenzar a escribir, pensé que &#8230; <a href="http://blog.mautematico.com/2014/atarantado.html" class="more-link">Continúa leyendo <span class="screen-reader-text">Atarantado</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Ando menso, torpe.</p>
+<p>Atolondrado.</p>
+<p>Atarantado. Y no me ha picado una tarántula; aunque imagino que si me picara (y suponiendo que no muero como desenlace de una reacción alérgica), descubriría por qué nos gusta usar la misma palabra para dos cosas tan distantes.</p>
+<p>Estoy escuchando a Andrés Calamaro:</p>
+<div class="jetpack-video-wrapper"><iframe width="660" height="495" src="https://www.youtube.com/embed/UCF9oHXhDMU?feature=oembed" frameborder="0" allowfullscreen></iframe></div>
+<p>Antes de comenzar a escribir, pensé que quizás <em>atarantado</em> era un regionalismo. Y no:</p>
+<p>http://www.fundeu.es/noticia/la-palabra-atarantado-4293/</p>
+<p>&nbsp;</p>
+<p>Menos mal que la actualización de anoche hizo que automágicamente funcionara el <em>scroll</em><em> multitouch</em> de mi <em>touchpad</em>, sin romper nada a cambio.</p>
+<p>Continuaré atarantado <em>hasta nuevo aviso</em>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/atarantado.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Milky Way Chupi-pack, ¡cómo te extraño!</title>
+		<link>http://blog.mautematico.com/2014/milky-way-chupi-pack.html</link>
+		<comments>http://blog.mautematico.com/2014/milky-way-chupi-pack.html#comments</comments>
+		<pubDate>Sat, 14 Jun 2014 08:30:54 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=999</guid>
+		<description><![CDATA[Estaba sólo. Las luces apagadas y la casa prácticamente vacía, hasta que la vecina llegó (y acompañada). Para entonces yo ya había buscado conversación con Jennifer, una chica que es tan fuerte como Sansón y tan bonita como&#8230; ¡Muy bonita! Cuando la vecina apagó su computadora sólo pude pensar una cosa: Ya valió madres No &#8230; <a href="http://blog.mautematico.com/2014/milky-way-chupi-pack.html" class="more-link">Continúa leyendo <span class="screen-reader-text">Milky Way Chupi-pack, ¡cómo te extraño!</span></a>]]></description>
+				<content:encoded><![CDATA[<p style="text-align: justify;">Estaba sólo. Las luces apagadas y la casa prácticamente vacía, hasta que la vecina llegó (y acompañada). Para entonces yo ya había buscado conversación con Jennifer, una chica que es tan fuerte como Sansón y tan bonita como&#8230; ¡Muy bonita!</p>
+<p style="text-align: justify;">Cuando la vecina apagó su computadora sólo pude pensar una cosa:</p>
+<blockquote><p>Ya valió madres</p></blockquote>
+<p style="text-align: justify;">No la espío ni nada. Es que nos separa apenas una delgada pared que no se apiada ni de los oidos menos agudos, y deja pasar hasta el gemido más tenue.</p>
+<p style="text-align: justify;">Conversaba con Jenny sobre nuestras aventuras como maestros y no-maestros Pokémon. Ella había comido <span class="_5yl5" data-reactid=".1p.$mid=11402732435130=2e6a5e6144c667a2e39.2:0.0.0.0.0"><span class="null">Spaghetti con queso molido, jamón y tenedor&#8230; Una cosa llevó a la otra; no tuve más remedio que contarle la historia de los tenedores.</span></span></p>
+<p style="text-align: justify;">Al comenzar a contar la historia recordé vagamente mis vidas pasadas en casas pasadas, cuando comía jitomates a mordidas y cafés amargos como la vida misma. O cuando cierto payaso con globos inflados con helio me asustaba todavía más que el maldito muñeco poseído.</p>
+<p style="text-align: justify;">El recuerdo que no pasó vagamente fue el del delicioso dulce comida de los dioses, el que venía en dos sabores en un empaque muy curioso y apachurrable. Su nombre era un tanto tabú, porque aunque papá y la vida me habían enseñado que Milky Way es el nombre en inglés de La Vía Láctea, era fácil ser molestado por decir &#8220;güey&#8221; a tan temprana edad.</p>
+<p style="text-align: justify;">Extraño tanto al Milky Way Chupi-Pack que le haré un tributo, de alguna manera.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/milky-way-chupi-pack.html/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Breaking Bad</title>
+		<link>http://blog.mautematico.com/2014/breaking-bad.html</link>
+		<comments>http://blog.mautematico.com/2014/breaking-bad.html#comments</comments>
+		<pubDate>Sat, 14 Jun 2014 01:39:34 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=997</guid>
+		<description><![CDATA[Acabo de ver el final de la cuarta temporada de Breaking Bad. Me encantó y lo detesté al mismo tiempo: Fue exactamente lo que estaba esperando, me siento satisfecho. Estoy listo para dejar Breaking Bad atrás. No quiero ver la quinta temporada.]]></description>
+				<content:encoded><![CDATA[<p style="text-align: justify;">Acabo de ver el final de la cuarta temporada de Breaking Bad. Me encantó y lo detesté al mismo tiempo: Fue exactamente lo que estaba esperando, me siento satisfecho. Estoy listo para dejar Breaking Bad atrás.</p>
+<p style="text-align: justify;">No quiero ver la quinta temporada.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/breaking-bad.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Veintiuno</title>
+		<link>http://blog.mautematico.com/2014/veintiuno.html</link>
+		<comments>http://blog.mautematico.com/2014/veintiuno.html#comments</comments>
+		<pubDate>Mon, 09 Jun 2014 05:54:33 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=993</guid>
+		<description><![CDATA[Éste es uno de esos días en que escribo en buena medida para mi, y más valdría escribir en privado. Éste es uno de esos escritos improvisados que deberían estar en mi libreta chida de las notas y no en mi súperpopular blog chidísimo. Hoy es cumpleaños de alguien. Es la edad a la que &#8230; <a href="http://blog.mautematico.com/2014/veintiuno.html" class="more-link">Continúa leyendo <span class="screen-reader-text">Veintiuno</span></a>]]></description>
+				<content:encoded><![CDATA[<pre><span style="color: #c0c0c0;">Éste es uno de esos días en que escribo en buena medida para mi, y más valdría escribir en privado. Éste es uno de esos escritos improvisados que deberían estar en mi libreta chida de las notas y no en mi súperpopular blog chidísimo. Hoy es cumpleaños de alguien.</span></pre>
+<p>Es la edad a la que puedes comprar alcohol legalmente en Estados Unidos de América. En algunos otros países (México, por ejemplo) disminuye hasta 18 (que es el cumpleaños de Luz, no lo olvido). Si lo piensas un poco, de hecho es curioso que en EUA puedes aparecer en una porno a los 18, pero para comprar alcohol legalmente debes esperar hasta los 21.</p>
+<p>También es 21 la mitad de <i>la respuesta a la vida, el universo y todo lo demás.</i> Una vez conocido este hecho (y aceptado como tal), no es sorpresa que 21 sea el noveno número de Fibonacci, y menos todavía que sea el sexto número triangular. Además ocupa el lugar número 13 en la secuencia de Padovan.</p>
+<p>Hay películas con 21 en el nombre, y yo conozco dos: 21 Blackjack y 21 gramos. Luego están canciones como 21 guns, y el siglo actual (contando desde donde nos convenga contar).</p>
+<p>21 es el más pequeño de los naturales que no está n-cerca de ninguna potencia 2^n, con n natural. Y como no tengo regla (porque ni estoy en mis días ni tengo tanta necesidad de hacer trazos rectos (que no es lo mismo que trazar rectos), le apostaré a que 21 es la medida promedio de mis cabellos; los corté por última vez en el pasado hace precisamente un año.</p>
+<p>Pero claro que cuando hablo de la precisión abuso del lenguaje, así como abuso de las referencias numéricas. Acabo de recordar con quién vi 21 Blackjack y 21 gramos por vez primera, pero lo mantendré en secreto.</p>
+<p>Veintiuno son los años que cumpliremos todos de nacidos, cada quien en algún momento de este año; y lo digo abusando nuevamente de la precisión porque así lo deseo. Ya vendrá la segunda edición de los festejos septembrinos con motivo de mi cumpleaños, para amigos y enemigos.</p>
+<p>&nbsp;</p>
+<p>21-(2+1) es la cantidad de covers listados en el apartado <a href="https://en.wikipedia.org/wiki/Hijo_de_la_Luna#Other_cover_versions" target="_blank"><em>Other cover versions</em></a> de la canción Hijo de la luna (aunque hay muchas más en el listado correspondiente en la página en español). Uno de los covers que más me gusta es de Haggard.</p>
+<p>Haggard, por cierto, estará en la Ciudad de México el próximo 21 de junio. ¡Hay que revisar las carteras y apuntarnos para ir! También 21 de junio es el día en que Edson  no/bailará algo de k-pop, en el mismo DF.</p>
+<p><span style="color: #000000;">Haggard es un grupo/banda que me presentó la cumpleañera de hoy, a quien deseo un feliz cumpleaños y unos excelentes 21. Y hoy el ritual de cumpleaños requiere escuchar dos canciones de Haggard elegidas deliberadamente al azar; una de ellas a continuación:</span></p>
+<p style="text-align: right;"><strong>Per Aspera Ad Astra</strong></p>
+<p>&nbsp;</p>
+<p><iframe src="//www.youtube.com/embed/BSFEv9eaoh4" width="100%" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/veintiuno.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Firefox OS en Ideas Disruptivas [2013]</title>
+		<link>http://blog.mautematico.com/2014/firefox-os-en-ideas-disruptivas-2013.html</link>
+		<comments>http://blog.mautematico.com/2014/firefox-os-en-ideas-disruptivas-2013.html#comments</comments>
+		<pubDate>Sat, 22 Mar 2014 22:01:14 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=977</guid>
+		<description><![CDATA[Como ya es tradición, estuve en Villahermosa, Tabasco el pasado noviembre. Lino Romero, un amigo mío que vive por allá, (como ya es costumbre) estaba organizando un gran evento de innovación al que fui invitado en nombre de Mozilla. Al evento asistieron principalmente estudiantes de una facultad de informática, convirtiéndolo en un lugar espléndido para &#8230; <a href="http://blog.mautematico.com/2014/firefox-os-en-ideas-disruptivas-2013.html" class="more-link">Continúa leyendo <span class="screen-reader-text">Firefox OS en Ideas Disruptivas [2013]</span></a>]]></description>
+				<content:encoded><![CDATA[<h4>Como ya es tradición,</h4>
+<p>estuve en Villahermosa, Tabasco el pasado noviembre.</p>
+<p style="text-align: justify;"><strong>Lino Romero</strong>, un amigo mío que vive por allá, (como ya es costumbre) estaba organizando un gran evento de innovación al que fui invitado en nombre de Mozilla.</p>
+<p style="text-align: justify;">Al evento asistieron principalmente estudiantes de una facultad de informática, convirtiéndolo en un lugar espléndido para hablar sobre <strong>Firefox OS</strong>.</p>
+<p style="text-align: justify;">Me acompañó Mario García, un amigo y colaborador en Mozilla México que vive en Tapachula Chiapas. Considero que entre los dos hicimos un buen papel.</p>
+<p style="text-align: justify;">La idea que teníamos originalmente era tener un stand de tamaño regular permanente durante el evento, donde haríamos <strong>demostraciones de Firefox OS</strong> y <strong>aplicaciones HTML5</strong> a los interesados que se acercaran. Además planeábamos tener un espacio para invitar a los asistentes a escribir una aplicación (o parte de ella) para Firefox OS, al estilo mini-hackatón; <strong>Resultó mucho mejor de lo esperado</strong>.</p>
+<p style="text-align: justify;">Gracias a que conocíamos a los organizadores del evento, pudimos conseguir espacios considerablemente más grandes: En lugar de tener a <em>diez o quince</em> chavos en una habitación, los tuvimos <strong>a todos</strong> en la sala principal. Soy malo aproximando cantidades en esas condiciones, pero estimo que había unos cuatrocientos asistentes. Además los tuvimos en dos ocasiones:</p>
+<p style="text-align: center;"><a href="http://blog.mautematico.com/wp-content/uploads/2014/03/11043942643_9740afee80_o.jpg"><img class="aligncenter" alt="11043942643_9740afee80_o" src="http://blog.mautematico.com/wp-content/uploads/2014/03/11043942643_9740afee80_o.jpg" width="500" height="331" /></a></p>
+<p style="text-align: justify;">La primera (la más amplia) aprovechamos para mostrarles un juego/aplicación en HTML5 que funciona tanto en Firefox OS como en Firefox para escritorio; El tiempo alcanzó incluso para mostrar las <strong>herramientas de desarrollador de Firefox</strong> y el <strong>Simulador de Firefox OS </strong>junto con el<strong> </strong><strong>Gestor de aplicaciones</strong> que en aquel momento estaba en <strong>Firefox Aurora</strong>.</p>
+<p style="text-align: justify;">En nuestro segundo asalto le comentamos a los asistentes los proyectos que tenemos en <strong>Mozilla México</strong> y en Mozilla a nivel global (por ejemplo: Firefox en lenguas indígenas y Shumway), esto fue por supuesto con la intención de invitarlos a colaborar en estos proyectos y a defender activamente la web abierta.</p>
+<p style="text-align: justify;">Adicionalmente, repartimos unas cuantas playeras de Firefox entre los asistentes. Había personas muy entusiasmadas por poder conseguir una, y los entiendo. ¡A mi me brillaron los ojos cuando recibí la mía, hace ya varios años!</p>
+<p style="text-align: justify;">Y no acaba aquí: Otros de los invitados presentaron sus proyectos al modo start-up, varios de ellos <strong>basados en la web o en dispositivos móviles</strong>. ¡Obviamente platicamos con ellos y conseguimos sus datos para platicar posteriormente al respecto! Contactamos, por ejemplo, con un grupo que está desarrollando un videojuego educativo para dispositivos móviles, y aprovechamos para invitarlos a tener su aplicación en HTML5 y usar las webAPI, lo que traerá sin duda grandes beneficios en cuanto a portabilidad y escalabilidad para su juego.</p>
+<h4 style="text-align: justify;"></h4>
+<h4 style="text-align: justify;">Rounds extra: con un grupo de desarrolladores</h4>
+<p style="text-align: justify;">estuvimos trabajando, además, en la oficina de Domingo (otro amigo mío de por allá), quien trabaja con otros desarrolladores web y móviles en diversos proyectos.</p>
+<p style="text-align: justify;">Estuvimos unas cuantas horas haciendo una demostración más minuciosa de las herramientas para desarolladores, el Simulador y el Gestor de aplicaciones de Firefox OS. Y fuimos todavía más allá: <strong>Portamos una de sus aplicaciones a Firefox OS</strong>. Ellos quedaron encantados de la compatibilidad de HTML5 y nosotros con ganas de volver.</p>
+<p style="text-align: justify;">Tenemos una cita pendiente con este grupo para organizar otra sesión de trabajo.</p>
+<h4>Rounds extra: una noche de café y demostraciones</h4>
+<p style="text-align: justify;"><a href="http://blog.mautematico.com/wp-content/uploads/2014/03/Firefox-OS-Villahermosa-tanjarina.jpg"><img class="aligncenter  wp-image-979" alt="Firefox-OS-Villahermosa-tanjarina" src="http://blog.mautematico.com/wp-content/uploads/2014/03/Firefox-OS-Villahermosa-tanjarina.jpg" width="500" /></a></p>
+<p style="text-align: justify;">Las cosas iban tan bien que fue fácil que mejoraran. Para entonces Mario ya había regresado a Chiapas, pero yo decidí quedarme unos días más.</p>
+<p style="text-align: justify;">Al fin concreté la cita que tenía tiempo atrás con un café de la ciudad. Llegaron varios amigos de los amigos a ver qué es lo que tenía Firefox OS para ofrecer. Con ellos pude hacer demostraciones más personalizadas y enfocadas al uso del sistema operativo, mientras comíamos algo en Tanjarina Café.</p>
+<p style="text-align: justify;">He de mencionar que apenas días atrás habíamos lanzado Firefox OS en México, con lo que la información estaba fresca y eran básicamente muchas buenas noticias para los asistentes en los tres eventos.</p>
+<p style="text-align: justify;">¡Ah! Casi lo olvido. No tengo los periódicos a la mano, pero pude ver en su momento que algunos diarios locales publicaron varias notas sobre el evento principal (Ideas Disruptivas conf), y nos tocó un pedacito del pastel con una breve <strong>reseña sobre Firefox OS y los proyectos de Mozilla</strong> en estas notas.</p>
+<p style="text-align: justify;">En fin, fue una jornada realmente fructífera. ¡Que vengan más de estas!</p>
+<h4>Gracias</h4>
+<p style="text-align: justify;"><span style="color: #999999;">Lino, Walter, Ana Laura, Domingo, Juan Carlos y otros amigos por la invitación, la pizza y en general el buen trato y aventuras que me hicieron pasar por allá. Gracias también a Mario por acompañarme y el apoyo gigante, ¡qué nervios!<br />
+Por supuesto, gracias también a Chabelo y amigos por los días extra que anduve por allá.<br />
+Y gracias, Mozilla.</span></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">Para ver más fotos:</p>
+<p>http://www.flickr.com/photos/106004547@N08/sets/72157637387804946/</p>
+<p style="text-align: justify;">Y la invitación al evento en Tanjarina:</p>
+<p>http://feest.com.mx/Firefox-OS-en-Villahermosa-Tanjarina-Cafe-06-11</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/firefox-os-en-ideas-disruptivas-2013.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Salí a comprar leche</title>
+		<link>http://blog.mautematico.com/2014/sali-a-comprar-leche.html</link>
+		<comments>http://blog.mautematico.com/2014/sali-a-comprar-leche.html#comments</comments>
+		<pubDate>Sun, 02 Mar 2014 23:19:44 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+		<category><![CDATA[Miss.G]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=959</guid>
+		<description><![CDATA[Ayer (a eso de las 19 horas) llegué a sentir que se me saldría el corazón, que saltaría fuera de mi pecho y explotaría en un millón de pedazos. Las manos me temblaron y la lengua se me travó. Una hora después, mi corazón seguía en su lugar y mi lengua y mis manos ya &#8230; <a href="http://blog.mautematico.com/2014/sali-a-comprar-leche.html" class="more-link">Continúa leyendo <span class="screen-reader-text">Salí a comprar leche</span></a>]]></description>
+				<content:encoded><![CDATA[<p style="text-align: justify;">Ayer (a eso de las 19 horas) llegué a sentir que se me saldría el corazón, que saltaría fuera de mi pecho y explotaría en un millón de pedazos. Las manos me temblaron y la lengua se me travó. Una hora después, mi corazón seguía en su lugar y mi lengua y mis manos ya no tenían inconvenientes con la realidad.<br />
+Prueba superada.✓</p>
+<p style="text-align: justify;">Un par de horas más tarde me entró la locura: &#8220;Iré al cine&#8221;, pero perdí tiempo bañándome y tras mirar nuevamente el reloj, descarté la idea.</p>
+<p style="text-align: justify;">Entonces salí, con el pretexto de comprar leche. Pero antes de salir tomé mis llaves, el celular y varias monedas (suficientes para comprar dos litros de leche y con suerte probar algún dulce); Nótese que no llevé conmigo mi Mozilla-morral, ¡grave error!</p>
+<p style="text-align: justify;">Justo cuando cerraba la puerta decidí hacer una pausa y revisar si comprar leche iba a ser suficiente para satisfacer mi antojo de cereal con leche. ¡Qué bueno que lo hice, porque no iba a serlo!<br />
+Tras descubrir que no tenía cereal suficiente para satisfacer mis grandes exigencias, volví por un poco más de dinero, específicamente un billete de los amarillos, suficiente para comprar una caja de mi cereal favorito o dos de mi cereal no-tan-favorito. Entonces salí.</p>
+<p style="text-align: justify;">Ya en la calle, sentí la libertad que siente alguien que se ha autoliberado de su cautiverio sabatino. También sentí un poco de frío. La libertad que sentí fue tan tentadora que no pude evitarlo: Doblé a la izquierda en lugar de seguir derecho. A la leche se llegaba siguiendo derecho.</p>
+<p style="text-align: justify;">A la izquierda había puestos en los que vendían una variedad tan impresionante de cosas que apenas pude creer que apenas estaba descubriéndolo.</p>
+<p style="text-align: justify;">Pasé varios puestos de comida, uno que otro de electrónicos, algunos de películas, otros de baratijas y no faltaron los de juguetes usados. Mi plan era solamente caminar y mironear, pero el instinto me traicionó y me hizo volver para preguntar <em>&#8220;¿Cuánto cuestan las alitas?&#8221;</em> a la chica que atendía en un puesto con que tenía un letrero <strong><em>Alitas de pollo adobadas</em></strong>. Soy débil, supongo.<em></em></p>
+<p style="text-align: justify;">Varias veces me arrepentí por haberme detenido ahí; la mayoría porque el tiempo transcurría demasiado lento mientras freían mis alitas y las preparaban: calculo que estuve media hora ahí parado esperándolas. La otra, cuando varios cientos de metros más adelante encontré un letrero mejor: <em><strong>Ricas alitas de pollo adobadas</strong></em>; cinco pesos más baratas que las anteriores.</p>
+<p style="text-align: justify;">Cinco pesos no siempre es mucho, pero en esta ocasión cinco peso era un sexto del precio de las que compré, y un quinto del percio de las que no.</p>
+<p style="text-align: justify;">De los puestos de juguetes usados, sólo uno llamó especialmente mi atención: El que estaba a un lado del puesto de alitas. Pude ver que tenían un Beyblade de los que llamamos piratas: Aunque con un disco de ataque de Dragoon F, no me enamoró. Era demasiado libiano y la base era genérica, además del disco de defensa que era de plástico. Debo admitir, sin embargo, que me sentí tentado una vez que el precio bajó de diez a cinco pesos. No lo compré.</p>
+<p style="text-align: justify;">De cualquier forma, me sentía muy feliz. El tiempo que transcurría demasiado lento no lo fue tanto, especialmente cuando recibí una llamada de alguien que me quiere mucho. Las cosas se pusieron todavía mejor cuando me percaté que al otro lado de la llamada había <strong>otro</strong> alguien que me quiere mucho: <em><strong>&#8220;Dile que lo quiero cuatrocientos universos&#8221;</strong></em>. Me habría sido dificil ser más feliz en ese momento.</p>
+<p style="text-align: justify;">Cuando al fin mis alitas estuvieron listas, las guardé por unos minutos. Caminé hacia una tienda con el propósito de conseguir un refresco sabor naranja (uno en particular). No lo logré.<br />
+En su lugar, salí de la tienda con un Jarritos de manzana. No tenía idea de su existencia. ¡Tiene un sabor delicioso!</p>
+<p style="text-align: justify;">Antes de tener mi nuevo y flamante refresco, pude notar de reojo que en el puesto de juguetes usados había un Pikachu. Quien no sabe lo que es un Pikachu pero sí lo que es un Beyblade no tiene perdón de MEV. No pude acercarme en ese momento porque curiosamente la gente se amontonó en el lugar; sabrán los dioses cuantos juguetes usados magníficos me ganaron.</p>
+<p style="text-align: justify;">Así que esperé hasta tener mi refresco para acercarme a preguntar, y por suerte seguía ahí: Precioso. Veinte pesos, me lo dejaban en quince. En seguida noté también un Agumón, en perfecto estado. Dame veinticinco por los dos. ¡Acepto!</p>
+<p style="text-align: justify;">Mientras me ofrecían una bolsita para colocarlos, me percaté que había también un <em>Humpty Alexander Dumpty</em>, pero decidí primero comprar la leche y después volver por él. ¡Me arrepiento!</p>
+<p style="text-align: justify;">El resto de mi paseo transcurrió sin mucha pena ni gloria, excepto claro por el glorioso sabor de mis alitas de pollo y el Jarritos de manzana. Pregunté el precio de algún teléfono celular: Demasiado caro para mi gusto, ya salieron dos versiones más nuevas. Cuando pregunté el precio de una tableta, me respondieron <em>blabla quinientos</em>, me sorprendí porque una tableta tan fea costara tres mil quinientos, asi que pregunté. <em>Mil quinientos, hombre. Por tres mil quinientos te doy dos y te regalo un celular, es más, te regalo un celular y esa otra tableta.</em> Igual, sólo estaba curioseando.</p>
+<p style="text-align: justify;">Volviendo a lo importante (la comida): Mojarras fritas, cortes de carne a la parrilla, <em>eskimos</em>, banderillas de salchicha y queso, papas fritas, tacos, y ya no recuerdo qué más, se sumaron a la lista que hasta ahora estaba conformada únicamente por las alitas de pollo. También había locales de paletas, nieve, flanes y pai.</p>
+<p style="text-align: justify;">Fue una caminata muy interesante.</p>
+<p style="text-align: justify;">Pero todo lo interesante tiene final. El final de esta salida a tomar aire llegó cuando vi, a unos cien metros, el último puesto. Aposté que era de comida y, como yo ya tenía mucha, decidí regresar.</p>
+<p style="text-align: justify;">¡Vamos por ese huevo! Y ya no estaba. Todavía logré ver al señor y la señora guardando los juguetes usados, será para la otra.</p>
+<p style="text-align: justify;">Entré a la tienda original, aquella a la que se llega caminando derecho. Compré un <em>cuartito</em> de leche con sabor a fresa, un par de gelatinas sabor a coco y algo más. Y volví a casa.</p>
+<p style="text-align: justify;">Cuando entré me di cuenta que había olvidado algo: ¡La caja de cereal!</p>
+<p style="text-align: justify;">Ya no había mucho que hacer al respecto, pues tenía aún muchas alitas por comer y un buen botín que presumir.</p>
+<p style="text-align: justify;">Prendí la televisión, en lugar de ver algún episodio de las series que me gustan en el teléfono: Había la película de una mujer muy atrabancada, que trabajaba como operadora, creo que en la Torre Latinoamericana. Se le perdió su pareja de baile, Carmelo, y se aventuró a ir a buscarlo hasta Veracruz. ¡Todo para enterarse que Canelo, el hermano de su nuevo amigo trasvesti (un trasvesti que disfrutaba la música de Juan Gabriel) había muerto! <em>Bueno, pero ¿quién es el Canelo</em> <em>ese?<strong></strong></em></p>
+<p style="text-align: justify;">Quiero tener mi historia de amor, como esa. Y escaparme a Lejos Mucho y pisar la arena de la playa, no más porque sí. Si se puede, que venga con juegos de azar y mujerzuelas.</p>
+<p style="text-align: justify;">No terminé de ver la película, preferí quedarme con la duda.</p>
+<p>Lo que sí terminé fueron las alitas, el Jarritos de manzana y las gelatinas. Y tomé las siguientes fotos del fruto de mi caminata nocturna:</p>
+
+<a href='http://blog.mautematico.com/2014/sali-a-comprar-leche.html/20140301_231219'><img width="150" height="150" src="http://blog.mautematico.com/wp-content/uploads/2014/03/20140301_231219-150x150.jpg" class="attachment-thumbnail" alt="20140301_231219" /></a>
+<a href='http://blog.mautematico.com/2014/sali-a-comprar-leche.html/20140301_231448'><img width="150" height="150" src="http://blog.mautematico.com/wp-content/uploads/2014/03/20140301_231448-150x150.jpg" class="attachment-thumbnail" alt="20140301_231448" /></a>
+<a href='http://blog.mautematico.com/2014/sali-a-comprar-leche.html/20140301_231516'><img width="150" height="150" src="http://blog.mautematico.com/wp-content/uploads/2014/03/20140301_231516-150x150.jpg" class="attachment-thumbnail" alt="20140301_231516" /></a>
+<a href='http://blog.mautematico.com/2014/sali-a-comprar-leche.html/20140301_231708'><img width="150" height="150" src="http://blog.mautematico.com/wp-content/uploads/2014/03/20140301_231708-150x150.jpg" class="attachment-thumbnail" alt="20140301_231708" /></a>
+<a href='http://blog.mautematico.com/2014/sali-a-comprar-leche.html/20140301_231738'><img width="150" height="150" src="http://blog.mautematico.com/wp-content/uploads/2014/03/20140301_231738-150x150.jpg" class="attachment-thumbnail" alt="20140301_231738" /></a>
+<a href='http://blog.mautematico.com/2014/sali-a-comprar-leche.html/20140301_231834'><img width="150" height="150" src="http://blog.mautematico.com/wp-content/uploads/2014/03/20140301_231834-150x150.jpg" class="attachment-thumbnail" alt="20140301_231834" /></a>
+
+<p>Casi lo olvido, salí a comprar leche y volví con un litro ✓ y algunas cosas más.<br />
+Fue una noche de sólo dos palomitas, pero vaya que valió la pena. ¡Qué buena forma de comenzar el año!</p>
+<p>Ahora me marcho. Me pondré guapo, iré a conseguir algo para comer y quizás iré al cine. Esta vez sí llevaré mi Mozilla-morral.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/sali-a-comprar-leche.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Feliz año nuevo</title>
+		<link>http://blog.mautematico.com/2014/feliz-ano-nuevo.html</link>
+		<comments>http://blog.mautematico.com/2014/feliz-ano-nuevo.html#comments</comments>
+		<pubDate>Sun, 02 Mar 2014 00:48:38 +0000</pubDate>
+		<dc:creator><![CDATA[Mauricio]]></dc:creator>
+				<category><![CDATA[Sin Categoria]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=955</guid>
+		<description><![CDATA[Un poco sin querer, he encontrado el pretexto perfecto. Ahora que lo he notado, me di cuenta que había estado esperando el día sin motivo aparente. A lo largo y ancho* de la historia la humanidad ha usado multitud de calendarios distintos, a veces porque el año solar no era manejable, y otras por otras &#8230; <a href="http://blog.mautematico.com/2014/feliz-ano-nuevo.html" class="more-link">Continúa leyendo <span class="screen-reader-text">Feliz año nuevo</span></a>]]></description>
+				<content:encoded><![CDATA[<p style="text-align: justify;">Un poco sin querer, he encontrado el pretexto perfecto. Ahora que lo he notado, me di cuenta que había estado esperando el día sin motivo aparente.</p>
+<p style="text-align: justify;">A lo largo y ancho* de la historia la humanidad ha usado multitud de calendarios distintos, a veces porque el <strong>año solar</strong> no era manejable, y otras por otras razones.</p>
+<p style="text-align: justify;">Ahí tenemos los calendarios maya, chino, lunar, revolucionario soviético, y otros más populares como el juliano y el gregoriano. Omito las mayúsculas a propósito porque me gustan las minúsculas y el exceso de mayúsculas <em>en medio</em> me causa una sensación extraña; además si las omito parejo podría salvarme de una furiosa tormenta de arena en mi contra en días venideros.</p>
+<p style="text-align: justify;">Hablando de calendarios no tan populares, hay un dato gracioso sobre el calendario revolucionario soviético [0]:</p>
+<blockquote><p>A partir del día 1 de octubre de 1929, se comenzó a usar una versión más racionalizada del calendario. En esta versión, todos los meses tenían 30 días, y los 5 días restantes, se añadían entre medias, sin pertenecer a ningún mes ni a ninguna semana. Estos días eran:</p>
+<ul>
+<li>Día de Lenin, un día después del 30 de enero.</li>
+<li>Días del trabajo, dos días después del 30 de abril.</li>
+<li>Días de la Industria, dos días después del 7 de noviembre.</li>
+<li>En los años bisiestos, un día extra después del 30 de febrero.</li>
+</ul>
+</blockquote>
+<p>Cuando sea grande tendré mi propio calendario con días extras. Uno de ellos será el día de Mauricio.</p>
+<p>Algo chistoso que ocurre con el calendario chino [1] es que <em>en el extranjero</em> se le llama calendario lunar, nombre adecuado porque refleja un dato importante: El calendario chino usa la Luna y el Sol como referencia, y no sólo el Sol, como hacen otros. Además es un nombre políticamente correcto: Hace días fue el año nuevo chino [2], y en particular el comienzo del año del caballo. Pero ¿qué pasa si tienes un amigo que vive en un país que no es china y en el que también se festeja el inicio del año del caballo? O, peor aún ¿qué tal si tu amigo vive en un país que tiene conflictos diplomáticos con china, o la religión de tu amigo y las tradiciones chinas se llavan mal?</p>
+<p>Como sea, otra forma de referirse al calendario chino es <strong>calendario lunar</strong>.</p>
+<p>&nbsp;</p>
+<p>No sé cuantos calendarios estén en uso en la actualidad, aunque me gustaría conocer el motivo de su diseño y el caos que ocasionaron al comenzar a utilizarse.</p>
+<p>En otros temas: los días pasados he estado poniendo un poco en orden algunos de los asuntos que tenía pendientes: Lavar ropa, visitar familiares y amigos, limpiar la casa y hasta hacer tarea de la universidad. ¡Que no se me olviden los que siguen! Ponerme al día con un par de asuntos de Mozilla y las Olimpiadas, revivir proyectos interesantes de negocios y dormir bien. Borrar el spam en mi blog.</p>
+<p>Todavía me faltan varios asuntos de gran importancia, que no puedo contar por el caracter de &#8220;clasificado&#8221; que tienen.</p>
+<p>En fin, una de las cosas chistosas del calendario gregoriano [3] (usado en gran parte del mundo de forma oficial) es febrero:</p>
+<blockquote><p>&nbsp;</p>
+<p>Treinta días tiene noviembre<br />
+con abril, junio y septiembre.<br />
+Los demás son treinta y uno<br />
+menos febrero mocho<br />
+que sólo trae vientiocho.</p></blockquote>
+<p>Para no hacer el cuento largo, el gregoriano vino a sustituir al juliano [4], que a su vez reemplazaba al romano, en el que el mes quinto se llamaba <i>Quintilis</i>, y no Julio (como Julio César); mientras que el mes sexto se llamaba <i>Sextilis</i> y no Agosto (como Octavio Augusto), además de tener treinta días y no treinta y uno. Y aún con tanto poder, Augusto no podía hacer aparecer días de la nada, así que el senado romano trasladó uno de los días del último mes al mes sexto.</p>
+<p>Si hacemos las cuentas (que no es lo mismo que hacer la matemática), encontraremos que febrero era el mes después de enero y antes de <i>Martius</i>, que era el primero.</p>
+<p>&nbsp;</p>
+<p>Lo chistoso del calendario de Mauricio es que festeja el año nuevo el primero de marzo, nomás porque así sí tiene sentido que febero tenga 28 días (y a veces 29): Se me acabaron y ya no alcanzaban. Además tiene juegos de azar y mujerzuelas.</p>
+<p>&nbsp;</p>
+<p>En otros temas: Soy Mauricio y no estaba muerto, he despertado de mi letargo**.</p>
+<p>Feliz maurimarzo (¿?). Feliz año nuevo.</p>
+<p>&nbsp;</p>
+<p>[0] http://es.wikipedia.org/wiki/Calendario_revolucionario_sovi%C3%A9tico</p>
+<p>[1] [2] http://es.wikipedia.org/wiki/A%C3%B1o_Nuevo_chino</p>
+<p>[3] http://es.wikipedia.org/wiki/Calendario_gregoriano</p>
+<p>[4] http://es.wikipedia.org/wiki/Calendario_juliano</p>
+<p>&nbsp;</p>
+<p>*  Me gusta perder el tiempo pensando en universos paralelos y realidades alternativas.</p>
+<p>** No confundir con leotardo.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2014/feliz-ano-nuevo.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>El rincón de Mautemático!</title>
+	<atom:link href="http://blog.mautematico.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.mautematico.com</link>
+	<description>Las Cosas son como deben, no como deberían Ser.</description>
+	<lastBuildDate>Fri, 14 Jan 2011 19:31:45 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.4</generator>
+		<item>
+		<title>Los barriles de la XXIV OMM</title>
+		<link>http://blog.mautematico.com/2011/01/14/los-barriles-de-la-xxiv-omm/</link>
+		<comments>http://blog.mautematico.com/2011/01/14/los-barriles-de-la-xxiv-omm/#comments</comments>
+		<pubDate>Fri, 14 Jan 2011 19:15:12 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Mates]]></category>
+		<category><![CDATA[ocio]]></category>
+		<category><![CDATA[BC]]></category>
+		<category><![CDATA[despistado]]></category>
+		<category><![CDATA[Ensenada]]></category>
+		<category><![CDATA[matemáticas]]></category>
+		<category><![CDATA[olimpiada]]></category>
+		<category><![CDATA[olímpico]]></category>
+		<category><![CDATA[OMM]]></category>
+		<category><![CDATA[pregunta]]></category>
+		<category><![CDATA[XXIV]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=558</guid>
+		<description><![CDATA[Quiero advertir, antes de iniciar, que en el siguiente texto podria haber algo de humor friki o chistes locales, más o menos difundidos en las olimpiadas de Matemáticas, jamás con afán de ofender a alguien -si no entiendes o no te sientes identificado, no te agüites, es más o menos conocido que soy bien raro]]></description>
+			<content:encoded><![CDATA[<pre>Quiero advertir, antes de iniciar, que en el siguiente texto podria haber algo de humor <em>friki</em> o chistes locales, más o menos difundidos en las olimpiadas de Matemáticas, jamás con afán de ofender a alguien <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/wink.png' alt=';)' class='wp-smiley' /> -si no entiendes o no te sientes identificado, no te agüites, es más o menos conocido que soy bien raro y a veces ni yo me entiendo -</pre>
+<p>Ayer visité a un viejo (muy viejo) y muy querido amigo mío, <strong>ESOJ</strong> (de vez en cuando conocido como <em>Gordo, Camarada, Compadre, El Caballero de la Blanca Luna, Manej, José Manuel, Puto, Marica&#8230;</em>), quien está apunto de consumir su temporada vacacional. A ESOJ lo conocí por culpa de la <strong>7a ONMAS</strong>, allá por el 2007. Y le platiqué más o menos una historia que me parece divertida :D&#8230;</p>
+<p>La XXIV OMM sucedió en esta misma dimensión, si es que no estoy tan perdido. Eso fue allá por la tercer semana del mes de noviembre, en la bella ciudad de Ensenada, BC :D.</p>
+<p><a rel="attachment wp-att-562" href="http://blog.mautematico.com/2011/01/14/los-barriles-de-la-xxiv-omm/barril_castellano/"></a><a href="http://blog.mautematico.com/2011/01/14/los-barriles-de-la-xxiv-omm/"><img class="size-full wp-image-562 alignright" title="barril_castellano" src="http://blog.mautematico.com/wp-content/uploads/2011/01/barril_castellano.gif" alt="Foto de Barril para fermentar el vino" width="263" height="267" /></a></p>
+<p>Además del evento de la olimpiada (los dos examenes), los comités organizador y local preparan diversas actividades, entre ellas suele haber un Rally por el centro de la ciudad o un tour a algún sitio de interés turístico e incluso un <em>día de esparcimiento</em> al aire libre para aplacar los nervios de cerca de 200 jóvenes (entre olímpicos y hermanos colados).</p>
+<p>Para el 2010, nos llevaron a conocer un viñedo de la ciudad y, aunque no había uvas, fue divertido :D. En ese lugar nos explicaron más o menos el proceso de obtención del vino:</p>
+<p>Defines una botella de vidrio (o madera de roble, según prefieras la textura) en R3 con capacidad de entre 1 y 5 litros, defines que está llena de vino, y lo siguiente&#8230; lo siguiente es bien sabido por muchos (así como sabido es que <strong>NO </strong>puede hacerse en el hotel de la olimpiada -nadie dijo algo sobre no hacerlo [y me refiero a tomar el vino] <em>al momento</em>, ¿o sí?&#8230;-).</p>
+<p>Ya en serio, nos platicaron que se cosechan las uvas, se hacen pasar por diversas máquinas y procesos para obtener el alcohol, que luego se almacena en unos barriles de madera (de roble, por ejemplo) para obtener <em>ese sabor característico</em>. Algunos de nosotros, al notar que el propósito de los barriles es brindar al vino determinada textura, supusimos que son utilizados una determinada cantidad de ocasiones, y luego desechados.</p>
+<p>Uno de los que pensó eso (no quiero decir que es de Nayarit, Nuevo León, Guanajuato o Michoacán, prefiero no evidenciar a alguien -si se libró de RyC no veo porque deba yo condenarlo al tormento eterno de Infiernet-) lanzó la pregunta antes que algun otro la articulara mejor:</p>
+<blockquote><p>&#8211;Más o menos, ¿Cuántas veces es utilizado cada barril, o lo usan hasta que se rompe?</p>
+<p>&#8211;Dependiendo del barril y del vino, al rededor de X cantidad de veces</p></blockquote>
+<p>Eso respondía  a la duda de muchos, aunque a algunos más comenzaban a ocurrirsenos divertidos usos para esos barriles luego de ser usados para añejar el vino (un barco para cruzar el Atlántico, corazas para lanzarte cuestaabajo en el lugar de las tirolezas, escudos en la lucha contra otros armados de forma similar&#8230;). También surgió la duda: <em>¿Qué harán los del viñedo con los barriles luego de usarlos?&#8230;</em></p>
+<p>La pregunta la lanzó el mismo <span style="text-decoration: line-through;">loco</span> sujeto que lanzó la anterior, la respuesta fue simple y breve:</p>
+<blockquote><p>Los cortamos por la mitad y vendemos la mitad en unos 200 o 250 pesos. Algunas personas la usan como macetas.</p></blockquote>
+<p>Creo firmemente que el relato y el <span style="text-decoration: line-through;">loco y despistado</span> sujeto que lanzó las preguntas merecen que concluya de una forma breve. Y eso haré.<br />
+Entonces, nuestro <span style="text-decoration: line-through;">desterrado y ovidado</span> querido <span style="text-decoration: line-through;">ex</span>amigo lanzó su última pregunta:</p>
+<blockquote><p><strong class="errorbox">Y, ¿Qué hacen con la otra mitad?</strong></p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2011/01/14/los-barriles-de-la-xxiv-omm/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Mi primer concierto: Con Mägo de Oz</title>
+		<link>http://blog.mautematico.com/2011/01/03/mi-primer-concierto-con-mago-de-oz/</link>
+		<comments>http://blog.mautematico.com/2011/01/03/mi-primer-concierto-con-mago-de-oz/#comments</comments>
+		<pubDate>Mon, 03 Jan 2011 18:41:16 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Mis pasatiempos]]></category>
+		<category><![CDATA[Mis revoltosos pensamientos]]></category>
+		<category><![CDATA[Música]]></category>
+		<category><![CDATA[2011]]></category>
+		<category><![CDATA[año nuevo]]></category>
+		<category><![CDATA[Mägo]]></category>
+		<category><![CDATA[mago de oz]]></category>
+		<category><![CDATA[Sueños]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=544</guid>
+		<description><![CDATA[¿Qué mejor manera de iniciar el año que disfrutando de un concierto de Mägo? No logro recordar con bastante detalle, aún no me recupero por completo y no se detalles como: donde fue el concierto, con quienes asistí, como se llamaban los grupos y bandas que abrieron&#8230; Se que alguien de mi familia estaba ahí,]]></description>
+			<content:encoded><![CDATA[<p style="text-align: justify;">¿Qué mejor manera de iniciar el año que disfrutando de un concierto de Mägo?</p>
+<p style="text-align: justify;">No logro recordar con bastante detalle, aún no me recupero por completo y no se detalles como: donde fue el concierto, con quienes asistí, como se llamaban los grupos y bandas que abrieron&#8230; Se que alguien de mi familia estaba ahí, pero no recuerdo quien era. Aunque es lo más lógico, no estoy seguro si llegué también con amig@s o l@s encontraría ahi, la verdad no tengo recuerdos muy claros de esos detalles.</p>
+<p style="text-align: justify;">De lo que estoy seguro es que la plaza de toros, estadio o auditorio (aún no recuerdo cual de los tres era) estaba HASTA EL TOPE de personas!</p>
+<p style="text-align: justify;">
+<div class="mceTemp mceIEcenter" style="text-align: justify;">
+<dl id="attachment_547" class="wp-caption aligncenter" style="width: 310px;">
+<dt class="wp-caption-dt"><a href="http://blog.mautematico.com/"><img class="size-medium wp-image-547" title="Mägo-de-Oz" src="http://blog.mautematico.com/wp-content/uploads/2011/01/Mägo-de-Oz-300x225.jpg" alt="Mago de oz, imagen de La Bruja" width="300" height="225" /></a></dt>
+<dd class="wp-caption-dd">La Bruja de Mägo de Oz (imagen vista en visionrockcr.com)</dd>
+</dl>
+</div>
+<p style="text-align: justify;">
+<p style="text-align: justify;">A grandes razgos, lo que recuerdo es lo siguiente:<br />
+Yo estaba ahí, en la plaza, estadio, auditorio o lo que fuera. Había dos escenarios, uno para unas bandas y grupos más o menos sonados que tocaban mientras el otro escenario estaba completamente listo.</p>
+<p style="text-align: justify;">El lugar estaba lleno, definitivamente no cabía siquiera un alma más y sí, era un lugar grande. Varias personas LITERALMENTE caían de las gradas (que tenian una forma extraña para ser una plaza o un estadio) o se dejaban caer para conseguir un lugar más cercano al escenario abajo, donde estaban personas que parecían conocerlas.</p>
+<p style="text-align: justify;">Al rededor de las 15 hrs, recuerdo que escuché alguna canción que me agradaba antes de que Mägo comenzara a tocar, lo que no recuerdo es el nombre de la banda y tampoco el nombre de la canción :(.</p>
+<p style="text-align: justify;">El escenario de Mägo prometía canciones de Gaia II hacia atrás: había colores que recordaban al album La Bruja, fotos que hacían alusión a Mägo de Oz, Las letras eran claramente de Gaia II, y había adornos que aseguraban una que otra de Gaia. Seguro que más de uno adivinó que Salán y Pati tapia estarían ahi :D. Quizás habría una que otra canciones más recientes.</p>
+<p style="text-align: justify;">Había un reloj dijital en lo alto del lugar, que rezaba la cercanía a las 18 hrs, el momento en que Mägo tocaría.</p>
+<p style="text-align: justify;">El gran momento se acercaba cada vez más: Mi primer concierto, ¡y era con Mägo de Oz!&#8230; en ese momento no me importaba otra cosa, no me interesaban las fuertes críticas hacia el grupo respecto de algunas canciones, no me importaba la multitud de personas que tenía que mover para poder pasar&#8230; ¡nada!</p>
+<p style="text-align: justify;">((8) Si has llegado hasta aquí, has una pausa para respirar (8))</p>
+<p style="text-align: justify;">En ese momento, aunque pudo ser peor, justo cuando supe que ellos subirian al escenario, un mensaje de texto me despertó. Fue un sueño.</p>
+<p style="text-align: justify;">Edit: (Tue Jan 4, 20:55) estoy en una ciber-charla con <strong>Vale .G</strong>, en la que ocurrió esto:</p>
+<blockquote style="text-align: justify;"><p><strong>Vale</strong> says:<br />
+te despertaron<br />
+­jjajaja<br />
+<strong>­Mauricio</strong> says:<br />
+­(¬.¬&#8230; ya, díselo&#8230;)<br />
+­FUISTE TÚ!<br />
+<strong>Vale</strong> says:<br />
+­:|<br />
+­auch&#8230;<br />
+<strong> ­que bueno que lo hice, Paty Tapia te hubiera besado!!</strong><br />
+<strong>­Mauricio</strong> says:<br />
+­:@<br />
+­¡escribiré esto!<br />
+<strong>Vale</strong> says:<br />
+<strong> ­jajaja&#8230; tu primer besoo!!!</strong><br /> <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/love.png' alt='(L)' class='wp-smiley' /> <br />
+<strong>­Mauricio</strong> says:<br />
+<strong> ­(OMFG!!!)</strong><br />
+<strong>­Vale</strong> says:<br />
+­un día antes del Dia de los inocentes<br />
+­</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2011/01/03/mi-primer-concierto-con-mago-de-oz/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Feliz dosmilonce.ws</title>
+		<link>http://blog.mautematico.com/2011/01/02/feliz-dosmilonce-ws/</link>
+		<comments>http://blog.mautematico.com/2011/01/02/feliz-dosmilonce-ws/#comments</comments>
+		<pubDate>Sun, 02 Jan 2011 22:17:16 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Cosas]]></category>
+		<category><![CDATA[Mautematico]]></category>
+		<category><![CDATA[Mis revoltosos pensamientos]]></category>
+		<category><![CDATA[2011]]></category>
+		<category><![CDATA[año nuevo]]></category>
+		<category><![CDATA[Dosmilonce]]></category>
+		<category><![CDATA[dosmilonce.co.cc]]></category>
+		<category><![CDATA[dosmilonce.ws]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=540</guid>
+		<description><![CDATA[Nuevo año, nueva actitud. O al menos eso es lo que algunos dicen :). De cualquier manera, lo que no cambia es que 2011 es primo (al menos eso sospecho desde el 2007&#8230; -7a ONMAS-), y aunque eso quizás no signifique nada, es un bonito número :p. Hoy tengo ganas de escribir algo que suene]]></description>
+			<content:encoded><![CDATA[<blockquote><p>Nuevo año, nueva actitud.</p></blockquote>
+<p>O al menos eso es lo que algunos dicen :). De cualquier manera, lo que no cambia es que 2011 es primo (al menos eso sospecho desde el 2007&#8230; -7a ONMAS-), y aunque eso quizás no signifique nada, es un bonito número :p.</p>
+<p>Hoy tengo ganas de escribir algo que suene alentador para cuando yo mismo lo lea meses más tarde, todo agüitado por alguna tonteria del diario vivir. Este será un buen ¡año, estoy seguro!</p>
+<p>Sucederán bastantes cosas, algunos de nosotros emprenderemos o continuaremos con proyectos de alguna forma resagados (cof cof&#8230; http://dosmilonce.co.cc/ &amp;&amp; http://dosmilonce.ws/ &amp;&amp; http://www.geeksoy.com/ &amp;&amp; http://www.11chistes.com/), cumpliremos años, algunos más terminarán la prepa o universidad, otros quizás decidan que hay mejores opciones para cada quien :).</p>
+<p>En este año, seguramente pasen cosas no tan dulces, pero bueno, esque eso es lo que le da ese especial toque a la vida, esa chispa de diversión, ¿que no? :D.</p>
+<p>Señores, hace varios años me dije: Mau, que tal si tienes tu primer millón antes de que finalice el 2011 :D?&#8230; bueno, quizás me pasé jaja, tal vez fui un poco materialista aquella ocasión. Hoy, espero poder disfrutar este año, que sea divertido y lleno de aventuras :).</p>
+<p>¿Deseos? sí, unos cuantos: los que ayudan al ego (y claro, también al conocimiento): ORO en la OMM, entrenamientos nacionales, una olimpiada internacional; los sentimentales: amigos, familia, no amigas. Y los de dinero: dinero.</p>
+<p>Lectores que me leen en 2011: dejen de estar sentados y ponganse a trabajar, disfruten mucho este año! <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/smile.png' alt=':)' class='wp-smiley' /> <br />
+Lectores que me leen ya terminado el 2011: Neta, si no disfrutaron el año primo, se jodieron!&#8230; pero no vale llorar, mejor echenle ganas para el año presente :D.</p>
+<p>¡Vivan libres!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2011/01/02/feliz-dosmilonce-ws/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>El primero</title>
+		<link>http://blog.mautematico.com/2010/12/27/el-primero/</link>
+		<comments>http://blog.mautematico.com/2010/12/27/el-primero/#comments</comments>
+		<pubDate>Tue, 28 Dec 2010 04:22:00 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Cosas]]></category>
+		<category><![CDATA[Mautematico]]></category>
+		<category><![CDATA[Mis revoltosos pensamientos]]></category>
+		<category><![CDATA[The Heart]]></category>
+		<category><![CDATA[beso]]></category>
+		<category><![CDATA[Mauricio]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=527</guid>
+		<description><![CDATA[No, no el primer post, o el primer mil ocho mil post. Es otro tipo de primero. Hoy, hace un año, fue mi primer beso.]]></description>
+			<content:encoded><![CDATA[<p>No, no el primer post, o el primer mil ocho mil post. Es otro tipo de primero.</p>
+<blockquote><p>Hoy, hace un año, fue mi primer beso.</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/12/27/el-primero/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Calendarios en Navidad</title>
+		<link>http://blog.mautematico.com/2010/12/21/calendarios-en-navidad/</link>
+		<comments>http://blog.mautematico.com/2010/12/21/calendarios-en-navidad/#comments</comments>
+		<pubDate>Tue, 21 Dec 2010 20:46:10 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[En Colón]]></category>
+		<category><![CDATA[Mis revoltosos pensamientos]]></category>
+		<category><![CDATA[ocio]]></category>
+		<category><![CDATA[2010]]></category>
+		<category><![CDATA[calendarios]]></category>
+		<category><![CDATA[navidad]]></category>
+		<category><![CDATA[pueblo]]></category>
+		<category><![CDATA[regalos]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=522</guid>
+		<description><![CDATA[Durante mucho tiempo (bueno, varios -creo que menos de diecisiete-) años me he preguntado: ¿Porqué las personas piden calendarios en ésta época del año?&#8230; En realidad, no son todas las personas, pero sí una buena parte de las que compran cosas en algunas tiendas, lo peor es que suelen hacerlo de forma indiscriminada: tanto a]]></description>
+			<content:encoded><![CDATA[<p>Durante mucho tiempo (bueno, varios -creo que menos de diecisiete-) años me he preguntado: ¿Porqué las personas piden calendarios en <em>ésta época </em>del año?&#8230; En realidad, no son todas las personas, pero sí una buena parte de las que compran cosas en algunas tiendas, lo peor es que suelen hacerlo de forma indiscriminada: tanto a tiendas grandes como a pequeñas.</p>
+<div id="attachment_533" class="wp-caption aligncenter" style="width: 310px"><a href="http://blog.mautematico.com/"><img class="size-full wp-image-533" title="calendario" src="http://blog.mautematico.com/wp-content/uploads/2010/12/calendario.png" alt="Calendario" width="300" height="298" /></a><p class="wp-caption-text">Cliente, luego de comprar 22 pesos (2USD): &quot;Y, ¿no me regala un calendario?&quot;</p></div>
+<p>Ya digo que no son todas, incluso no se si suceda únicamente en una región específica (el estado, por ejemplo), pero lo que más curiosidad me causa es el hecho de que pidan calendarios. Como si hubiera una sociedad subterránea secreta en la que los calendarios reemplazan al dinero, y pudieras comprarte trozos de felicidad con ellos.</p>
+<p><span id="more-522"></span></p>
+<p>Ya en serio, es que me resulta extraño que las personas pidan tantos calendarios. <em>Quizás coleccionan para venderlos en una suma millonaria cuando sean viejos&#8230;</em> Me ha tocado ver a algún cliente que se molesta con el dependiente porque &lt;&lt;este año no hubo calendarios&gt;&gt; o porque &lt;&lt;ya se terminaron&gt;&gt;.</p>
+<p>Ya, al grano: ¡ME MOLESTA! Vamos, que esos papelitos (dependiendo del modelo/diseño) podrían costar unos seis pesos, SÍ; que <em>¿qué le cuesta regalar unos cuantos?, </em>SÍ; que si <em>sirven para, cada día, ver que día es, y marcar fechitas, </em>SÍ&#8230; a todo sí! pero me molesta el hecho de que las personas pidan calendarios y más y más y más calendarios, para luego elegir uno y TIRAR A LA BASURA los demás! (es más, apostaría a que el porcentaje de personas que leen lo que viene detrás de los calendarios de 365 hojas -usualmente chistes, frases o consejos breves-)</p>
+<p>Señores, por favor, no sean ingratos: A veces las tiendas les hacen regalos que deberían ser mejor valorados que un trozo de papel mandado a hacer por compromiso. jum!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/12/21/calendarios-en-navidad/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>El tercer invierno</title>
+		<link>http://blog.mautematico.com/2010/12/13/el-tercer-invierno/</link>
+		<comments>http://blog.mautematico.com/2010/12/13/el-tercer-invierno/#comments</comments>
+		<pubDate>Mon, 13 Dec 2010 17:00:17 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Cosas]]></category>
+		<category><![CDATA[Mautematico]]></category>
+		<category><![CDATA[escuela]]></category>
+		<category><![CDATA[fin de año]]></category>
+		<category><![CDATA[finales]]></category>
+		<category><![CDATA[invierno]]></category>
+		<category><![CDATA[Phineas and Ferb]]></category>
+		<category><![CDATA[vacaciones]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=509</guid>
+		<description><![CDATA[Puede que se me vuelva una costumbre escribir por aquí una nota al inicio de mis vacaciones de invierno, tal vez es solamente que las ideas que tengo para escribir últimamente no me agradan, la verdad no lo se. Pero este es (si mis recuerdos no están tan retorcidos) el tercer invierno al que he]]></description>
+			<content:encoded><![CDATA[<p>Puede que se me vuelva una costumbre escribir por aquí una nota al inicio de mis vacaciones de invierno, tal vez es solamente que las ideas que tengo para escribir últimamente <em>no me agradan</em>, la verdad no lo se. Pero este es (si mis recuerdos no están tan retorcidos) el tercer invierno al que he sobrevivido desde emm.. desde hace tres inviernos! -Aunque no hay un post sobre lo que sería ese <em>primer invierno</em> sino hasta que regresé a clases, allá por enero o febrero del 2009<em>-</em></p>
+<div class="wp-caption aligncenter" style="width: 510px"><a href="http://blog.mautematico.com/wp-content/uploads/2010/12/invierano.jpg"><img class=" " title="invierano" src="http://blog.mautematico.com/wp-content/uploads/2010/12/invierano.jpg" alt="Phineas &amp; Ferb -Iniverano-" width="500" height="281" /></a><p class="wp-caption-text">¡Es invierno y verano a la vez! ¡Es invierano! -Phineas &amp; Ferb de Disney-</p></div>
+<p><em><br />
+</em></p>
+<p><span id="more-509"></span>Hoy, lunes 13 de diciembre del 2010, me levanté tempranito para venir a la escuela con esperanzas de encontrarme con mi profe de informática (módulos 1 y 2 de la capacitación) y poder preguntarle sobre mis calificaciones semestrales. Según parece el profe no vendrá hoy.<br />
+Hace algo de frío (es un invierno frío -que mal que no pueda hacer como <strong>Phineas &amp; Ferb </strong>e inventar el invierano), y pronto volveré a casa.</p>
+<p>Hasta ahora parece una de esas típicas vacaciones, sí, más o menos como las describía el año pasado:<br />
+Buenas y malas vibras, &#8220;deseos&#8221;, sueños, ¡ganas de hacer cosas!. Aunque es un poco diferente, al menos para mí, desde el momento en que escribo desde la escuela mientras acabo de responderle un mensaje a <strong>Vale .G</strong> (se que algún día leerá esto! jaja) [para memoria de la multitud de millones de lectores de mi blog: <em>Vale .G </em>es la amiguita que <strong>Laura</strong> me presentó, quizás por aquellos tiempos en que inicié con este blog].</p>
+<p>Creo que en estas vacaciones no estoy tan feliz como en las anteriores, pero tampoco tengo aquel sentimiento de pesimismo, por así llamarlo. ¡Eso! ¡Son unas vacaciones diferentes!</p>
+<p>Me he propuesto leer al menos un libro estas vacaciones (compré <em>Memnoch el diablo</em> -<em>Anne Rice</em>-, aunque tuve que resistir la agonía durante tres semanas gracias a no se que demonios en la maldita librería), quizás consiga ir a clases de guitarra o incluso pueda salir por ahí en alguna ocasión. Probablemente iré a la fiesta por el cumpleaños de <strong>Gaby</strong> y a festejar de nuevo que <strong>Aletts</strong> se nos va por un semestre (al fin nos dejará descansar de su enoooorme buena-ondez por un tiempo!) y al cine con <strong>Manej</strong> y <strong>Chema</strong>.</p>
+<p>Es curioso como las cosas cambian con el paso del tiempo (en realidad, creo que las personas cambian un poco su comportamiento y de ahí <em>las cosas </em>cambian también), con el paso de los años los planes que nos hacemos sin distintos, igualmente los anhelos, las envidias, los deseos materialistas! Las cosas siguen su curso&#8230; Pero siempre hay algo que se queda ahí,  esas cositas que no nos dejarán (y no, no me refiero a <em>esas </em>cositas): siempre vamos a recordar las cosas que nos sucedieron y marcaron la vida (<em>a menos claro, que te conviertas en vampiro, en cuyo caso recordarás con lujo de detalles cada instante de tu existencia desde el momento en que te convertiste en vampiro hasta ahora, pero los recuerdos de tu vida como mortal comenzarán a desvanecerse con el paso del tiempo, hasta que no queden más que nubes de ellos)</em>.</p>
+<p>Con el paso del tiempo, tenemos nuevas historias que contar, ya sean anécdotas propias o chismes de los que nos hemos enterado de alguna manera. Hoy no toca que escriba alguna de esas historias, hoy simplemente me declaro en vacaciones de invierno (otra otra vez)!&#8230; o algo parecido. Por parte de la escuela aún debo confirmar un par de calificaciones y seré &#8220;libre&#8221; para dedicarme a mis otras tareas :).</p>
+<p>Estimados lectores: ¿están ya de vacaciones de inverno (otra otra vez)? (aunque Laura y Valeria no me leen, quiero burlarme de ellas, porque apenas tienen rumores de que sus vacaciones iniciarán el 22 -hey! que número tan hermoso! <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/teeth.png' alt=':D' class='wp-smiley' /> &#8211; jajaja!! malditas desgraciadas!)</p>
+<p><em><strong>¡Saludos y buen pavo!*<br />
+</strong></em></p>
+<p>*No, de hecho en mi familia tampoco se acostumbra cenar pavo en &#8220;acción de gracias&#8221;&#8230; es solamente la frase que se me ocurrió para cerrar este post&#8230; que ahora ya no lo cierra ¬.¬</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/12/13/el-tercer-invierno/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Código para sumar dos números</title>
+		<link>http://blog.mautematico.com/2010/11/02/codigo-para-sumar-dos-numeros/</link>
+		<comments>http://blog.mautematico.com/2010/11/02/codigo-para-sumar-dos-numeros/#comments</comments>
+		<pubDate>Wed, 03 Nov 2010 00:18:02 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[C/C++]]></category>
+		<category><![CDATA[Mates]]></category>
+		<category><![CDATA[Programación]]></category>
+		<category><![CDATA[ocio]]></category>
+		<category><![CDATA[C]]></category>
+		<category><![CDATA[compilar]]></category>
+		<category><![CDATA[enteros]]></category>
+		<category><![CDATA[programa]]></category>
+		<category><![CDATA[sencillo]]></category>
+		<category><![CDATA[simple]]></category>
+		<category><![CDATA[sumar]]></category>
+		<category><![CDATA[variables]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=500</guid>
+		<description><![CDATA[Dos posts seguidos sobre el mismo tema? :S&#8230; creo que le han absorbido las ideas a mi cabeza!&#8230; Hoy, pretendiendo que éste sea un post simple, voy a presentarles un código simple: uno en C++ que suma dos números dados por el usuario (a y b). AH!.. números enteros: #include &#60;iostream&#62; //Libreria requerida para usar]]></description>
+			<content:encoded><![CDATA[<blockquote><p>Dos posts seguidos sobre el mismo tema? :S&#8230; creo que le han absorbido las ideas a mi cabeza!&#8230; </p></blockquote>
+<p>Hoy, pretendiendo que éste sea un post simple, voy a presentarles un código simple: uno en C++ que suma dos números dados por el usuario (a y b). AH!.. números enteros:</p>
+<pre class="brush: cpp; title: ;">
+#include &lt;iostream&gt;	//Libreria requerida para usar cin y cout
+
+using namespace std;	//instruccion para el uso de cin y cout
+
+int a,b;		//definimos dos variables de tipo int (integer=entero)
+int main()		//Aquí va la función principal de nuestro programa
+{
+cin&gt;&gt;a&gt;&gt;b;		//Leemos del teclado los enteros a y b
+cout&lt;&lt;endl&lt;&lt;a+b&lt;&lt;endl;	//imprimimos un salto de linea (endl), la suma de a+b y luego otro salto de línea
+
+//	Descomentar para usar como ejecutable en windows
+//    system(&quot;Title Programita que suma dos numeros&quot;);
+//    system(&quot;PAUSE&quot;);
+    return 0;
+}
+</pre>
+<p>Por si se lo preguntan, hay que compilarlo.<br />
+Pueden compilarlo desde terminal/consola, pero en caso que estén en:<br />
+Linux o MacOS: Pueden usar algo como <a href="http://www.codeblocks.org">CodeBlocks</a><br />
+Windows: <a href="http://www.codeblocks.org">CodeBlocks</a> o <a href="http://www.bloodshed.net/dev/devcpp.html">Dev-C++</a><br />
+BSD y demás: JA!&#8230; como si tuviera lectores usuarios de BSD que no tuvieran maneras chidas de compilar <img src='http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete/smile.png' alt=':)' class='wp-smiley' /> </p>
+<p>Puede que se me pasaran algunas cosas, para eso están los comentarios :). Obviamente acepto sugerencias!<br />
+Nota al margen: estoy pensando a que destinar <a href="http://www.geeksoy.com/">www.geeksoy.com </a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/11/02/codigo-para-sumar-dos-numeros/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>¡Hola Mundo! en C/C++</title>
+		<link>http://blog.mautematico.com/2010/07/13/hola-mundo-en-c/</link>
+		<comments>http://blog.mautematico.com/2010/07/13/hola-mundo-en-c/#comments</comments>
+		<pubDate>Wed, 14 Jul 2010 00:35:34 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[C/C++]]></category>
+		<category><![CDATA[Programación]]></category>
+		<category><![CDATA[Código]]></category>
+		<category><![CDATA[simple]]></category>
+
+		<guid isPermaLink="false">http://blog.mautematico.com/?p=434</guid>
+		<description><![CDATA[<blockquote>El siguiente post es un borrador que dejé abandonado hace ya algún tiempo, con la idea en mente de publicar algunos códigos y problemas que he resuelto en lo que he logrado participar de la OMI :), ésta vez mostraré un par de códigos, uno en C y otro en C++, ambos imprimen "Hola Mundo" a la pantalla</blockquote>
+<a href="http://blog.mautematico.com/wp-content/uploads/2010/07/hola-mundo.jpg"><img class="alignright size-thumbnail wp-image-474" title="hola-mundo" src="http://blog.mautematico.com/wp-content/uploads/2010/07/hola-mundo-150x150.jpg" alt="" width="150" height="150" /></a>
+La <a title="OMI" href="http://www.olimpiadadeinformatica.org.mx/" target="_blank">Olimpiada Mexicana de Informática</a> es un concurso de programación a nivel medio superior en México (aunque puedes participar desde primaria, según recuerdo). En ésta competencia hay dos sesiones de examen, una del simulador "Karel el Robot", y otra propiamente de programación. El lenguaje con mayor aceptación parece ser C/C++.
+
+De manera técnica, no tengo mucho que contarles de C/C++, lo que sí se es que con ellos (C++ es una extensión de C) puedes programar practicamente cualquier cosa, desde un simple "Hola Mundo" portable a varias plataformas, hasta un complejo sistema operativo completo!... Víctor (VicOMM) se molestará si no menciono que Cplusplus está orientado a la manipulación de objetos, aunque yo no estoy bien enterado de eso porque a penas se muy poco...
+
+Bueno, basta ya, les mostraré un par de códigos para imprimir a la pantalla "Hola mundo"
+
+El siguiente código, escrito en C, imprime a la pantalla el clásico mensaje "Hola mundo", y termina su ejecución:
+
+[cpp]
+#include <stdio .h>
+
+int main()
+{
+        printf("Hola mundo");
+        return 0;
+}
+[/cpp]</stdio>]]></description>
+			<content:encoded><![CDATA[<blockquote><p>El siguiente post es un borrador que dejé abandonado hace ya algún tiempo, con la idea en mente de publicar algunos códigos y problemas que he resuelto en lo que he logrado participar de la OMI :), ésta vez mostraré un par de códigos, uno en C y otro en C++, ambos imprimen &#8220;Hola Mundo&#8221; a la pantalla</p></blockquote>
+<p><a href="http://blog.mautematico.com/wp-content/uploads/2010/07/hola-mundo.jpg"><img class="alignright size-thumbnail wp-image-474" title="hola-mundo" src="http://blog.mautematico.com/wp-content/uploads/2010/07/hola-mundo-150x150.jpg" alt="" width="150" height="150" /></a><br />
+La <a title="OMI" href="http://www.olimpiadadeinformatica.org.mx/" target="_blank">Olimpiada Mexicana de Informática</a> es un concurso de programación a nivel medio superior en México (aunque puedes participar desde primaria, según recuerdo). En ésta competencia hay dos sesiones de examen, una del simulador &#8220;Karel el Robot&#8221;, y otra propiamente de programación. El lenguaje con mayor aceptación parece ser C/C++.</p>
+<p>De manera técnica, no tengo mucho que contarles de C/C++, lo que sí se es que con ellos (C++ es una extensión de C) puedes programar practicamente cualquier cosa, desde un simple &#8220;Hola Mundo&#8221; portable a varias plataformas, hasta un complejo sistema operativo completo!&#8230; Víctor (VicOMM) se molestará si no menciono que Cplusplus está orientado a la manipulación de objetos, aunque yo no estoy bien enterado de eso porque a penas se muy poco&#8230;</p>
+<p>Bueno, basta ya, les mostraré un par de códigos para imprimir a la pantalla &#8220;Hola mundo&#8221;</p>
+<p>El siguiente código, escrito en C, imprime a la pantalla el clásico mensaje &#8220;Hola mundo&#8221;, y termina su ejecución:</p>
+<pre class="brush: cpp; title: ;">
+#include &lt;stdio.h&gt;
+
+int main()
+{
+        printf(&quot;Hola mundo&quot;);
+        return 0;
+}
+</pre>
+<p><span id="more-434"></span>Y el siguiente código hace lo mismo, pero usando las clases y librerías de C++:</p>
+<pre class="brush: cpp; title: ;">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+    cout &lt;&lt; &quot;Hola Mundo&quot; &lt;&lt; endl;
+    return 0;
+}
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/07/13/hola-mundo-en-c/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Mí día de Ayer</title>
+		<link>http://blog.mautematico.com/2010/07/10/mi-dia-de-ayer/</link>
+		<comments>http://blog.mautematico.com/2010/07/10/mi-dia-de-ayer/#comments</comments>
+		<pubDate>Sat, 10 Jul 2010 22:49:40 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Cosas]]></category>
+		<category><![CDATA[Mis revoltosos pensamientos]]></category>
+		<category><![CDATA[ayer]]></category>
+		<category><![CDATA[Día]]></category>
+		<category><![CDATA[emociones]]></category>
+
+		<guid isPermaLink="false">http://mautematico.co.cc/?p=425</guid>
+		<description><![CDATA[Sí. No se me ocurrió un título más descriptivo para el post de hoy. La verdad es que ni siquiera iba a haber post de hoy, bueno, en realidad, sí iba a haberlo. Sería de Frets on Fire. Finalmente decidí este título, pues es lo que pretendo que trate el escrito que (algunos) están a]]></description>
+			<content:encoded><![CDATA[<p>Sí. No se me ocurrió un título más descriptivo para el post de hoy. La verdad es que ni siquiera iba a haber post de hoy, bueno, en realidad, sí iba a haberlo. Sería de Frets on Fire. Finalmente decidí este título, pues es lo que pretendo que trate el escrito que (algunos) están a punto de leer.</p>
+<p><span id="more-425"></span>Comenzó como practicamente comienza cualquier otro: algunas personas en el planeta morían, otras, muy pequeñas, venían a la vida. Otras más se daban cuenta que iban por un camino ni muy acertado ni muy divertido, y decidieron cambiar&#8230; otras hicieron lo que la humanidad llama “madurar”. Sí, era un día normal.</p>
+<p>Desperté no muy tarde, a pesar de estar de “vacaciones”, pues mi padre me pediría el día anterior que atendiera cierto asunto en el municipio de Tequisquiapan, antes de comenzar con los míos respecto de la OMM (Registro en el hotel de la ciudad de Querétaro, comida, entrenamiento en la UAQ&#8230;)</p>
+<p>Es así como esperaba a que alguno de mis padres me dieran el dinero requerido para realizar esa desviación y atender tal asunto. Por azares del destino, ya en la dulcería, mi madre terminó por comunicarme una no muy agradable noticia, que habría(mos) preferido mantener alejada de mi padre por un tiempo. Algo salió mal: mi padre hizo una pregunta, que llevó a la revelación de la (no) mencionada noticia. Mi padre se molestó, la verdad es que se molestó muchísimo. Enfureció, diría yo.</p>
+<p>Sí, también yo me molesté, me molesté bastante. Pero yo me molesté por la actitud de mi padre ante la noticia. Muchas veces he preferido mantenerme al margen en situaciones como esa, pero en algunas otras no. Ésta fue una de esas algunas otras. Por supuesto, entonces mi padre se molestó también conmigo (ah, porque se lo hice saber – y lease como el aclare de un &lt;&lt;despiste&gt;&gt;, no como lo que el llamaría &lt;&lt;un reto&gt;&gt; &#8211; )&#8230;</p>
+<p>Con la frustración (entre otros sentimientos de esos que no hacen el bien muy a menudo) invadiendo mi ser, me salí de la tienda. No, no era una de esas rabietas de adolescente pre-universitario de “me voy de la casa”, es que ya se llegaba la hora de partir para mí. Por su parte, mi padre hizo lo propio -propio de sí mismo, no hablo de propiedad en cuanto a cordialidad- y también se fue.</p>
+<p>En realidad resultaría que yo iría a comprar unas cosas -agujetas y saldo para mi teléfono (compre uno nuevo luego de que &lt;&lt;Pol&gt;&gt; me restregara que vendió el que perdí)- y regresaría a la dulcería, pues había olvidado algo: mi desodorante. Así es como tuve una charla con mi madre, una charla de una media hora, sobre muchas cosas, de esas que las personas no dicen muy a menudo.</p>
+<p>Algo tenía que hacer y sí, algo se me ocurrió&#8230; Tomé el teléfono con la esperanza de no ser tan inoportuno al interrumpir alguna actividad importante: le llamé a (&#8230;que difícil es esto&#8230;) una amiga. ¡Que suerte, ha tomado la llamada!&#8230; y más suerte aún: no estaba haciendo lo que yo creía!&#8230; charlamos por un rato, media hora quizás, la verdad es que no lo se. Mi estado de ánimo mejoró notablemente -al menos yo lo noté-, pero llegó el momento de despedirnos, la red celular no ofreció mucho soporte en ese momento: la llamda se cortó a medio &lt;&lt;adiós&gt;&gt;. [Y en esta linea, en el pseudo anonimato, quiero agradecer a mi amiga por, una vez más, aún cuando quizás no lo note con mucha facilidad, ayudarme de una manera tan increíble en momentos así... Em: Gracias -así es, no es su “verdadero” nombre-]</p>
+<p>Y bueno, omitiré algunos detalles sin relevancia para el mundo, el caso es que arreglaría aquel asunto en Tequisquiapan como había acordado el día anterior, para luego dirigirme a lo que algunos llaman <em>mis cosas</em>. Ese día descubriría que aquel pasaje alterno para realizar mi viaje se percibe aún más solitario en autobús&#8230; más solitario y más caro. El chofer tenía lo que podría decirse música pop.</p>
+<p>Sí, la música: ese elemento tan importante en la vida de muchos de nosotros&#8230; que hace evocar sensaciones con un poder casi indiscutible. En ésta ocasión, recuerdos de momentos sumamente felices, en algún momento sabía que el siguiente tramo de la canción era “Porque las cosas de la vida contigo se viven mejor&#8230; (turu ruru)&#8230; todo es amor si estamos juntos los dos&#8230;”. Solté un suspiro, de esos que salen jalando consigo mocos de la nariz, de esos líquidos con un sabor saladito y que bien pueden lavarse con agua.</p>
+<p>En ese momento me dije a mi mismo: Mi mismo: debes escribir esto, o contárselo a alguien&#8230; ¡no es algo que puedas guardar hasta la tumba! (y, heme -en algún momento del espacio-tiempo en el pasado- aquí).</p>
+<p>Luego, bueno, luego llegaría el registro en el hotel, el entrenamiento, el “Turista Mundial (r)” que reemplazara la función de cine&#8230; Todo eso que acostumbramos hacer, porque es divertido. Aunque tenía en esta ocasión una razón más para mí: distraerme y ayudarme a sonreir.</p>
+<p>Sí, ya pronto voy a parar de escribir. Mentí a mi madre diciéndole que aún estaba lejos de casa, cuando en realidad veo patos mientras escribo, ya casi se me ha quitado el frío y me siento un poco mejor. Simplemente agregar algunas cosas que sucedieron hoy: tuve examen selectivo para la OMM, jugamos futbolito, no me depilaron porque México no ganara a Argentina, y no tengo ganas de llegar a mi casa.</p>
+<p>Hasta pronto, almas que de vez en cuando deambulan aquí cerca. Que la vida no sea tan cruel, y la voluntad evite doblegar eso que llamamos <em>espíritu. </em>Mauricio.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/07/10/mi-dia-de-ayer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Compact Menu 2, Extensión para Firefox</title>
+		<link>http://blog.mautematico.com/2010/06/26/compact-menu-2-extension-para-firefox/</link>
+		<comments>http://blog.mautematico.com/2010/06/26/compact-menu-2-extension-para-firefox/#comments</comments>
+		<pubDate>Sat, 26 Jun 2010 23:39:00 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[internet]]></category>
+		<category><![CDATA[espacio]]></category>
+		<category><![CDATA[menú]]></category>
+		<category><![CDATA[plugins]]></category>
+
+		<guid isPermaLink="false">http://mautematico.co.cc/?p=386</guid>
+		<description><![CDATA[Ya platicamos un poco sobre Mozilla Firefox, un navegador libre y multiplataforma que además soporta Extensiones. Bueno, Compact Menu 2 es una de estas tantas extensiones creadas por los usuarios de Firefox. La tarea de Compact Menu 2 es reemplazar la barra de menús (Archivo, Editar, Ver&#8230;) con un pequeño icono que despliega un menú]]></description>
+			<content:encoded><![CDATA[<p><img class="alignright" style="border: 0pt none; margin: 3px;" src="http://blog.mautematico.com/wp-content/uploads/2010/06/Compact-Menu-2.png" border="0" alt="" align="RIGHT" />Ya platicamos un poco sobre Mozilla Firefox, un navegador libre y multiplataforma que además soporta Extensiones.</p>
+<p>Bueno, <a title="Pagina de Compact=" target="_blank">Compact Menu 2</a> es una de estas tantas extensiones creadas por los usuarios de Firefox. La tarea de Compact Menu 2 es reemplazar la barra de menús (Archivo, Editar, Ver&#8230;) con un pequeño icono que despliega un menú contextual (ver imagen)<br />
+Todo esto ¿Para que?&#8230; bueno, eso ya es cosa de cada quien. Si bien no es una cosa mágica, es útil por ejemplo para “ganar”  espacio en la ventana de navegación si tenemos monitores de poca resolución, y principalmente para ocultar tal menú si no lo usamos con frecuencia.<br />
+La manera de instalar e implementar Compact Menu 2 es bastante simple, hay que ir a su página en el sitio de extensiones Mozilla, hacer clic en “Agregar a Firefox” y luego:</p>
+<ol>
+<li>Ocultar la barra de menús: Clic 	secundario en alguna región libre de las barras, deseleccionamos 	“Barra de menús”</li>
+<li>Agregar el botón Compact Menu 2: 	De nuevo clic secundario&gt;&gt; Personalizar. Buscamos el icono de 	Compact Menu (una especie de planeta azul con una flecha hacia 	abajo) y lo arrastramos al área de la ventana de firefox en que 	queremos que aparezca.</li>
+</ol>
+<p>Bien, ahora solamente un tip:  En  Windows podemos desplegar este menú igual que la barra de menús (con la tecla ALT), aunque en linux funcionará ALT+A para por ejemplo ir al submenú Archivo. Obviamente, además de esto, un clic en el icono también lo despliega.<br />
+Ahora sí, por si se les pasó dos veces el enlace de <a href="https://addons.mozilla.org/en-US/firefox/addon/4550/">Compact Menu 2</a>:</p>
+<p><a title="Compact Menu 2" href="https://addons.mozilla.org/en-US/firefox/addon/4550/" target="_blank">[IR A LA PÁGINA DE Compact Menu 2 EN MOZILLA FIREFOX]</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/06/26/compact-menu-2-extension-para-firefox/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Nuevo Lookgle, Google con fondo</title>
+		<link>http://blog.mautematico.com/2010/06/10/nuevo-lookgle-google-con-fondo/</link>
+		<comments>http://blog.mautematico.com/2010/06/10/nuevo-lookgle-google-con-fondo/#comments</comments>
+		<pubDate>Fri, 11 Jun 2010 01:25:29 +0000</pubDate>
+		<dc:creator>Mauricio</dc:creator>
+				<category><![CDATA[internet]]></category>
+		<category><![CDATA[Doodles]]></category>
+		<category><![CDATA[Fondo]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Logo]]></category>
+		<category><![CDATA[Look]]></category>
+
+		<guid isPermaLink="false">http://mautematico.co.cc/?p=381</guid>
+		<description><![CDATA[Que le ha pasado a Google!&#8230; me lo cambiaron :S&#8230; Ay, no!&#8230; esque le puse una imagen de fondo :). Pues resulta que (sí, hablaré de Google otra vez!) ahora Google permite cambiar ese blanco-jodeme-la-vista por una imagen de fondo en la página principal del buscador, tal como pueden observar en esa mini-captura :). Basta]]></description>
+			<content:encoded><![CDATA[<p style="text-align: center;"><img class="aligncenter" title="Google-con-fondo_pequenio" src="http://blog.mautematico.com/wp-content/uploads/2010/06/Google-con-fondo_pequenio.png" alt="Google con Fondo" width="256" height="154" /></p>
+<p>Que le ha pasado a Google!&#8230; me lo cambiaron :S&#8230;</p>
+<p>Ay, no!&#8230; esque le puse una imagen de fondo :).</p>
+<p>Pues resulta que (sí, hablaré de Google otra vez!) ahora Google permite cambiar ese blanco-jodeme-la-vista por una imagen de fondo en la página principal del buscador, tal como pueden observar en esa mini-captura :).</p>
+<p>Basta con entrar a www.google.com o el dominio de su país e ir abajo a la izquierda, donde un enlace &#8220;Cambiar imagen de fondo&#8221; mostrará una ventana modal en la que podemos elegir el fondo que queremos aplicar. Los hay muy bonitos y, curiosamente, quedan con el logo en letras blancas :)&#8230;</p>
+<p>Me pregunto como le harán con los Doodles&#8230; haha.</p>
+<p>Ah, por cierto!, si no les permite cambiar, quizá sea por no tener cuenta Google e iniciar sesión. Basta con crearse una (o estar registrados en Youtube, Picassa, Gmail&#8230;)</p>
+<p>Buen día!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.mautematico.com/2010/06/10/nuevo-lookgle-google-con-fondo/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>
