@@ -10,6 +10,7 @@ tagline:             Las Cosas son como deben, no como deberían Ser.
 url:                 https://blog.mautematico.com
 paginate:            11
 baseurl:             ''
+timezone:            America/Mexico_City
 
 # Assets
 #
