@@ -2,6 +2,7 @@
 layout: post
 title: "Pregúntale a Ray"
 date: 2015-09-30 21:09:09
+timezone: America/Mexico_City
 ---
 Si hay algo que tu corazón realmente desee saber, entonces  [da clic aquí][36fcc73b] y **pregúntale a Ray**.
 
