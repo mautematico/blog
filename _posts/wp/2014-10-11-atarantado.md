@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Atarantado"
+title: "Atarantado"
 dateDay: 2014-10-11
 date: 2014-10-11T18:25:41+00:00
-#Permalink: /wp/atarantado.html
+#permalink: /wp/atarantado.html
 categories: ["Sin Categoria"]
 ---
 

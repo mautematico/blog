@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Breaking Bad"
+title: "Breaking Bad"
 dateDay: 2014-6-14
 date: 2014-06-14T01:39:34+00:00
-#Permalink: /wp/breaking-bad.html
+#permalink: /wp/breaking-bad.html
 categories: ["Sin Categoria"]
 ---
 

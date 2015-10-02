@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "“¡Hola, mundo!” en JavaScript, en la consola de Firefox"
+title: "“¡Hola, mundo!” en JavaScript, en la consola de Firefox"
 dateDay: 2015-1-4
 date: 2015-01-04T07:07:43+00:00
-#Permalink: /wp/hola-mundo-en-javascript-en-la-consola-de-firefox.html
+#permalink: /wp/hola-mundo-en-javascript-en-la-consola-de-firefox.html
 categories: ["Sin Categoria"]
 ---
 

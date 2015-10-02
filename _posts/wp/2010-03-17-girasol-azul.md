@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Girasol Azul"
+title: "Girasol Azul"
 dateDay: 2010-3-17
 date: 2010-03-17T23:51:31+00:00
-#Permalink: /wp/girasol-azul.html
+#permalink: /wp/girasol-azul.html
 categories: ["Sin Categoria"]
 ---
 

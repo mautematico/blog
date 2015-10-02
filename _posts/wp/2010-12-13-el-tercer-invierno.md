@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "El tercer invierno"
+title: "El tercer invierno"
 dateDay: 2010-12-13
 date: 2010-12-13T17:00:17+00:00
-#Permalink: /wp/el-tercer-invierno.html
+#permalink: /wp/el-tercer-invierno.html
 categories: ["Cosas", "escuela", "fin de año", "finales", "invierno", "Mautematico", "Phineas and Ferb", "vacaciones"]
 ---
 

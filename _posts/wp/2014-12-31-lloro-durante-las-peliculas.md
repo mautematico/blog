@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Lloro durante las películas"
+title: "Lloro durante las películas"
 dateDay: 2014-12-31
 date: 2014-12-31T09:37:43+00:00
-#Permalink: /wp/lloro-durante-las-peliculas.html
+#permalink: /wp/lloro-durante-las-peliculas.html
 categories: ["Sin Categoria"]
 ---
 

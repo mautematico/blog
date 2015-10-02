@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Aventuras en Veracruj"
+title: "Aventuras en Veracruj"
 dateDay: 2011-5-31
 date: 2011-05-31T01:21:10+00:00
-#Permalink: /wp/aventuras-en-veracruj.html
+#permalink: /wp/aventuras-en-veracruj.html
 categories: ["cobaq", "Está Cañón", "Mis pasatiempos", "Profes", "programa", "Salir", "TV", "Yordi Rosado"]
 ---
 

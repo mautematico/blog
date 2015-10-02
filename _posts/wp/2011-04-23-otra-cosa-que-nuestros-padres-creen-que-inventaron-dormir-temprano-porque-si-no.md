@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Otra cosa que nuestros padres creen que inventaron: Dormir temprano (porque si no…)"
+title: "Otra cosa que nuestros padres creen que inventaron: Dormir temprano (porque si no…)"
 dateDay: 2011-4-23
 date: 2011-04-23T05:28:48+00:00
-#Permalink: /wp/otra-cosa-que-nuestros-padres-creen-que-inventaron-dormir-temprano-porque-si-no.html
+#permalink: /wp/otra-cosa-que-nuestros-padres-creen-que-inventaron-dormir-temprano-porque-si-no.html
 categories: ["computadora", "Dormir", "Mautematico", "Mis revoltosos pensamientos", "Padres", "personal", "Sueño"]
 ---
 

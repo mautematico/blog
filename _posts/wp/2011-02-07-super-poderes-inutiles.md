@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Super poderes inútiles"
+title: "Super poderes inútiles"
 dateDay: 2011-2-7
 date: 2011-02-07T22:45:13+00:00
-#Permalink: /wp/super-poderes-inutiles.html
+#permalink: /wp/super-poderes-inutiles.html
 categories: ["chiste", "Cosas", "el hombre araña", "humor", "imagen", "internet", "inútil", "Mautematico", "Mis pasatiempos", "Mis revoltosos pensamientos", "ocio", "Sueños", "super", "superpoderes"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Cuidado, porque muerden"
+title: "Cuidado, porque muerden"
 dateDay: 2010-4-26
 date: 2010-04-26T21:21:58+00:00
-#Permalink: /wp/cuidado-porque-muerden.html
+#permalink: /wp/cuidado-porque-muerden.html
 categories: ["10", "amigos", "matemáticas", "nacional", "olimpiada", "ONMAS", "recuerdos"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Veintiuno"
+title: "Veintiuno"
 dateDay: 2014-6-9
 date: 2014-06-09T05:54:33+00:00
-#Permalink: /wp/veintiuno.html
+#permalink: /wp/veintiuno.html
 categories: ["Sin Categoria"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "ForoBeta, donde siempre mejoramos, sortea 1000+ USD"
+title: "ForoBeta, donde siempre mejoramos, sortea 1000+ USD"
 dateDay: 2011-10-1
 date: 2011-10-01T03:52:17+00:00
-#Permalink: /wp/forobeta-donde-siempre-mejoramos-sortea-1000-usd.html
+#permalink: /wp/forobeta-donde-siempre-mejoramos-sortea-1000-usd.html
 categories: ["Sin Categoria"]
 ---
 

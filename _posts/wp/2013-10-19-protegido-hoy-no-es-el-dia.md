@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Protegido: Hoy no es el día"
+title: "Protegido: Hoy no es el día"
 dateDay: 2013-10-19
 date: 2013-10-19T04:32:11+00:00
-#Permalink: /wp/protegido-hoy-no-es-el-dia.html
+#permalink: /wp/protegido-hoy-no-es-el-dia.html
 categories: ["Mautematico", "Miss.G"]
 ---
 

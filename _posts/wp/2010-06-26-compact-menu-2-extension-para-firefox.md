@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Compact Menu 2, Extensión para Firefox"
+title: "Compact Menu 2, Extensión para Firefox"
 dateDay: 2010-6-26
 date: 2010-06-26T23:39:00+00:00
-#Permalink: /wp/compact-menu-2-extension-para-firefox.html
+#permalink: /wp/compact-menu-2-extension-para-firefox.html
 categories: ["espacio", "Firefox", "internet", "menú", "plugins"]
 ---
 

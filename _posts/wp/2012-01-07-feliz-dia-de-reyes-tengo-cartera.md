@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Feliz día de reyes: ¡Tengo cartera!"
+title: "Feliz día de reyes: ¡Tengo cartera!"
 dateDay: 2012-1-7
 date: 2012-01-07T09:17:56+00:00
-#Permalink: /wp/feliz-dia-de-reyes-tengo-cartera.html
+#permalink: /wp/feliz-dia-de-reyes-tengo-cartera.html
 categories: ["billetera", "cartera", "enero", "Mautematico", "Mis revoltosos pensamientos", "personal", "regalos", "reyes"]
 ---
 

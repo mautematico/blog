@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Sí, somos pequeños"
+title: "Sí, somos pequeños"
 dateDay: 2010-4-27
 date: 2010-04-27T00:38:38+00:00
-#Permalink: /wp/si-somos-pequenos.html
+#permalink: /wp/si-somos-pequenos.html
 categories: ["Sin Categoria"]
 ---
 

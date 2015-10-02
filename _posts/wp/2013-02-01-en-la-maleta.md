@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "En la maleta"
+title: "En la maleta"
 dateDay: 2013-2-1
 date: 2013-02-01T05:04:17+00:00
-#Permalink: /wp/en-la-maleta.html
+#permalink: /wp/en-la-maleta.html
 categories: ["Sin Categoria"]
 ---
 

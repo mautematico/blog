@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Ubuntu 10.10 vía correo (tradicional)"
+title: "Ubuntu 10.10 vía correo (tradicional)"
 dateDay: 2011-3-9
 date: 2011-03-09T04:08:48+00:00
-#Permalink: /wp/ubuntu-10-10-via-correo-tradicional.html
+#permalink: /wp/ubuntu-10-10-via-correo-tradicional.html
 categories: ["Canonical", "CD", "Computadoras", "correo", "gratis", "internet", "personal", "Ubuntu"]
 ---
 

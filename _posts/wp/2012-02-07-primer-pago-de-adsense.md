@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Primer pago de Adsense"
+title: "Primer pago de Adsense"
 dateDay: 2012-2-7
 date: 2012-02-07T05:49:33+00:00
-#Permalink: /wp/primer-pago-de-adsense.html
+#permalink: /wp/primer-pago-de-adsense.html
 categories: ["Adsense", "creepypastas", "Dinero", "Mautematico", "Mis pasatiempos", "negocios", "pago"]
 ---
 

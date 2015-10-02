@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Hoy no hay hamburguesas"
+title: "Hoy no hay hamburguesas"
 dateDay: 2010-2-18
 date: 2010-02-18T05:21:42+00:00
-#Permalink: /wp/hoy-no-hay-hamburguesas.html
+#permalink: /wp/hoy-no-hay-hamburguesas.html
 categories: ["Sin Categoria"]
 ---
 

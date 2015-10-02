@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Luz de sobra"
+title: "Luz de sobra"
 dateDay: 2015-5-2
 date: 2015-05-02T04:59:14+00:00
-#Permalink: /wp/luz-de-sobra.html
+#permalink: /wp/luz-de-sobra.html
 categories: ["Sin Categoria"]
 ---
 

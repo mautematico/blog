@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Un año más, tan sólo un año más"
+title: "Un año más, tan sólo un año más"
 dateDay: 2010-2-11
 date: 2010-02-11T20:21:14+00:00
-#Permalink: /wp/un-ano-mas-tan-solo-un-ano-mas.html
+#permalink: /wp/un-ano-mas-tan-solo-un-ano-mas.html
 categories: ["Cosas"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Que tengas suertecita"
+title: "Que tengas suertecita"
 dateDay: 2013-6-9
 date: 2013-06-09T05:00:37+00:00
-#Permalink: /wp/que-tengas-suertecita.html
+#permalink: /wp/que-tengas-suertecita.html
 categories: ["Cosas", "Mautematico", "Miss.G"]
 ---
 

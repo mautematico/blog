@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "JustHost a prueba"
+title: "JustHost a prueba"
 dateDay: 2011-4-14
 date: 2011-04-14T14:48:16+00:00
-#Permalink: /wp/justhost-a-prueba.html
+#permalink: /wp/justhost-a-prueba.html
 categories: ["cambio", "competencia", "internet", "JustHost", "Mautematico", "pago", "premium"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Los barriles de la XXIV OMM"
+title: "Los barriles de la XXIV OMM"
 dateDay: 2011-1-14
 date: 2011-01-14T19:15:12+00:00
-#Permalink: /wp/los-barriles-de-la-xxiv-omm.html
+#permalink: /wp/los-barriles-de-la-xxiv-omm.html
 categories: ["BC", "despistado", "Ensenada", "matemáticas", "Mates", "ocio", "olimpiada", "olímpico", "OMM", "pregunta", "XXIV"]
 ---
 

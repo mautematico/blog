@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Google penaliza a CO.cc… ¡y de paso a Hitler!"
+title: "Google penaliza a CO.cc… ¡y de paso a Hitler!"
 dateDay: 2011-7-6
 date: 2011-07-06T20:41:33+00:00
-#Permalink: /wp/google-penaliza-a-co-cc-y-de-paso-a-hitler.html
+#permalink: /wp/google-penaliza-a-co-cc-y-de-paso-a-hitler.html
 categories: ["co.cc", "dominios", "Google", "gratis", "Hitler", "internet", "penalización"]
 ---
 
