@@ -14,6 +14,4 @@ Categories: ["10", "amigos", "matemáticas", "nacional", "olimpiada", "ONMAS", "
 <p>Jaja.. ya en serio: los nueve chicos (cuatro chicas y 5 chicos) que aparecen en la foto son los representantes de Querétaro para la etapa nacional de la <strong>10 ONMAS.</strong><br />
 Auunque sigue siendo para mí un misterio esa extraña y fascinante división por (entre xD) género, dejaré de fastidiarlos al menos de aquí a jueves (cuando los veré una vez más).</p>
 <p>Citando lo que en alguna ocasión dijo el profesor Roberto: <strong><em>&#8220;Échenle huevos, aunque el pan salga amarillo&#8221;</em>, muchachos =D</strong>.</p>
-{% codeblock %}
-<a title="Ver foto &quot;Cuidado, porque muerden&quot; en Flickr" href="http://www.flickr.com/photos/mautematico/4555796702/" target="_blank">También puedes ver la foto en Flickr [Clic]</a>
-{% endcodeblock %}
+<pre><a title="Ver foto &quot;Cuidado, porque muerden&quot; en Flickr" href="http://www.flickr.com/photos/mautematico/4555796702/" target="_blank">También puedes ver la foto en Flickr [Clic]</a></pre>
