@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Di Yei irá a la escuela"
-DateDay: 2015-1-14
-Date: 2015-01-14T01:34:16+00:00
+dateDay: 2015-1-14
+date: 2015-01-14T01:34:16+00:00
 #Permalink: /wp/di-yei-ira-a-la-escuela.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p>Desde el sábado que viene, y hasta nuevo aviso, Di Yei irá a la escuela cada sábado.</p>

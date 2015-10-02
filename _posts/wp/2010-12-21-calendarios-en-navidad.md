@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Calendarios en Navidad"
-DateDay: 2010-12-21
-Date: 2010-12-21T20:46:10+00:00
+dateDay: 2010-12-21
+date: 2010-12-21T20:46:10+00:00
 #Permalink: /wp/calendarios-en-navidad.html
-Categories: ["2010", "calendarios", "En Colón", "Mis revoltosos pensamientos", "navidad", "ocio", "pueblo", "regalos"]
+categories: ["2010", "calendarios", "En Colón", "Mis revoltosos pensamientos", "navidad", "ocio", "pueblo", "regalos"]
 ---
 
 <p>Durante mucho tiempo (bueno, varios -creo que menos de diecisiete-) años me he preguntado: ¿Porqué las personas piden calendarios en <em>ésta época </em>del año?&#8230; En realidad, no son todas las personas, pero sí una buena parte de las que compran cosas en algunas tiendas, lo peor es que suelen hacerlo de forma indiscriminada: tanto a tiendas grandes como a pequeñas.</p>

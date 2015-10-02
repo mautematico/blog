@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "JustHost a prueba"
-DateDay: 2011-4-14
-Date: 2011-04-14T14:48:16+00:00
+dateDay: 2011-4-14
+date: 2011-04-14T14:48:16+00:00
 #Permalink: /wp/justhost-a-prueba.html
-Categories: ["cambio", "competencia", "internet", "JustHost", "Mautematico", "pago", "premium"]
+categories: ["cambio", "competencia", "internet", "JustHost", "Mautematico", "pago", "premium"]
 ---
 
 <blockquote><p>No soy, ni de lejos, el juez pesadilla para JustHost, seguramente mis blogs no exijan demasiado a lo que promete ser mi hosting para la vida. Pero no me importa! De todos modos, para mí es noticia, y de vez en vez comparto los aconteceres de mi vida, así que&#8230;</p></blockquote>

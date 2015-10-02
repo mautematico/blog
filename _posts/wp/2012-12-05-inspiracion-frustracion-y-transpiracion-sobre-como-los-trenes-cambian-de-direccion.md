@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Inspiración, frustración y transpiración: Sobre como los trenes cambian de dirección"
-DateDay: 2012-12-5
-Date: 2012-12-05T01:29:48+00:00
+dateDay: 2012-12-5
+date: 2012-12-05T01:29:48+00:00
 #Permalink: /wp/inspiracion-frustracion-y-transpiracion-sobre-como-los-trenes-cambian-de-direccion.html
-Categories: ["Mautematico", "tren"]
+categories: ["Mautematico", "tren"]
 ---
 
 <p style="text-align: justify;">En un martes al azar, como en cualquier otro, uno puede elegir entre ver una serie <em>hot</em> y hacer algo importante. Hoy decidí hacer ambas, aunque en tiempos distintos. Me resulta curioso mencionarlo, porque a estas horas del día no he concluído ninguna.</p>

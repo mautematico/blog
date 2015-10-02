@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Mí día de Ayer"
-DateDay: 2010-7-10
-Date: 2010-07-10T22:49:40+00:00
+dateDay: 2010-7-10
+date: 2010-07-10T22:49:40+00:00
 #Permalink: /wp/mi-dia-de-ayer.html
-Categories: ["ayer", "Cosas", "Día", "emociones", "Mis revoltosos pensamientos"]
+categories: ["ayer", "Cosas", "Día", "emociones", "Mis revoltosos pensamientos"]
 ---
 
 <p>Sí. No se me ocurrió un título más descriptivo para el post de hoy. La verdad es que ni siquiera iba a haber post de hoy, bueno, en realidad, sí iba a haberlo. Sería de Frets on Fire. Finalmente decidí este título, pues es lo que pretendo que trate el escrito que (algunos) están a punto de leer.</p>

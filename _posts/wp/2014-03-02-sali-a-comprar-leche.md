@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Salí a comprar leche"
-DateDay: 2014-3-2
-Date: 2014-03-02T23:19:44+00:00
+dateDay: 2014-3-2
+date: 2014-03-02T23:19:44+00:00
 #Permalink: /wp/sali-a-comprar-leche.html
-Categories: ["Miss.G", "Sin Categoria"]
+categories: ["Miss.G", "Sin Categoria"]
 ---
 
 <p style="text-align: justify;">Ayer (a eso de las 19 horas) llegué a sentir que se me saldría el corazón, que saltaría fuera de mi pecho y explotaría en un millón de pedazos. Las manos me temblaron y la lengua se me travó. Una hora después, mi corazón seguía en su lugar y mi lengua y mis manos ya no tenían inconvenientes con la realidad.<br />

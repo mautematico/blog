@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Protegido: Hoy no es el día"
-DateDay: 2013-10-19
-Date: 2013-10-19T04:32:11+00:00
+dateDay: 2013-10-19
+date: 2013-10-19T04:32:11+00:00
 #Permalink: /wp/protegido-hoy-no-es-el-dia.html
-Categories: ["Mautematico", "Miss.G"]
+categories: ["Mautematico", "Miss.G"]
 ---
 
 <form action="http://blog.mautematico.com/wp-login.php?action=postpass" class="post-password-form" method="post">

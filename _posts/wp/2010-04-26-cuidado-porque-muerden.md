@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Cuidado, porque muerden"
-DateDay: 2010-4-26
-Date: 2010-04-26T21:21:58+00:00
+dateDay: 2010-4-26
+date: 2010-04-26T21:21:58+00:00
 #Permalink: /wp/cuidado-porque-muerden.html
-Categories: ["10", "amigos", "matemáticas", "nacional", "olimpiada", "ONMAS", "recuerdos"]
+categories: ["10", "amigos", "matemáticas", "nacional", "olimpiada", "ONMAS", "recuerdos"]
 ---
 
 <div style="float: right; margin-left: 10px; margin-bottom: 10px;">

@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "De que se trata el juego de la primitiva, y como jugarlo gratis en Internet"
-DateDay: 2011-5-11
-Date: 2011-05-11T20:52:38+00:00
+dateDay: 2011-5-11
+date: 2011-05-11T20:52:38+00:00
 #Permalink: /wp/de-que-se-trata-el-juego-de-la-primitiva-y-como-jugarlo-gratis-en-internet.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p>En el mundo hay diferentes sorteos, de varios tipos, precios y premios. En España hay, entre otros, uno que se conoce como &#8220;la primitiva&#8221;, más o menos comparable con los sorteos o quinielas que hay en México como Melate y Súper loto.</p>

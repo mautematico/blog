@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Firefox OS en Ideas Disruptivas [2013]"
-DateDay: 2014-3-22
-Date: 2014-03-22T22:01:14+00:00
+dateDay: 2014-3-22
+date: 2014-03-22T22:01:14+00:00
 #Permalink: /wp/firefox-os-en-ideas-disruptivas-2013.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <h4>Como ya es tradición,</h4>

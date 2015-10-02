@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "El tercer invierno"
-DateDay: 2010-12-13
-Date: 2010-12-13T17:00:17+00:00
+dateDay: 2010-12-13
+date: 2010-12-13T17:00:17+00:00
 #Permalink: /wp/el-tercer-invierno.html
-Categories: ["Cosas", "escuela", "fin de año", "finales", "invierno", "Mautematico", "Phineas and Ferb", "vacaciones"]
+categories: ["Cosas", "escuela", "fin de año", "finales", "invierno", "Mautematico", "Phineas and Ferb", "vacaciones"]
 ---
 
 <p>Puede que se me vuelva una costumbre escribir por aquí una nota al inicio de mis vacaciones de invierno, tal vez es solamente que las ideas que tengo para escribir últimamente <em>no me agradan</em>, la verdad no lo se. Pero este es (si mis recuerdos no están tan retorcidos) el tercer invierno al que he sobrevivido desde emm.. desde hace tres inviernos! -Aunque no hay un post sobre lo que sería ese <em>primer invierno</em> sino hasta que regresé a clases, allá por enero o febrero del 2009<em>-</em></p>

@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Un año más, tan sólo un año más"
-DateDay: 2010-2-11
-Date: 2010-02-11T20:21:14+00:00
+dateDay: 2010-2-11
+date: 2010-02-11T20:21:14+00:00
 #Permalink: /wp/un-ano-mas-tan-solo-un-ano-mas.html
-Categories: ["Cosas"]
+categories: ["Cosas"]
 ---
 
 <p>Es así como se pasa un año!&#8230; wuau, increible&#8230;</p>

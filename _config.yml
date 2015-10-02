@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           /:year/:title.html
-relative_permalinks: true
+relative_permalinks: false
 
 # Setup
 title:               El rincón de mautemático
@@ -34,3 +34,4 @@ github:
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate

@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "“¡Hola, mundo!” en JavaScript, en la consola de Firefox"
-DateDay: 2015-1-4
-Date: 2015-01-04T07:07:43+00:00
+dateDay: 2015-1-4
+date: 2015-01-04T07:07:43+00:00
 #Permalink: /wp/hola-mundo-en-javascript-en-la-consola-de-firefox.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p>En el trozo de espacio-tiempo en que me encuentro al escribir esto, los pasos que intentaré describir a continuación suelen dar <em>vida</em> a pequeños monstruos, en sí mismos inofensivos, pero no por eso triviales. De hecho, cuentan las leyendas que monstruos temibles, atroces, feroces y hasta molestos han sido resultado de un proceso natural de evolución y mutaciones de pequeños y tiernos monstruos, como esos a los que me referí en primer lugar.</p>

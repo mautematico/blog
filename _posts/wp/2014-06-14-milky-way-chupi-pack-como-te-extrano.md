@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Milky Way Chupi-pack, ¡cómo te extraño!"
-DateDay: 2014-6-14
-Date: 2014-06-14T08:30:54+00:00
+dateDay: 2014-6-14
+date: 2014-06-14T08:30:54+00:00
 #Permalink: /wp/milky-way-chupi-pack-como-te-extrano.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p style="text-align: justify;">Estaba sólo. Las luces apagadas y la casa prácticamente vacía, hasta que la vecina llegó (y acompañada). Para entonces yo ya había buscado conversación con Jennifer, una chica que es tan fuerte como Sansón y tan bonita como&#8230; ¡Muy bonita!</p>

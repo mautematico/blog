@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Sí, somos pequeños"
-DateDay: 2010-4-27
-Date: 2010-04-27T00:38:38+00:00
+dateDay: 2010-4-27
+date: 2010-04-27T00:38:38+00:00
 #Permalink: /wp/si-somos-pequenos.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p>Me dieron ganas de cambiar (nuevamente) el template (la plantilla) del blog, pero es que, con tantas que hay, y lo dificil (indesiso) que soy, no me decidía por uno&#8230; Al fin me topé con el que está puesto ahora (<a title="Jambo - By Simplethemes" href="http://www.simplethemes.com/jambo-wordpress-theme.html" target="_blank">Jambo</a>), aunque con lo caprichoso que soy puede que lo cambie de nuevo&#8230;</p>

@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Luz de sobra"
-DateDay: 2015-5-2
-Date: 2015-05-02T04:59:14+00:00
+dateDay: 2015-5-2
+date: 2015-05-02T04:59:14+00:00
 #Permalink: /wp/luz-de-sobra.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p><span lang=""><strong>Xáni t&#8217;íntskua </strong></span></p>

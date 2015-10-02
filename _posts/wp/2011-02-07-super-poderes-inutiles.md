@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Super poderes inútiles"
-DateDay: 2011-2-7
-Date: 2011-02-07T22:45:13+00:00
+dateDay: 2011-2-7
+date: 2011-02-07T22:45:13+00:00
 #Permalink: /wp/super-poderes-inutiles.html
-Categories: ["chiste", "Cosas", "el hombre araña", "humor", "imagen", "internet", "inútil", "Mautematico", "Mis pasatiempos", "Mis revoltosos pensamientos", "ocio", "Sueños", "super", "superpoderes"]
+categories: ["chiste", "Cosas", "el hombre araña", "humor", "imagen", "internet", "inútil", "Mautematico", "Mis pasatiempos", "Mis revoltosos pensamientos", "ocio", "Sueños", "super", "superpoderes"]
 ---
 
 <p style="text-align: justify;">Tengo que admitirlo: fui niño (aún lo soy) y, como tal, he soñado con tener super poderes, por mi mente han pasado cosas que vi en la tele o que me imaginé&#8230;</p>

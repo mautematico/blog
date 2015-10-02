@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "En la maleta"
-DateDay: 2013-2-1
-Date: 2013-02-01T05:04:17+00:00
+dateDay: 2013-2-1
+date: 2013-02-01T05:04:17+00:00
 #Permalink: /wp/en-la-maleta.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p class="note" style="text-align: right;margin-top:33px;">Originalmente escribiría esto el domingo 20 o el lunes 21 de enero (de 2013). La inspiración no llegó.<br />
