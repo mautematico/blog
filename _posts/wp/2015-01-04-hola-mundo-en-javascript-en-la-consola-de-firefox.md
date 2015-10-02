@@ -35,9 +35,9 @@ Categories: ["Sin Categoria"]
 <p>Típicamente la consola hará un espacio a la derecha (»») de la pantalla para colocarse en él. La Consola Web viene acompañada de varios amigos, a quienes espero tener el placer de presentarte en otra ocasión. Por ahora:</p>
 <p>¡Consola del futuro, <em>anónimo y estimado internauta del futuro</em>, os presento!</p>
 <p>Consola no es en realidad un editor de texto, pero será un excelente auxiliar para la misión que me encomendaron encomendarte. Escribe en ella el siguiente código, y al final <em>mándalo</em>, con la tecla enter/intro/return/retorno de carro:</p>
-{% codeblock %}
+<pre class="brush: jscript; title: ; notranslate">
 alert(&quot;¡Hola, mundo!&quot;);
-{% endcodeblock %}
+</pre>
 <p>El resultado, como te prometí, suele ser un pequeño y tierno monstruo como el que te muestro a continuación:</p>
 <figure style="width: 587px;" class="wp-caption aligncenter"><img src="http://blog.mautematico.com/wp-content/uploads/2015/01/javascript-alert-consola1.png" alt="" width="587" height="334" /><figcaption class="wp-caption-text">Figura 2: Ventana emergente mostrando el texto &#8220;¡Hola, mundo!&#8221;, como se indica en la Consola Web</figcaption></figure>
 <p><em>Et voilá</em>, ¡ya has programado algo &#8211;no mucho- en JavaScript!</p>
@@ -48,7 +48,7 @@ alert(&quot;¡Hola, mundo!&quot;);
 <p>Te advierto que en aquel post no recomendé ningun compilador. Ahora te recomiendo CodeBlocks, que puedes descargar en un paquete junto con <em>gcc</em> y <em>g++ </em>(que son los compiladores que te recomiendo).</p>
 <p>Bonus 2 (zona de riesgo):</p>
 <p>Si tecleas al azar (incluyendo la tecla para borrar) infinitamente, la probabilidad de que en algún momento obtengas el siguiente código es 1 (100%):</p>
-{% codeblock %}
+<pre class="brush: jscript; title: ; notranslate">
 while(true) alert(&quot;dsda&quot;);
-{% endcodeblock %}
+</pre>
 <p>Código que suele dar vida a más monstruos. ¡No lo ejecutes!</p>

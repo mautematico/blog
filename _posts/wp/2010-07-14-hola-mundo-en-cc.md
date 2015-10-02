@@ -13,16 +13,16 @@ La <a title="OMI" href="http://www.olimpiadadeinformatica.org.mx/" target="_blan
 <p>De manera técnica, no tengo mucho que contarles de C/C++, lo que sí se es que con ellos (C++ es una extensión de C) puedes programar practicamente cualquier cosa, desde un simple &#8220;Hola Mundo&#8221; portable a varias plataformas, hasta un complejo sistema operativo completo!&#8230; Víctor (VicOMM) se molestará si no menciono que Cplusplus está orientado a la manipulación de objetos, aunque yo no estoy bien enterado de eso porque a penas se muy poco&#8230;</p>
 <p>Bueno, basta ya, les mostraré un par de códigos para imprimir a la pantalla &#8220;Hola mundo&#8221;</p>
 <p>El siguiente código, escrito en C, imprime a la pantalla el clásico mensaje &#8220;Hola mundo&#8221;, y termina su ejecución:</p>
-{% codeblock %}
+<pre class="brush: cpp; title: ;">
 #include &lt;stdio.h&gt;
 int main()
 {
         printf(&quot;Hola mundo&quot;);
         return 0;
 }
-{% endcodeblock %}
+</pre>
 <p><span id="more-434"></span>Y el siguiente código hace lo mismo, pero usando las clases y librerías de C++:</p>
-{% codeblock %}
+<pre class="brush: cpp; title: ;">
 #include &lt;iostream&gt;
 using namespace std;
 int main()
@@ -30,4 +30,4 @@ int main()
     cout &lt;&lt; &quot;Hola Mundo&quot; &lt;&lt; endl;
     return 0;
 }
-{% endcodeblock %}
+</pre>

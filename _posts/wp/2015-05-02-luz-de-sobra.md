@@ -41,6 +41,4 @@ ampe úrakueski anti?</p>
 <div></div>
 <div>¿Para qué tanta luz?</div>
 <div></div>
-{% codeblock %}
-Ismael García Marcelino
-{% endcodeblock %}
+<pre style="text-align: right;">Ismael García Marcelino</pre>

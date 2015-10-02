@@ -7,9 +7,7 @@ Date: 2014-06-09T05:54:33+00:00
 Categories: ["Sin Categoria"]
 ---
 
-{% codeblock %}
-<span style="color: #c0c0c0;">Éste es uno de esos días en que escribo en buena medida para mi, y más valdría escribir en privado. Éste es uno de esos escritos improvisados que deberían estar en mi libreta chida de las notas y no en mi súperpopular blog chidísimo. Hoy es cumpleaños de alguien.</span>
-{% endcodeblock %}
+<pre><span style="color: #c0c0c0;">Éste es uno de esos días en que escribo en buena medida para mi, y más valdría escribir en privado. Éste es uno de esos escritos improvisados que deberían estar en mi libreta chida de las notas y no en mi súperpopular blog chidísimo. Hoy es cumpleaños de alguien.</span></pre>
 <p>Es la edad a la que puedes comprar alcohol legalmente en Estados Unidos de América. En algunos otros países (México, por ejemplo) disminuye hasta 18 (que es el cumpleaños de Luz, no lo olvido). Si lo piensas un poco, de hecho es curioso que en EUA puedes aparecer en una porno a los 18, pero para comprar alcohol legalmente debes esperar hasta los 21.</p>
 <p>También es 21 la mitad de <i>la respuesta a la vida, el universo y todo lo demás.</i> Una vez conocido este hecho (y aceptado como tal), no es sorpresa que 21 sea el noveno número de Fibonacci, y menos todavía que sea el sexto número triangular. Además ocupa el lugar número 13 en la secuencia de Padovan.</p>
 <p>Hay películas con 21 en el nombre, y yo conozco dos: 21 Blackjack y 21 gramos. Luego están canciones como 21 guns, y el siglo actual (contando desde donde nos convenga contar).</p>

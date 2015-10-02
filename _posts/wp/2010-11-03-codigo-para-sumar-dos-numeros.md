@@ -9,7 +9,7 @@ Categories: ["C", "C/C++", "compilar", "enteros", "Mates", "ocio", "programa", "
 
 <blockquote><p>Dos posts seguidos sobre el mismo tema? :S&#8230; creo que le han absorbido las ideas a mi cabeza!&#8230; </p></blockquote>
 <p>Hoy, pretendiendo que éste sea un post simple, voy a presentarles un código simple: uno en C++ que suma dos números dados por el usuario (a y b). AH!.. números enteros:</p>
-{% codeblock %}
+<pre class="brush: cpp; title: ;">
 #include &lt;iostream&gt;	//Libreria requerida para usar cin y cout
 using namespace std;	//instruccion para el uso de cin y cout
 int a,b;		//definimos dos variables de tipo int (integer=entero)
@@ -22,7 +22,7 @@ cout&lt;&lt;endl&lt;&lt;a+b&lt;&lt;endl;	//imprimimos un salto de linea (endl), 
 //    system(&quot;PAUSE&quot;);
     return 0;
 }
-{% endcodeblock %}
+</pre>
 <p>Por si se lo preguntan, hay que compilarlo.<br />
 Pueden compilarlo desde terminal/consola, pero en caso que estén en:<br />
 Linux o MacOS: Pueden usar algo como <a href="http://www.codeblocks.org">CodeBlocks</a><br />
