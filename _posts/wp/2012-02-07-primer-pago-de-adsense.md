@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Primer pago de Adsense"
-DateDay: 2012-2-7
-Date: 2012-02-07T05:49:33+00:00
+dateDay: 2012-2-7
+date: 2012-02-07T05:49:33+00:00
 #Permalink: /wp/primer-pago-de-adsense.html
-Categories: ["Adsense", "creepypastas", "Dinero", "Mautematico", "Mis pasatiempos", "negocios", "pago"]
+categories: ["Adsense", "creepypastas", "Dinero", "Mautematico", "Mis pasatiempos", "negocios", "pago"]
 ---
 
 <p style="text-align: justify;">Sí. El año que terminó fue número primo, este año hay elecciones federales (quizás las más importantes en la historia de México), ya soy mayor de edad, pronto iré a la universidad, en diciembre el mundo se va a acabar&#8230; Y soy capaz de escribir, para inaugurar mi año bloggero: <strong><em>&#8220;Recibí mi primer pago de Google Adsense&#8221;</em></strong>. Así soy yo.</p>

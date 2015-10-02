@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Compact Menu 2, Extensión para Firefox"
-DateDay: 2010-6-26
-Date: 2010-06-26T23:39:00+00:00
+dateDay: 2010-6-26
+date: 2010-06-26T23:39:00+00:00
 #Permalink: /wp/compact-menu-2-extension-para-firefox.html
-Categories: ["espacio", "Firefox", "internet", "menú", "plugins"]
+categories: ["espacio", "Firefox", "internet", "menú", "plugins"]
 ---
 
 <p><img class="alignright" style="border: 0pt none; margin: 3px;" src="http://blog.mautematico.com/wp-content/uploads/2010/06/Compact-Menu-2.png" border="0" alt="" align="RIGHT" />Ya platicamos un poco sobre Mozilla Firefox, un navegador libre y multiplataforma que además soporta Extensiones.</p>

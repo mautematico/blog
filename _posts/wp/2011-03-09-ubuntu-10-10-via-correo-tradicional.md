@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Ubuntu 10.10 vía correo (tradicional)"
-DateDay: 2011-3-9
-Date: 2011-03-09T04:08:48+00:00
+dateDay: 2011-3-9
+date: 2011-03-09T04:08:48+00:00
 #Permalink: /wp/ubuntu-10-10-via-correo-tradicional.html
-Categories: ["Canonical", "CD", "Computadoras", "correo", "gratis", "internet", "personal", "Ubuntu"]
+categories: ["Canonical", "CD", "Computadoras", "correo", "gratis", "internet", "personal", "Ubuntu"]
 ---
 
 <p>Tal vez no les parezca ya tan tradicional el correo (que de hecho ahora hemos tenido que agregarle el calificativo para diferenciarlo del e-mail), sin embargo siempre le encontraremos alguna utilidad, ya sea en lo romántico o incluso en lo comercial.</p>

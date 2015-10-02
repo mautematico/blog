@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Girasol Azul"
-DateDay: 2010-3-17
-Date: 2010-03-17T23:51:31+00:00
+dateDay: 2010-3-17
+date: 2010-03-17T23:51:31+00:00
 #Permalink: /wp/girasol-azul.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p style="text-align: center;"><a class="lightbox" rel="prettyphoto" href="http://blog.mautematico.com/wp-content/uploads/2010/03/BASE93.gif"><img class="aligncenter" title="Girasol Azul" src="http://blog.mautematico.com/wp-content/uploads/2010/03/BASE93-300x253.gif" alt="Girasol Azul" width="300" height="253" /></a><br />

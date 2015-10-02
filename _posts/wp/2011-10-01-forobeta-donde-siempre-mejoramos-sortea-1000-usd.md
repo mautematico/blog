@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "ForoBeta, donde siempre mejoramos, sortea 1000+ USD"
-DateDay: 2011-10-1
-Date: 2011-10-01T03:52:17+00:00
+dateDay: 2011-10-1
+date: 2011-10-01T03:52:17+00:00
 #Permalink: /wp/forobeta-donde-siempre-mejoramos-sortea-1000-usd.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p>Justo al inicio del 2011 (sí, el 1º de enero), fue activada mi cuenta en <a href="http://forobeta.com/foro/65488-gran-concurso-de-forobeta-mas-de-1000-dolares-juego.html" target="_blank"><strong>ForoBeta</strong></a>, el más grande foro de bloggers/webmasters de habla hispana.</p>

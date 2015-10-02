@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Sopa de habas"
-DateDay: 2011-3-12
-Date: 2011-03-12T01:04:48+00:00
+dateDay: 2011-3-12
+date: 2011-03-12T01:04:48+00:00
 #Permalink: /wp/sopa-de-habas.html
-Categories: ["comida", "habas", "Mautematico", "Mis revoltosos pensamientos", "personal", "sopa", "vida"]
+categories: ["comida", "habas", "Mautematico", "Mis revoltosos pensamientos", "personal", "sopa", "vida"]
 ---
 
 <p>Hace algún tiempo dejé este borrador guardado por ahí, seguro que algún día me sentaría a escribir, al menos, más que solo el título. ¿No sabes de que hablo? Ni te aflijas, no hace falta que me entiendas el día de hoy.</p>

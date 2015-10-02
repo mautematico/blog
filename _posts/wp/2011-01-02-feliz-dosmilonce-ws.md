@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Feliz dosmilonce.ws"
-DateDay: 2011-1-2
-Date: 2011-01-02T22:17:16+00:00
+dateDay: 2011-1-2
+date: 2011-01-02T22:17:16+00:00
 #Permalink: /wp/feliz-dosmilonce-ws.html
-Categories: ["2011", "año nuevo", "Cosas", "Dosmilonce", "dosmilonce.co.cc", "dosmilonce.ws", "Mautematico", "Mis revoltosos pensamientos"]
+categories: ["2011", "año nuevo", "Cosas", "Dosmilonce", "dosmilonce.co.cc", "dosmilonce.ws", "Mautematico", "Mis revoltosos pensamientos"]
 ---
 
 <blockquote><p>Nuevo año, nueva actitud.</p></blockquote>

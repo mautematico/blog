@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Código para sumar dos números"
-DateDay: 2010-11-3
-Date: 2010-11-03T00:18:02+00:00
+dateDay: 2010-11-3
+date: 2010-11-03T00:18:02+00:00
 #Permalink: /wp/codigo-para-sumar-dos-numeros.html
-Categories: ["C", "C/C++", "compilar", "enteros", "Mates", "ocio", "programa", "Programación", "sencillo", "simple", "sumar", "variables"]
+categories: ["C", "C/C++", "compilar", "enteros", "Mates", "ocio", "programa", "Programación", "sencillo", "simple", "sumar", "variables"]
 ---
 
 <blockquote><p>Dos posts seguidos sobre el mismo tema? :S&#8230; creo que le han absorbido las ideas a mi cabeza!&#8230; </p></blockquote>

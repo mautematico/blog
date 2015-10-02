@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "La “realidad”, a menos que tus ojos sean de niño"
-DateDay: 2011-4-30
-Date: 2011-04-30T06:54:02+00:00
+dateDay: 2011-4-30
+date: 2011-04-30T06:54:02+00:00
 #Permalink: /wp/la-realidad-a-menos-que-tus-ojos-sean-de-nino.html
-Categories: ["Cosas"]
+categories: ["Cosas"]
 ---
 
 <p>Lo que sería mi segundo post en un día (14 de abril) terminó por ser un post del día del niño&#8230; jaja</p>

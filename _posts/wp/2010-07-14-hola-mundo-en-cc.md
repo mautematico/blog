@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "¡Hola Mundo! en C/C++"
-DateDay: 2010-7-14
-Date: 2010-07-14T00:35:34+00:00
+dateDay: 2010-7-14
+date: 2010-07-14T00:35:34+00:00
 #Permalink: /wp/hola-mundo-en-cc.html
-Categories: ["C/C++", "Código", "Programación", "simple"]
+categories: ["C/C++", "Código", "Programación", "simple"]
 ---
 
 <blockquote><p>El siguiente post es un borrador que dejé abandonado hace ya algún tiempo, con la idea en mente de publicar algunos códigos y problemas que he resuelto en lo que he logrado participar de la OMI :), ésta vez mostraré un par de códigos, uno en C y otro en C++, ambos imprimen &#8220;Hola Mundo&#8221; a la pantalla</p></blockquote>

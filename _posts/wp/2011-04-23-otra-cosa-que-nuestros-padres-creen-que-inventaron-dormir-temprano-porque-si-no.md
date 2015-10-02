@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Otra cosa que nuestros padres creen que inventaron: Dormir temprano (porque si no…)"
-DateDay: 2011-4-23
-Date: 2011-04-23T05:28:48+00:00
+dateDay: 2011-4-23
+date: 2011-04-23T05:28:48+00:00
 #Permalink: /wp/otra-cosa-que-nuestros-padres-creen-que-inventaron-dormir-temprano-porque-si-no.html
-Categories: ["computadora", "Dormir", "Mautematico", "Mis revoltosos pensamientos", "Padres", "personal", "Sueño"]
+categories: ["computadora", "Dormir", "Mautematico", "Mis revoltosos pensamientos", "Padres", "personal", "Sueño"]
 ---
 
 <p style="text-align: justify;"><a href="http://blog.mautematico.com/wp-content/uploads/2011/04/dormir.jpg"><img style="display: inline; margin-left: 0px; margin-right: 0px; border-width: 0px;" title="dormir" src="http://blog.mautematico.com/wp-content/uploads/2011/04/dormir_thumb.jpg" border="0" alt="dormir" width="277" height="331" align="left" /></a> Sentí ganas de levantarme e ir a hacer (deshacerme de, de hecho) pipi. Mientras me levantaba y dejaba la conversación con la <em><a href="http://ninazanahoria.blogspot.com/" target="_blank">Niña Zanahoria</a></em> a espera de una respuesta sobre su loco amor por mis palabras, a <em>Gabriel_Cabezón</em> meditando sobre un nuevo truco en la línea de comanDOS, y tomaba mi teléfono para contestar un mensaje a <em>Señorita.G</em>, escuché uno de los apagadores/prendedores (de luz) cercanos a mi habitación. (Seguramente) mi padre se aproximaba.</p>

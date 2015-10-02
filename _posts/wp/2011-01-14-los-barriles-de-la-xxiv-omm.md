@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Los barriles de la XXIV OMM"
-DateDay: 2011-1-14
-Date: 2011-01-14T19:15:12+00:00
+dateDay: 2011-1-14
+date: 2011-01-14T19:15:12+00:00
 #Permalink: /wp/los-barriles-de-la-xxiv-omm.html
-Categories: ["BC", "despistado", "Ensenada", "matemáticas", "Mates", "ocio", "olimpiada", "olímpico", "OMM", "pregunta", "XXIV"]
+categories: ["BC", "despistado", "Ensenada", "matemáticas", "Mates", "ocio", "olimpiada", "olímpico", "OMM", "pregunta", "XXIV"]
 ---
 
 <pre>Quiero advertir, antes de iniciar, que en el siguiente texto podria haber algo de humor <em>friki</em> o chistes locales, más o menos difundidos en las olimpiadas de Matemáticas, jamás con afán de ofender a alguien <img src=&#39;http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete+memes/wink.png&#39; alt=&#39;;)&#39; class=&#39;wp-smiley&#39; /> -si no entiendes o no te sientes identificado, no te agüites, es más o menos conocido que soy bien raro y a veces ni yo me entiendo -</pre>

@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Aventuras en Veracruj"
-DateDay: 2011-5-31
-Date: 2011-05-31T01:21:10+00:00
+dateDay: 2011-5-31
+date: 2011-05-31T01:21:10+00:00
 #Permalink: /wp/aventuras-en-veracruj.html
-Categories: ["cobaq", "Está Cañón", "Mis pasatiempos", "Profes", "programa", "Salir", "TV", "Yordi Rosado"]
+categories: ["cobaq", "Está Cañón", "Mis pasatiempos", "Profes", "programa", "Salir", "TV", "Yordi Rosado"]
 ---
 
 <p style="text-align: justify;">Ya se que casi siempre se escribe con z, y no con j. Pero este es mi blog, no tu blog, y con mi blog hago lo que yo quiera!  <img src=&#39;http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete+memes/cerealguy.png&#39; alt=&#39;:cerealguy:&#39; class=&#39;wp-smiley&#39; /> </p>

@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Nuevo Lookgle, Google con fondo"
-DateDay: 2010-6-11
-Date: 2010-06-11T01:25:29+00:00
+dateDay: 2010-6-11
+date: 2010-06-11T01:25:29+00:00
 #Permalink: /wp/nuevo-lookgle-google-con-fondo.html
-Categories: ["Doodles", "Fondo", "Google", "internet", "Logo", "Look"]
+categories: ["Doodles", "Fondo", "Google", "internet", "Logo", "Look"]
 ---
 
 <p style="text-align: center;"><img class="aligncenter" title="Google-con-fondo_pequenio" src="http://blog.mautematico.com/wp-content/uploads/2010/06/Google-con-fondo_pequenio.png" alt="Google con Fondo" width="256" height="154" /></p>

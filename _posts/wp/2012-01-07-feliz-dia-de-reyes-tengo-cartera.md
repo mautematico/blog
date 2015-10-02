@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Feliz día de reyes: ¡Tengo cartera!"
-DateDay: 2012-1-7
-Date: 2012-01-07T09:17:56+00:00
+dateDay: 2012-1-7
+date: 2012-01-07T09:17:56+00:00
 #Permalink: /wp/feliz-dia-de-reyes-tengo-cartera.html
-Categories: ["billetera", "cartera", "enero", "Mautematico", "Mis revoltosos pensamientos", "personal", "regalos", "reyes"]
+categories: ["billetera", "cartera", "enero", "Mautematico", "Mis revoltosos pensamientos", "personal", "regalos", "reyes"]
 ---
 
 <p>En varios aspectos personales, soy un caos, y eso no es secreto.</p>

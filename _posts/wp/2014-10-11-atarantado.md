@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Atarantado"
-DateDay: 2014-10-11
-Date: 2014-10-11T18:25:41+00:00
+dateDay: 2014-10-11
+date: 2014-10-11T18:25:41+00:00
 #Permalink: /wp/atarantado.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p>Ando menso, torpe.</p>

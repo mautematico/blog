@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Google penaliza a CO.cc… ¡y de paso a Hitler!"
-DateDay: 2011-7-6
-Date: 2011-07-06T20:41:33+00:00
+dateDay: 2011-7-6
+date: 2011-07-06T20:41:33+00:00
 #Permalink: /wp/google-penaliza-a-co-cc-y-de-paso-a-hitler.html
-Categories: ["co.cc", "dominios", "Google", "gratis", "Hitler", "internet", "penalización"]
+categories: ["co.cc", "dominios", "Google", "gratis", "Hitler", "internet", "penalización"]
 ---
 
 <p>Dejar de lado las cosas ñoñas es algo que no puedo. En serio, no puedo. Cada vez que lo intento, algo interesante resulta y termino haciendo algo ñoño.</p>

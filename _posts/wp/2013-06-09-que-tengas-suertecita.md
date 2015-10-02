@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Que tengas suertecita"
-DateDay: 2013-6-9
-Date: 2013-06-09T05:00:37+00:00
+dateDay: 2013-6-9
+date: 2013-06-09T05:00:37+00:00
 #Permalink: /wp/que-tengas-suertecita.html
-Categories: ["Cosas", "Mautematico", "Miss.G"]
+categories: ["Cosas", "Mautematico", "Miss.G"]
 ---
 
 <p>No podría hacerlo más trillado que si lo hiciera como lo hago: Dedicándote las palabras, la canción que tanto nos dedicamos en otras vidas. Así que me salvaré al final, haciendo trampa desagradablemente. <i>Stay tuned</i>.</p>

@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Veintiuno"
-DateDay: 2014-6-9
-Date: 2014-06-09T05:54:33+00:00
+dateDay: 2014-6-9
+date: 2014-06-09T05:54:33+00:00
 #Permalink: /wp/veintiuno.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <pre><span style="color: #c0c0c0;">Éste es uno de esos días en que escribo en buena medida para mi, y más valdría escribir en privado. Éste es uno de esos escritos improvisados que deberían estar en mi libreta chida de las notas y no en mi súperpopular blog chidísimo. Hoy es cumpleaños de alguien.</span></pre>

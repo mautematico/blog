@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Feliz año nuevo"
-DateDay: 2014-3-2
-Date: 2014-03-02T00:48:38+00:00
+dateDay: 2014-3-2
+date: 2014-03-02T00:48:38+00:00
 #Permalink: /wp/feliz-ano-nuevo.html
-Categories: ["Sin Categoria"]
+categories: ["Sin Categoria"]
 ---
 
 <p style="text-align: justify;">Un poco sin querer, he encontrado el pretexto perfecto. Ahora que lo he notado, me di cuenta que había estado esperando el día sin motivo aparente.</p>

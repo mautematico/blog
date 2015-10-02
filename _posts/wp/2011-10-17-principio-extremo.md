@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "Principio extremo"
-DateDay: 2011-10-17
-Date: 2011-10-17T16:50:50+00:00
+dateDay: 2011-10-17
+date: 2011-10-17T16:50:50+00:00
 #Permalink: /wp/principio-extremo.html
-Categories: ["extremo", "Mates", "olimpiada"]
+categories: ["extremo", "Mates", "olimpiada"]
 ---
 
 <p>Me gusta aprender cosas nuevas. En las olimpiadas (de Matemáticas, de Informática, Física y Química) he aprendido muchas de ellas: Algunas curiosas, algunas útiles, unas para compartir, y algunas nomás para presumir.</p>

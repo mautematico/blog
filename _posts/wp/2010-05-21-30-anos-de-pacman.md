@@ -1,10 +1,10 @@
 ---
-Layout: post
+layout: post
 Title: "30 años de Pacman"
-DateDay: 2010-5-21
-Date: 2010-05-21T18:01:15+00:00
+dateDay: 2010-5-21
+date: 2010-05-21T18:01:15+00:00
 #Permalink: /wp/30-anos-de-pacman.html
-Categories: ["aniversario", "Doodles", "Google", "internet", "juegos", "ocio", "Pacman"]
+categories: ["aniversario", "Doodles", "Google", "internet", "juegos", "ocio", "Pacman"]
 ---
 
 <p>Así que, la bolita amarilla cumple ya 30 años!&#8230; Cielos, ¡es más viejo que yo!</p>
