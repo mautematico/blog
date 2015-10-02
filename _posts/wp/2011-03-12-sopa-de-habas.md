@@ -1,0 +1,27 @@
+---
+Layout: post
+Title: "Sopa de habas"
+DateDay: 2011-3-12
+Date: 2011-03-12T01:04:48+00:00
+#Permalink: /wp/sopa-de-habas.html
+Categories: ["comida", "habas", "Mautematico", "Mis revoltosos pensamientos", "personal", "sopa", "vida"]
+---
+
+<p>Hace algún tiempo dejé este borrador guardado por ahí, seguro que algún día me sentaría a escribir, al menos, más que solo el título. ¿No sabes de que hablo? Ni te aflijas, no hace falta que me entiendas el día de hoy.</p>
+<p>Cerca del fin de las vacaciones de invierno pasadas, acepté una propuesta de lo que podría decirse que es mi primer <em>trabajo</em>: Instalar un sistema de punto de venta en una mercería, y hacer el inventario inicial (claro, la tarea de contar tooodos y cada uno de los listones y estambres se supone que no es mía, gracias a la cordura de la dueña <img class="wlEmoticon wlEmoticon-openmouthedsmile" style="border-style: none;" src="http://blog.mautematico.com/wp-content/uploads/2011/03/wlEmoticon-openmouthedsmile.png" alt="Risa" />).</p>
+<p>Lo del trabajo no es muy relevante el día de hoy. No viene al caso, pero de ahí surge el título del presente post <img class="wlEmoticon wlEmoticon-smile" style="border-style: none;" src="http://blog.mautematico.com/wp-content/uploads/2011/03/wlEmoticon-smile.png" alt="Sonrisa" />.</p>
+<p>&nbsp;</p>
+<p><em>(léase con la voz que Mauricio (yo) tendría a eso de los seis años, un casi típico niño norteamericano –pero, por fortuna, no estadounidense-, un pequeño criollo educado bajo la tutela de sus padres, ambos católicos).</em> <a href="http://blog.mautematico.com/wp-content/uploads/2011/03/sopa-de-habas.jpg"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px none -moz-use-text-color;" title="sopa-de-habas" src="http://blog.mautematico.com/wp-content/uploads/2011/03/sopa-de-habas_thumb.jpg" border="0" alt="sopa-de-habas" width="235" height="177" align="left" /></a>Desde pequeño, la comida no ha sido justamente el dolor de cabeza que he causado a mis padres. A pesar de los normales refunfuños que se me escapaban cuando una comida no me resultaba apetitosa, creo que era capaz de probar lo que mis padres trajeran a la mesa.</p>
+<p>Más de alguna vez me sentía <em>lleno</em>, o simplemente había cosas más interesantes por hacer que sentarse a comer calabazas sin quesito o carne <img class="wlEmoticon wlEmoticon-sadsmile" style="border-style: none;" src="http://blog.mautematico.com/wp-content/uploads/2011/03/wlEmoticon-sadsmile.png" alt="Triste" />.</p>
+<p>Ja! Incluso llegué a probar <em>rata de campo</em> asada en alguna ocasión que acompañé a papá y a sus amigos <em>disque al cerro</em>…</p>
+<p>Y que con eso? Es fácil. Mi gran enemigo, desde que puedo recordar, ha sido la sopa de habas (mamá la llama <em>caldo de habas</em>). Sí, y por la simple razón de que su aspecto me resulta incluso desagradable <img class="wlEmoticon wlEmoticon-sicksmile" style="border-style: none;" src="http://blog.mautematico.com/wp-content/uploads/2011/03/wlEmoticon-sicksmile.png" alt="Enfermo" />… Nooo!! Habas noo, por favor!</p>
+<p>En serio, más de alguna vez le supliqué a mi mami que no me hiciera comer habas. Algunas veces prefería comer frijoles, otras no comer.</p>
+<p>En casa me enseñaron que la comida no se tira. Si te lo sirves, te lo comes (suerte que a veces lograba evitar las habas en mi plato jeje)</p>
+<p>&nbsp;</p>
+<p>Ah!! Pero estaba en mi trabajo. Uno de los primeros días, era la hora de comer, entonces <strong><em>Toña</em></strong> fue por un par de platos de comida, uno para <strong><em>Lupe</em></strong> y otro para mi (seguramente ella había comido en su casa, que está relativamente cerca del lugar). La orden incluye un guiso (carne, casi siempre), un vaso de agua, tortillas.. <strong>¡Y SOPA!</strong> No jodas, escuché a Toña responder la pregunta de Lupe con un “Creo que la de hoy es sopa de habas”</p>
+<p>Oh sí, imagínate mi expresión <img class="wlEmoticon wlEmoticon-disappointedsmile" style="border-style: none;" src="http://blog.mautematico.com/wp-content/uploads/2011/03/wlEmoticon-disappointedsmile.png" alt="Decepcionado" /> jaja. Pero, soy un hombre fuerte, una sopita no iba a detenerme!</p>
+<p>Al final, me animé a probarla: Lo peor que puede pasar es que siga sin gustarme. Además, esta no tiene el clásico toque de mamá (ella suele hervir y hervir las habas hasta que practicamente se hacen polvo ellas solas… un día le dije que parecían popo de pollo <img class="wlEmoticon wlEmoticon-embarrassedsmile" style="border-style: none;" src="http://blog.mautematico.com/wp-content/uploads/2011/03/wlEmoticon-embarrassedsmile.png" alt="Ruborizado" />). Una cucharadita y… <strong>¡MANGOS!</strong></p>
+<p>Sopita caliente y crujiente… no mames, me gustó! <img class="wlEmoticon wlEmoticon-openmouthedsmile" style="border-style: none;" src="http://blog.mautematico.com/wp-content/uploads/2011/03/wlEmoticon-openmouthedsmile.png" alt="Risa" />.</p>
+<p>&nbsp;</p>
+<p>¡Sí, señor! Cuando mamá prepare su caldo de habas, lo comeré <img class="wlEmoticon wlEmoticon-smile" style="border-style: none;" src="http://blog.mautematico.com/wp-content/uploads/2011/03/wlEmoticon-smile.png" alt="Sonrisa" />. De todos modos ya le conté cual es la diferencia entre su caldo y la sopa que probé jeje.</p>
+<p><span style="font-size: xx-small;">(P.D: aay wey… todavia me da asco esa foto jajaja… –no se como le hice para probar la crema de elote y la de champiñones jaja-)</span></p>
