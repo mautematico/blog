@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Calendarios en Navidad"
+title: "Calendarios en Navidad"
 dateDay: 2010-12-21
 date: 2010-12-21T20:46:10+00:00
-#Permalink: /wp/calendarios-en-navidad.html
+#permalink: /wp/calendarios-en-navidad.html
 categories: ["2010", "calendarios", "En Colón", "Mis revoltosos pensamientos", "navidad", "ocio", "pueblo", "regalos"]
 ---
 

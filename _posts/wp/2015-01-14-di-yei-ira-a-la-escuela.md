@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Di Yei irá a la escuela"
+title: "Di Yei irá a la escuela"
 dateDay: 2015-1-14
 date: 2015-01-14T01:34:16+00:00
-#Permalink: /wp/di-yei-ira-a-la-escuela.html
+#permalink: /wp/di-yei-ira-a-la-escuela.html
 categories: ["Sin Categoria"]
 ---
 

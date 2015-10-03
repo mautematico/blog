@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Sopa de habas"
+title: "Sopa de habas"
 dateDay: 2011-3-12
 date: 2011-03-12T01:04:48+00:00
-#Permalink: /wp/sopa-de-habas.html
+#permalink: /wp/sopa-de-habas.html
 categories: ["comida", "habas", "Mautematico", "Mis revoltosos pensamientos", "personal", "sopa", "vida"]
 ---
 

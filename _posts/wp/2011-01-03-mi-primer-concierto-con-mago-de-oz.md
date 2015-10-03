@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Mi primer concierto: Con Mägo de Oz"
+title: "Mi primer concierto: Con Mägo de Oz"
 dateDay: 2011-1-3
 date: 2011-01-03T18:41:16+00:00
-#Permalink: /wp/mi-primer-concierto-con-mago-de-oz.html
+#permalink: /wp/mi-primer-concierto-con-mago-de-oz.html
 categories: ["2011", "año nuevo", "Mägo", "mago de oz", "Mis pasatiempos", "Mis revoltosos pensamientos", "Música", "Sueños"]
 ---
 

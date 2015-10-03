@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "30 años de Pacman"
+title: "30 años de Pacman"
 dateDay: 2010-5-21
 date: 2010-05-21T18:01:15+00:00
-#Permalink: /wp/30-anos-de-pacman.html
+#permalink: /wp/30-anos-de-pacman.html
 categories: ["aniversario", "Doodles", "Google", "internet", "juegos", "ocio", "Pacman"]
 ---
 

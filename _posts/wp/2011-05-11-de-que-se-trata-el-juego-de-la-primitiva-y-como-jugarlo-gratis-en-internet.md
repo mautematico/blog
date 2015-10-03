@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "De que se trata el juego de la primitiva, y como jugarlo gratis en Internet"
+title: "De que se trata el juego de la primitiva, y como jugarlo gratis en Internet"
 dateDay: 2011-5-11
 date: 2011-05-11T20:52:38+00:00
-#Permalink: /wp/de-que-se-trata-el-juego-de-la-primitiva-y-como-jugarlo-gratis-en-internet.html
+#permalink: /wp/de-que-se-trata-el-juego-de-la-primitiva-y-como-jugarlo-gratis-en-internet.html
 categories: ["Sin Categoria"]
 ---
 

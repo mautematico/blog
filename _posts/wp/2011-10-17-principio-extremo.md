@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Principio extremo"
+title: "Principio extremo"
 dateDay: 2011-10-17
 date: 2011-10-17T16:50:50+00:00
-#Permalink: /wp/principio-extremo.html
+#permalink: /wp/principio-extremo.html
 categories: ["extremo", "Mates", "olimpiada"]
 ---
 

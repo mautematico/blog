@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Aproximados de Pi y E con los numeros del 1 al 9"
+title: "Aproximados de Pi y E con los numeros del 1 al 9"
 dateDay: 2010-6-2
 date: 2010-06-02T19:54:28+00:00
-#Permalink: /wp/aproximados-de-pi-y-e-con-los-numeros-del-1-al-9.html
+#permalink: /wp/aproximados-de-pi-y-e-con-los-numeros-del-1-al-9.html
 categories: ["Sin Categoria"]
 ---
 

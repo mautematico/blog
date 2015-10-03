@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Firefox OS en Ideas Disruptivas [2013]"
+title: "Firefox OS en Ideas Disruptivas [2013]"
 dateDay: 2014-3-22
 date: 2014-03-22T22:01:14+00:00
-#Permalink: /wp/firefox-os-en-ideas-disruptivas-2013.html
+#permalink: /wp/firefox-os-en-ideas-disruptivas-2013.html
 categories: ["Sin Categoria"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "¡Hola Mundo! en C/C++"
+title: "¡Hola Mundo! en C/C++"
 dateDay: 2010-7-14
 date: 2010-07-14T00:35:34+00:00
-#Permalink: /wp/hola-mundo-en-cc.html
+#permalink: /wp/hola-mundo-en-cc.html
 categories: ["C/C++", "Código", "Programación", "simple"]
 ---
 

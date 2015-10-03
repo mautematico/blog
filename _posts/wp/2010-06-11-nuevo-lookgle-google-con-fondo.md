@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Nuevo Lookgle, Google con fondo"
+title: "Nuevo Lookgle, Google con fondo"
 dateDay: 2010-6-11
 date: 2010-06-11T01:25:29+00:00
-#Permalink: /wp/nuevo-lookgle-google-con-fondo.html
+#permalink: /wp/nuevo-lookgle-google-con-fondo.html
 categories: ["Doodles", "Fondo", "Google", "internet", "Logo", "Look"]
 ---
 

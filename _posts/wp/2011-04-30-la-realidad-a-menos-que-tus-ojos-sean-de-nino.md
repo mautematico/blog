@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "La “realidad”, a menos que tus ojos sean de niño"
+title: "La “realidad”, a menos que tus ojos sean de niño"
 dateDay: 2011-4-30
 date: 2011-04-30T06:54:02+00:00
-#Permalink: /wp/la-realidad-a-menos-que-tus-ojos-sean-de-nino.html
+#permalink: /wp/la-realidad-a-menos-que-tus-ojos-sean-de-nino.html
 categories: ["Cosas"]
 ---
 

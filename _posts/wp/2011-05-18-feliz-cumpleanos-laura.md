@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Feliz cumpleaños, Laura"
+title: "Feliz cumpleaños, Laura"
 dateDay: 2011-5-18
 date: 2011-05-18T13:03:02+00:00
-#Permalink: /wp/feliz-cumpleanos-laura.html
+#permalink: /wp/feliz-cumpleanos-laura.html
 categories: ["Cosas"]
 ---
 

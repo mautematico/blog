@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Administra tus contactos, música y más de Firefox OS desde tu computadora"
+title: "Administra tus contactos, música y más de Firefox OS desde tu computadora"
 dateDay: 2015-3-23
 date: 2015-03-23T09:41:52+00:00
-#Permalink: /wp/administra-tus-contactos-musica-y-mas-de-firefox-os-desde-tu-computadora.html
+#permalink: /wp/administra-tus-contactos-musica-y-mas-de-firefox-os-desde-tu-computadora.html
 categories: ["Firefox", "Firefox OS", "Mozilla", "Sin Categoria"]
 ---
 

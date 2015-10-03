@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Código para sumar dos números"
+title: "Código para sumar dos números"
 dateDay: 2010-11-3
 date: 2010-11-03T00:18:02+00:00
-#Permalink: /wp/codigo-para-sumar-dos-numeros.html
+#permalink: /wp/codigo-para-sumar-dos-numeros.html
 categories: ["C", "C/C++", "compilar", "enteros", "Mates", "ocio", "programa", "Programación", "sencillo", "simple", "sumar", "variables"]
 ---
 

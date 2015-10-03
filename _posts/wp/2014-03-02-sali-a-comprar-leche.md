@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Salí a comprar leche"
+title: "Salí a comprar leche"
 dateDay: 2014-3-2
 date: 2014-03-02T23:19:44+00:00
-#Permalink: /wp/sali-a-comprar-leche.html
+#permalink: /wp/sali-a-comprar-leche.html
 categories: ["Miss.G", "Sin Categoria"]
 ---
 

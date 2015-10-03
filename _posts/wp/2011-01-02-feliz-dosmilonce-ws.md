@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Feliz dosmilonce.ws"
+title: "Feliz dosmilonce.ws"
 dateDay: 2011-1-2
 date: 2011-01-02T22:17:16+00:00
-#Permalink: /wp/feliz-dosmilonce-ws.html
+#permalink: /wp/feliz-dosmilonce-ws.html
 categories: ["2011", "año nuevo", "Cosas", "Dosmilonce", "dosmilonce.co.cc", "dosmilonce.ws", "Mautematico", "Mis revoltosos pensamientos"]
 ---
 

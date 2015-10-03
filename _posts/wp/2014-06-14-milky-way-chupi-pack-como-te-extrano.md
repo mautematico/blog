@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Milky Way Chupi-pack, ¡cómo te extraño!"
+title: "Milky Way Chupi-pack, ¡cómo te extraño!"
 dateDay: 2014-6-14
 date: 2014-06-14T08:30:54+00:00
-#Permalink: /wp/milky-way-chupi-pack-como-te-extrano.html
+#permalink: /wp/milky-way-chupi-pack-como-te-extrano.html
 categories: ["Sin Categoria"]
 ---
 

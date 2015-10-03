@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Mí día de Ayer"
+title: "Mí día de Ayer"
 dateDay: 2010-7-10
 date: 2010-07-10T22:49:40+00:00
-#Permalink: /wp/mi-dia-de-ayer.html
+#permalink: /wp/mi-dia-de-ayer.html
 categories: ["ayer", "Cosas", "Día", "emociones", "Mis revoltosos pensamientos"]
 ---
 

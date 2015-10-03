@@ -1,9 +1,9 @@
 ---
 layout: post
-Title: "Feliz año nuevo"
+title: "Feliz año nuevo"
 dateDay: 2014-3-2
 date: 2014-03-02T00:48:38+00:00
-#Permalink: /wp/feliz-ano-nuevo.html
+#permalink: /wp/feliz-ano-nuevo.html
 categories: ["Sin Categoria"]
 ---
 
