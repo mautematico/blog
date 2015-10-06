@@ -4,7 +4,7 @@ title: Estremecer
 date: '2015-10-06T16:57:49-0500'
 ---
 
-<s>Corro, vuelo, me acelero</s>.
+~~Corro, vuelo, me acelero~~.
 
 Contigo vivo, vuelo, disfruto.
 
