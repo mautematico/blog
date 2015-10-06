@@ -49,9 +49,14 @@
 
     var loc = window.location.href;
     var canonical = '{{ site.url }}{{ canonical }}';
-    var canonicalOrNot = loc.startsWith(canonical)
+    var areWeCanonical = loc.startsWith(canonical)
 
-    console.log("It is " +  canonicalOrNot + " that " + location + " startsWith " + canonical);
+    if(!areWeCanonical){
+      console.log("Redirecting to canonical URL: " + canonical);
+      location.replace(canonical)
+    }else{
+      console.log("Already on canonical URL: " + canonical);
+    }
 
   </script>
 </head>
