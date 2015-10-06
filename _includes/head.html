@@ -39,4 +39,19 @@
     ga('create', 'UA-8628479-7', 'blog.mautematico.com');
     ga('send', 'pageview');
   </script>
+  <script>
+    if (!String.prototype.startsWith) {
+      String.prototype.startsWith = function(searchString, position) {
+        position = position || 0;
+        return this.indexOf(searchString, position) === position;
+      };
+    }
+
+    var loc = window.location.href;
+    var canonical = '{{ site.url }}{{ canonical }}';
+    var canonicalOrNot = loc.startsWith(canonical)
+
+    console.log("It is " +  canonicalOrNot + " that " + location + " startsWith " + canonical);
+
+  </script>
 </head>
