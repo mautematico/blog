@@ -6,9 +6,11 @@ date: '2015-10-07'
 
 If you ever need to know in your JavaScript application if a _string_ starts with another _string_, you can just use new _ECMAScript 6_'s method: `startsWith()`
 
-<code><var>str</var>.startsWith(<var>searchString</var>[, <var>position</var>])</code> will take
-- as first parameter: <var>searchString</var>, the characters you want to know are or not at the beginning of <var>str</var>
-- as optional parameter: <var>position</var> the index you want the search to start.
+<code><var>str</var>.startsWith(<var>searchString</var>[, <var>position</var>])</code> will take:
+
+
+  - as first parameter: <var>searchString</var>, the characters you want to know are or not at the beginning of <var>str</var>
+  - as optional parameter: <var>position</var> the index you want the search to start.
 
 <h2 id="Examples">Examples</h2>
 <h3 id="Using_startsWith()">Using <code>startsWith()</code></h3>
