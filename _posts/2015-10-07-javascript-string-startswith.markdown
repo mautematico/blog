@@ -9,19 +9,21 @@ If you ever need to know in your JavaScript application if a _string_ starts wit
 <code><var>str</var>.startsWith(<var>searchString</var>[, <var>position</var>])</code> will take
 - as first parameter: <var>searchString</var>, the characters you want to know are or not at the beginning of <var>str</var>
 - as optional parameter: <var>position</var> the index you want the search to start.
- <h2 id="Examples">Examples</h2>
 
- <h3 id="Using_startsWith()">Using <code>startsWith()</code></h3>
 
- <pre class="brush: js">
- var str = 'To be, or not to be, that is the question.';
 
- console.log(str.startsWith('To be'));         // true
- console.log(str.startsWith('not to be'));     // false
- console.log(str.startsWith('not to be', 10)); // true
- </pre>
+<h2 id="Examples">Examples</h2>
+<h3 id="Using_startsWith()">Using <code>startsWith()</code></h3>
 
- <h2 id="Polyfill">Polyfill</h2>
+<pre class="brush: js">
+var str = 'To be, or not to be, that is the question.';
+
+console.log(str.startsWith('To be'));         // true
+console.log(str.startsWith('not to be'));     // false
+console.log(str.startsWith('not to be', 10)); // true
+</pre>
+
+<h2 id="Polyfill">Polyfill</h2>
 
 Please keep in mind: old browsers do not implement `startsWith()`. Here you have a _Polyfill_ for those old browsers:
 <pre class="brush: js">
@@ -32,6 +34,8 @@ if (!String.prototype.startsWith) {
 &nbsp; };
 }
 </pre>
+
+<h2 id="See_Also">See also</h2>
 
 Please refer to MDN if you have any further questions on this. <br /> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith#Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith#Syntax)
 
