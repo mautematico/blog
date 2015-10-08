@@ -10,8 +10,6 @@ If you ever need to know in your JavaScript application if a _string_ starts wit
 - as first parameter: <var>searchString</var>, the characters you want to know are or not at the beginning of <var>str</var>
 - as optional parameter: <var>position</var> the index you want the search to start.
 
-
-
 <h2 id="Examples">Examples</h2>
 <h3 id="Using_startsWith()">Using <code>startsWith()</code></h3>
 
