@@ -24,6 +24,7 @@ console.log(str.startsWith('not to be', 10)); // true
 <h2 id="Polyfill">Polyfill</h2>
 
 Please keep in mind: old browsers do not implement `startsWith()`. Here you have a _Polyfill_ for those old browsers:
+
 <pre class="brush: js">
 if (!String.prototype.startsWith) {
 &nbsp; String.prototype.startsWith = function(searchString, position) {
