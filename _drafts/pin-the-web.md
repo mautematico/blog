@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pin the web
-date: '2015-10-22 18:20'
+date: '2015-11-04 20:46'
 ---
 
 Do you use **Firefox OS**? If you are using _nightly_ builds, please go download latest build and start pining the web.
