@@ -14,4 +14,4 @@ He notado que desde que comenzó, ha ido adquiriendo una pronunciación y un _ac
 
 ¡Ah! y está ampliando su vocabulario.
 
-Ella es la mejor del mundo en el inglés. :heart: 
+Ella es la mejor del mundo en el inglés. :heart:
