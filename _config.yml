@@ -2,14 +2,15 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           /:year/:title.html
-relative_permalinks: false
+#relative_permalinks: false
 
 # Setup
 title:               El rincón de mautemático
+description:         Las Cosas son como deben, no como deberían Ser.
 tagline:             Las Cosas son como deben, no como deberían Ser.
 url:                 https://blog.mautematico.com
+baseurl:             '/'
 paginate:            121
-baseurl:             ''
 timezone:            America/Mexico_City
 
 # Assets
@@ -24,14 +25,31 @@ author:
   name:              Mauricio Navarro Miranda
   url:               https://twitter.com/mautematico
   email:             mauricio@navarromiranda.mx
+  twitter_username:  mautematico
+  github_username:   mautematico
+# linkedin_username: mautematico
 
 # Custom vars
 version:             2.0.0
+#google_analytics: 'UA-XXXXXX-X'
 github:
   repo:              https://github.com/mautematico/blog
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
 # Plugins
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-paginate
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
