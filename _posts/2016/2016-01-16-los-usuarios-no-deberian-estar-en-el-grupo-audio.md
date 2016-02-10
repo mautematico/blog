@@ -10,7 +10,7 @@ Detalles técnicos aparte, el origen del problema era una política del sistema 
 
 Si te pasa que sólo un usuario puede reproducir sonido en **GNU/Linux**, esta podría ser la solución:
 
-# Revisa la lista de usuarios que están en el grupo `audio`:
+### Revisa la lista de usuarios que están en el grupo `audio`:
 
 ```
 mautematico@flex:~$ fgrep -ie 'audio' /etc/group
@@ -19,25 +19,25 @@ audio:x:29:pulse,mautematico,mariana
 
 En mi caso, había tres usuarios: `mautematico`, `mariana` y `pulse`. Los usuarios regulares no deberían estar en el grupo `audio`.
 
-# Quita los usuarios regulares del grupo `audio`:
+### Quita los usuarios regulares del grupo `audio`:
 
 ```
 root@flex:~# deluser mautematico audio
 root@flex:~# deluser mariana audio
 ```
 
-# Ahora sólo debería estar `pulse` en el grupo `audio`:
+### Ahora sólo debería estar `pulse` en el grupo `audio`:
 
 ```
 root@flex:~# fgrep -ie 'audio' /etc/group
 audio:x:29:pulse
 ```
 
-# Reinicia:
+### Reinicia:
 
 ```
 root@flex:~# reboot
 ```
 
-# Y prueba.
+### Y prueba.
 ¡Suerte!
