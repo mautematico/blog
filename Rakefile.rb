@@ -105,7 +105,7 @@ end
 desc "push the contents of ./_site to gh-pages"
 task :gh_pages do
   puts "* now we are ready to syn the contents of ./_site to the gh-pages"
-  system "ls -lah _site"
+  system "find _site"
 end
 
 # Usage: rake deploy
