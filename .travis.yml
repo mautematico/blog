@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+  - 2.1
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - ENCRYPTION_LABEL: cc31a926c008
+  - COMMIT_AUTHOR_EMAIL: mauricio@navarromiranda.mx
+
+script: bash ./deploy.sh
+
+sudo: false # route your build to the container-based infrastructure for a faster build
