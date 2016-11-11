@@ -52,4 +52,4 @@ gems:
   - jekyll-redirect-from
   - jekyll-paginate
 
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'vendor']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'vendor', 'Rakefile.rb', 'deploy.sh', 'travis@blog.mautematico.com.enc', '.gitignore']
