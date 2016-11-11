@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "La imagen "scratch" de docker"
+title: "La imagen \"scratch\" de docker"
 date: "2016-11-10 17:25"
 ---
 
