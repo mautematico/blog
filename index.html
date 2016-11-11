@@ -1,33 +1,772 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <title>El rincón de mautemático</title>
+  <meta name="description" content="Las Cosas son como deben, no como deberían Ser.">
+  <meta name="author" content="Mauricio Navarro Miranda">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="El rincón de mautemático">
+  <meta name="twitter:description" content="Las Cosas son como deben, no como deberían Ser.">
 
-    <!--{{ post.content }}-->
-  </article>
-  {% endfor %}
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="El rincón de mautemático">
+  <meta property="og:description" content="Las Cosas son como deben, no como deberían Ser.">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/images/favicons/manifest.json">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://blog.mautematico.com//">
+  <link rel="alternate" type="application/rss+xml" title="El rincón de mautemático" href="/feed.xml">
+</head>
+
+
+  <body>
+    <span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+  
+<header class="panel-cover" style="background-image: url(/images/cover.jpg)">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <a href="/" title="link to home of El rincón de mautemático">
+          <img src="/images/profile.jpg" class="user-image" alt="My Profile Photo">
+          <h1 class="panel-cover__title panel-title">El rincón de mautemático</h1>
+        </a>
+        <hr class="panel-cover__divider">
+        <p class="panel-cover__description">Las Cosas son como deben, no como deberían Ser.</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="link to El rincón de mautemático blog" class="blog-button">Blog</a></li>
+            </ul>
+          </nav>
+
+          <nav class="cover-navigation navigation--social">
+            <ul class="navigation">
+          
+            
+              <!-- Twitter -->
+              <li class="navigation__item">
+                <a href="http://twitter.com/mautematico" title="@mautematico on Twitter" target="_blank">
+                  <i class="icon icon-social-twitter"></i>
+                  <span class="label">Twitter</span>
+                </a>
+              </li>
+            
+
+            
+
+            
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/mautematico" title="mautematico on GitHub" target="_blank">
+                  <i class="icon icon-social-github"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- Email -->
+              <li class="navigation__item">
+                <a href="mailto:mauricio@navarromiranda.mx" title="Email mauricio@navarromiranda.mx" target="_blank">
+                  <i class="icon icon-mail"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+            
+
+            <!-- RSS -->
+            <li class="navigation__item">
+              <a href="/feed.xml" title="Subscribe" target="_blank">
+                <i class="icon icon-rss"></i>
+                <span class="label">RSS</span>
+              </a>
+            </li>
+          
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="main-post-list">
+
+  <ol class="post-list">
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2016/la-imagen-scratch-de-docker.html" title="La imagen "scratch" de docker">La imagen "scratch" de docker</a></h2>
+	<p class="excerpt">Hay una imagen mínima reservada en Docker, de nombre scratch. Si quieres, puedes utilizar esta imagen mínima para crear tu propia imagen. Pero hay una particularidad interesante respecto a scratch: No puedes descargarla vía pull, tampoco ejecutarla, y de hecho no puedes etiquetar ninguna imagen con el nombre scratch. Lo...</p>
+        <div class="post-list__meta"><time datetime="10 Nov 2016" class="post-list__meta--date date">10 Nov 2016</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2016/ansible-roles-may-contain-nested-plugins-and-modules.html" title="Ansible roles may contain nested plugins and modules">Ansible roles may contain nested plugins and modules</a></h2>
+	<p class="excerpt">Sooner or later, you’re going to ask yourself Is it possible to import remote Ansible modules to use them on my playbook Yes, you can. http://stackoverflow.com/a/36160664 If desired, you can for instance call this (taken from a remote git repository) Ansible action_plugin that allows you to reconnect ssh connections: https://galaxy.ansible.com/udondan/ssh-reconnect/...</p>
+        <div class="post-list__meta"><time datetime="8 Nov 2016" class="post-list__meta--date date">8 Nov 2016</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2016/los-usuarios-no-deberian-estar-en-el-grupo-audio.html" title="Los usuarios no deberían estar en el grupo 'audio'">Los usuarios no deberían estar en el grupo 'audio'</a></h2>
+	<p class="excerpt">Mi novia y yo compartimos computadora (aka PC, ordenador), y de un tiempo a la fecha algo andaba mal con el sonido. Detalles técnicos aparte, el origen del problema era una política del sistema y pulseaudio. Tal política ocasionaba el bloqueo de la tarjeta de sonido, de forma que sólo...</p>
+        <div class="post-list__meta"><time datetime="16 Jan 2016" class="post-list__meta--date date">16 Jan 2016</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2016/huevos-verdes-con-jamon.html" title="Huevos verdes con jamón">Huevos verdes con jamón</a></h2>
+	<p class="excerpt">Hace casi dos meses platicaba sobre huevos verdes. ¡Deliciosos huevos verdes! Hoy fui testigo de la existencia de unos huevos todavía más ricos que los verdes, y son los verdes mejorados con nada más y nada menos que… ¡jamón! Huevos verdes, Juan Ramón: Los probé con jamón y los comería...</p>
+        <div class="post-list__meta"><time datetime="11 Jan 2016" class="post-list__meta--date date">11 Jan 2016</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/spm.html" title="SPM">SPM</a></h2>
+	<p class="excerpt">Síndrome Pre Menstrual.
+
+¡Aguas!
+</p>
+        <div class="post-list__meta"><time datetime="30 Dec 2015" class="post-list__meta--date date">30 Dec 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/downgrade.html" title="Downgrade">Downgrade</a></h2>
+	<p class="excerpt">
+  Reducir /dev/vdc1 de 25G a 5G
+  Eliminar /dev/vdd1
+  Con los 40G liberados, abrir un ticket pidiendo el downgrade
+
+</p>
+        <div class="post-list__meta"><time datetime="15 Dec 2015" class="post-list__meta--date date">15 Dec 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/tres-lugares.html" title="Tres lugares">Tres lugares</a></h2>
+	<p class="excerpt">Hoy, en la combi, una pareja pagó tres lugares.
+</p>
+        <div class="post-list__meta"><time datetime="15 Dec 2015" class="post-list__meta--date date">15 Dec 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/amaranta-es-la-mejor-en-el-ingles.html" title="Amaranta es la mejor en el inglés">Amaranta es la mejor en el inglés</a></h2>
+	<p class="excerpt">Soy el más feliz y el más orgulloso de todo el universo. El amor de mi vida está aprendiendo inglés a un excelente ritmo, y no sólo eso: ¡Es la mejor en su clase! Es la más lista, la más simpática, la más aplicada. Saca puro diez en sus exámenes...</p>
+        <div class="post-list__meta"><time datetime="13 Nov 2015" class="post-list__meta--date date">13 Nov 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/el-reto-de-los-diez-pesos.html" title="El reto de los diez pesos">El reto de los diez pesos</a></h2>
+	<p class="excerpt">Amaranta, de Coraje y compasión, está haciendo el reto de los diez pesos. Ella lo explica como sigue: Consiste ahorrar en una botella de agua o de lo que sea monedas de 10 pesos. El punto de este reto es que todas las monedas de 10 pesos que caigan en...</p>
+        <div class="post-list__meta"><time datetime="13 Nov 2015" class="post-list__meta--date date">13 Nov 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/coraje-y-compasion.html" title="Coraje y compasión">Coraje y compasión</a></h2>
+	<p class="excerpt">No tengo mejores palabras para agregar que las que Amaranta misma ya escribió. Los envío directamente a ella: Siempre hay que tener la valentía de enfrentar todo tipo de situaciones, las más valiosas, las más importantes. Hacer algo por los demás o por nosotros mismos. Comprender el sufrimiento, percibirlo y...</p>
+        <div class="post-list__meta"><time datetime="10 Nov 2015" class="post-list__meta--date date">10 Nov 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/me-como-las-haches.html" title="Me como las haches">Me como las haches</a></h2>
+	<p class="excerpt">Tengo ambre. Mucha ambre.
+
+Tanta ambre…
+
+Que me como las haches.
+</p>
+        <div class="post-list__meta"><time datetime="10 Nov 2015" class="post-list__meta--date date">10 Nov 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/huevos-verdes.html" title="Huevos verdes">Huevos verdes</a></h2>
+	<p class="excerpt">El otro día probé unos deliciosos huevos verdes que preparó mi suegrita linda. Aunque ya había oído de los huevos verdes con jamón, e incluso ya había probado lo que ahora me atrevo a llamar huevos rojos, francamente no tenía idea de lo que serían los huevos verdes. Para los...</p>
+        <div class="post-list__meta"><time datetime="6 Nov 2015" class="post-list__meta--date date">6 Nov 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/antes-de-morir.html" title="Antes de morir">Antes de morir</a></h2>
+	<p class="excerpt">¿Estás buscando ideas sobre qué hacer antes de morir?
+
+Instala la aplicación para Android para obtener ideas aleatorias y escribir tus propias ideas.
+</p>
+        <div class="post-list__meta"><time datetime="4 Nov 2015" class="post-list__meta--date date">4 Nov 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/huevos-con-totopos.html" title="Huevos con totopos">Huevos con totopos</a></h2>
+	<p class="excerpt">Me gustan mucho, más que los topos, los deliciosos huevos con totopos.
+</p>
+        <div class="post-list__meta"><time datetime="26 Oct 2015" class="post-list__meta--date date">26 Oct 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/please-dont-force-push.html" title="Please don't force push">Please don't force push</a></h2>
+	<p class="excerpt">Pretty often, it’s not just a non-good idea, but also a really bad one.
+
+Please, don’t git push -f, unless you really know what are you doing. It may become irreversible.
+</p>
+        <div class="post-list__meta"><time datetime="16 Oct 2015" class="post-list__meta--date date">16 Oct 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/my-atom-settings.html" title="My atom settings ">My atom settings </a></h2>
+	<p class="excerpt">Just in case any of we (because I’m also one of the we set) wish to see my atom.io settings, I have them on a github’s gist. You can get a copy of my (I hope up to date and complete) relevant configuration files at https://gist.github.com/mautematico/51409ae96652705e33a6 By now the gist...</p>
+        <div class="post-list__meta"><time datetime="12 Oct 2015" class="post-list__meta--date date">12 Oct 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/javascript-string-startswith.html" title="JavaScript: string startsWith()">JavaScript: string startsWith()</a></h2>
+	<p class="excerpt">If you ever need to know in your JavaScript application if a string starts with another string, you can just use new ECMAScript 6’s method: startsWith() str.startsWith(searchString[, position]) will take: as first parameter: searchString, the characters you want to know are or not at the beginning of str as optional...</p>
+        <div class="post-list__meta"><time datetime="7 Oct 2015" class="post-list__meta--date date">7 Oct 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/estremecer.html" title="Estremecer">Estremecer</a></h2>
+	<p class="excerpt">Corro, vuelo, me acelero.
+
+Contigo vivo, vuelo, disfruto.
+
+Me estremezco. Me haces estremecer.
+</p>
+        <div class="post-list__meta"><time datetime="6 Oct 2015" class="post-list__meta--date date">6 Oct 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/me-gustas-tu.html" title="Me gustas tú">Me gustas tú</a></h2>
+	<p class="excerpt">Me gustan los aviones, me gustas tú. Me gusta viajar, me gustas tú. Me gustas, mariana: me gustas tú. Me gusta el viento, me gustas tú. Me gusta soñar, me gustas tú. Me gusta la mar, me gustas tú. Que voy a hacer, je ne sais pas. Que voy a...</p>
+        <div class="post-list__meta"><time datetime="1 Oct 2015" class="post-list__meta--date date">1 Oct 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/pregntale-a-ray.html" title="Pregúntale a Ray">Pregúntale a Ray</a></h2>
+	<p class="excerpt">Si hay algo que tu corazón realmente desee saber, entonces  da clic aquí y pregúntale a Ray.
+
+Si preguntas de la forma adecuada, te aseguro que Ray responderá. Pero ten cuidado si no lo tratas como merece, podría torturarte hasta la locura.
+
+</p>
+        <div class="post-list__meta"><time datetime="30 Sep 2015" class="post-list__meta--date date">30 Sep 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/que-ricos-son-los-guafles-con-compaia.html" title="¡Qué ricos son los guafles con compañía">¡Qué ricos son los guafles con compañía</a></h2>
+	<p class="excerpt">Mis guafles favoritos son con el amor de mi vida.
+</p>
+        <div class="post-list__meta"><time datetime="30 Sep 2015" class="post-list__meta--date date">30 Sep 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/negritas-y-cursivas-en-jekyll.html" title="Negritas y cursivas en Jekyll">Negritas y cursivas en Jekyll</a></h2>
+	<p class="excerpt">En Jekyll, usando Markdown, uno puede conseguir cursivas encerrando el texto entre asteriscos, así: *las cursivas son bonitas* El resultado de lo anterior será algo aproximado a: las cursivas son bonitas. Por otro lado, podemos indicar negritas en Markdown usando asteriscos dobles (**) al encerrar el texto en cuestión: Es...</p>
+        <div class="post-list__meta"><time datetime="29 Sep 2015" class="post-list__meta--date date">29 Sep 2015</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#jekyll">jekyll</a> </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/estrellas-y-sangre.html" title="Estrellas y sangre">Estrellas y sangre</a></h2>
+	<p class="excerpt">Este fin de semana el amor de mi vida y yo tendremos una romántica velada.
+Vamos al pueblo.
+</p>
+        <div class="post-list__meta"><time datetime="25 Sep 2015" class="post-list__meta--date date">25 Sep 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/hola-jekyll.html" title="Hola, jekyll">Hola, jekyll</a></h2>
+	<p class="excerpt">Una vez tuve un blog. Este blog en jekyll es mi primer segundo intento por revivir (de nuevo) mi varias veces muerto rincón de mautemático. Quizás debería considerar llamarlo Krilin Al fin me animé a probar jekyll. En el camino aprenderé un poco de Markdown :D Mientras modifico esta publicación,...</p>
+        <div class="post-list__meta"><time datetime="25 Sep 2015" class="post-list__meta--date date">25 Sep 2015</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#jekyll">jekyll</a> </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/luz-de-sobra.html" title="Luz de sobra">Luz de sobra</a></h2>
+	<p class="excerpt">Xáni t&#8217;íntskua Útasi no kurhankusinka. ¿né na úa pari no xáni kókuani eratsekua mót&#8217;akuni? Juchaeno, acheticha k&#8217;ueramu jimpoksi erantusinti xanarani tata padrinunksi erantutapantani. Posterhuksi tirhirhukusti lámparaecha ampe ka nana kutsi ménku ísi mereraskani&#8230; ¿Xáni t&#8217;íntskua ampe úrakueski anti? Luz de sobra Todavía tengo dudas: ¿Cómo impedir que envejezca tan pronto...</p>
+        <div class="post-list__meta"><time datetime="1 May 2015" class="post-list__meta--date date">1 May 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/feliz.html" title="Feliz">Feliz</a></h2>
+	<p class="excerpt">como una lombriz.
+</p>
+        <div class="post-list__meta"><time datetime="9 Apr 2015" class="post-list__meta--date date">9 Apr 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/administra-tus-contactos-musica-y-mas-de-firefox-os-desde-tu-computadora.html" title="Administra tus contactos, música y más de Firefox OS desde tu computadora">Administra tus contactos, música y más de Firefox OS desde tu computadora</a></h2>
+	<p class="excerpt">Les voy a platicar sobre un par de (a mi gusto) preciosas herramientas que encontré esta tarde. Pero antes: Allá por octubre de 2013 estaba probando Firefox OS en un ZTE Open, un Alcatel One Touch Fire y un Geeksphone Keon (porque el Geeksphone Peak se arruinó). Durante mis pruebas...</p>
+        <div class="post-list__meta"><time datetime="23 Mar 2015" class="post-list__meta--date date">23 Mar 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/di-yei-ira-a-la-escuela.html" title="Di Yei irá a la escuela">Di Yei irá a la escuela</a></h2>
+	<p class="excerpt">Desde el sábado que viene, y hasta nuevo aviso, Di Yei irá a la escuela cada sábado. Cuando nos vimos (una o dos semanas en el pasado) me platicó que había estado estudiando y al fin haría su prueba (una suerte de examen de admisión) y que tendría resultados tan...</p>
+        <div class="post-list__meta"><time datetime="13 Jan 2015" class="post-list__meta--date date">13 Jan 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2015/hola-mundo-en-javascript-en-la-consola-de-firefox.html" title="“¡Hola, mundo!” en JavaScript, en la consola de Firefox">“¡Hola, mundo!” en JavaScript, en la consola de Firefox</a></h2>
+	<p class="excerpt">En el trozo de espacio-tiempo en que me encuentro al escribir esto, los pasos que intentaré describir a continuación suelen dar vida a pequeños monstruos, en sí mismos inofensivos, pero no por eso triviales. De hecho, cuentan las leyendas que monstruos temibles, atroces, feroces y hasta molestos han sido resultado...</p>
+        <div class="post-list__meta"><time datetime="4 Jan 2015" class="post-list__meta--date date">4 Jan 2015</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/pisele-al-gas.html" title="¡Písele al gas!">¡Písele al gas!</a></h2>
+	<p class="excerpt">¡Hey, 2015 (y 2014): písenle al gas!
+</p>
+        <div class="post-list__meta"><time datetime="31 Dec 2014" class="post-list__meta--date date">31 Dec 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/lloro-durante-las-peliculas.html" title="Lloro durante las películas">Lloro durante las películas</a></h2>
+	<p class="excerpt">No a gritos desesperados, pero a veces se me apachurra el corazón, que acelera los latidos e incrementa mi presión arterial y&#8230; ¡pim! una lagrimita escurre por mi rostro.
+</p>
+        <div class="post-list__meta"><time datetime="31 Dec 2014" class="post-list__meta--date date">31 Dec 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/1011.html" title="1011">1011</a></h2>
+	<p class="excerpt">No sé cuántos somos, pero somos muchísimos. Muchos más que 132; muchos más que unos cuantos. (Estudiantes de) ingenieros y científicos de todos los sabores. Trabajadores sociales, arquitectos, abogados y médicos. Economistas. Matemáticos. También me di cuenta de la presencia de trabajadores de distintas áreas. Vi letreros que decían MTS...</p>
+        <div class="post-list__meta"><time datetime="23 Oct 2014" class="post-list__meta--date date">23 Oct 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/atarantado.html" title="Atarantado">Atarantado</a></h2>
+	<p class="excerpt">Ando menso, torpe. Atolondrado. Atarantado. Y no me ha picado una tarántula; aunque imagino que si me picara (y suponiendo que no muero como desenlace de una reacción alérgica), descubriría por qué nos gusta usar la misma palabra para dos cosas tan distantes. Estoy escuchando a Andrés Calamaro: Antes de...</p>
+        <div class="post-list__meta"><time datetime="11 Oct 2014" class="post-list__meta--date date">11 Oct 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/milky-way-chupi-pack-como-te-extrano.html" title="Milky Way Chupi-pack, ¡cómo te extraño!">Milky Way Chupi-pack, ¡cómo te extraño!</a></h2>
+	<p class="excerpt">Estaba sólo. Las luces apagadas y la casa prácticamente vacía, hasta que la vecina llegó (y acompañada). Para entonces yo ya había buscado conversación con Jennifer, una chica que es tan fuerte como Sansón y tan bonita como&#8230; ¡Muy bonita! Cuando la vecina apagó su computadora sólo pude pensar una...</p>
+        <div class="post-list__meta"><time datetime="14 Jun 2014" class="post-list__meta--date date">14 Jun 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/breaking-bad.html" title="Breaking Bad">Breaking Bad</a></h2>
+	<p class="excerpt">Acabo de ver el final de la cuarta temporada de Breaking Bad. Me encantó y lo detesté al mismo tiempo: Fue exactamente lo que estaba esperando, me siento satisfecho. Estoy listo para dejar Breaking Bad atrás.
+No quiero ver la quinta temporada.
+</p>
+        <div class="post-list__meta"><time datetime="13 Jun 2014" class="post-list__meta--date date">13 Jun 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/veintiuno.html" title="Veintiuno">Veintiuno</a></h2>
+	<p class="excerpt">Éste es uno de esos días en que escribo en buena medida para mi, y más valdría escribir en privado. Éste es uno de esos escritos improvisados que deberían estar en mi libreta chida de las notas y no en mi súperpopular blog chidísimo. Hoy es cumpleaños de alguien. Es...</p>
+        <div class="post-list__meta"><time datetime="9 Jun 2014" class="post-list__meta--date date">9 Jun 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/firefox-os-en-ideas-disruptivas-2013.html" title="Firefox OS en Ideas Disruptivas [2013]">Firefox OS en Ideas Disruptivas [2013]</a></h2>
+	<p class="excerpt">Como ya es tradición, estuve en Villahermosa, Tabasco el pasado noviembre. Lino Romero, un amigo mío que vive por allá, (como ya es costumbre) estaba organizando un gran evento de innovación al que fui invitado en nombre de Mozilla. Al evento asistieron principalmente estudiantes de una facultad de informática, convirtiéndolo...</p>
+        <div class="post-list__meta"><time datetime="22 Mar 2014" class="post-list__meta--date date">22 Mar 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/sali-a-comprar-leche.html" title="Salí a comprar leche">Salí a comprar leche</a></h2>
+	<p class="excerpt">Ayer (a eso de las 19 horas) llegué a sentir que se me saldría el corazón, que saltaría fuera de mi pecho y explotaría en un millón de pedazos. Las manos me temblaron y la lengua se me travó. Una hora después, mi corazón seguía en su lugar y mi...</p>
+        <div class="post-list__meta"><time datetime="2 Mar 2014" class="post-list__meta--date date">2 Mar 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2014/feliz-ano-nuevo.html" title="Feliz año nuevo">Feliz año nuevo</a></h2>
+	<p class="excerpt">Un poco sin querer, he encontrado el pretexto perfecto. Ahora que lo he notado, me di cuenta que había estado esperando el día sin motivo aparente. A lo largo y ancho* de la historia la humanidad ha usado multitud de calendarios distintos, a veces porque el año solar no era...</p>
+        <div class="post-list__meta"><time datetime="1 Mar 2014" class="post-list__meta--date date">1 Mar 2014</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2013/protegido-hoy-no-es-el-dia.html" title="Protegido: Hoy no es el día">Protegido: Hoy no es el día</a></h2>
+	<p class="excerpt">
+Este contenido está protegido por contraseña. Para verlo introduce tu contraseña a continuación:
+Contraseña:  
+
+</p>
+        <div class="post-list__meta"><time datetime="18 Oct 2013" class="post-list__meta--date date">18 Oct 2013</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2013/que-tengas-suertecita.html" title="Que tengas suertecita">Que tengas suertecita</a></h2>
+	<p class="excerpt">No podría hacerlo más trillado que si lo hiciera como lo hago: Dedicándote las palabras, la canción que tanto nos dedicamos en otras vidas. Así que me salvaré al final, haciendo trampa desagradablemente. Stay tuned. No me molestará en absoluto ser el segundo, si aún puedo lograr ser también el...</p>
+        <div class="post-list__meta"><time datetime="9 Jun 2013" class="post-list__meta--date date">9 Jun 2013</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2013/ayer-te-vi.html" title="Ayer te vi">Ayer te vi</a></h2>
+	<p class="excerpt">y aún soy feliz.
+</p>
+        <div class="post-list__meta"><time datetime="18 Mar 2013" class="post-list__meta--date date">18 Mar 2013</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2013/en-la-maleta.html" title="En la maleta">En la maleta</a></h2>
+	<p class="excerpt">Originalmente escribiría esto el domingo 20 o el lunes 21 de enero (de 2013). La inspiración no llegó. Hoy es un buen momento para hablar de maletas, ya hasta tengo foto. En la bolsa negra llevo un suéter. En la café, que es tanto o más pequeña de lo que...</p>
+        <div class="post-list__meta"><time datetime="31 Jan 2013" class="post-list__meta--date date">31 Jan 2013</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2012/klein.html" title="Klein…">Klein…</a></h2>
+	<p class="excerpt">Pondré un corazón al final, porque te amo. Y si no lo pusiera, probablemente aún te amaría. Confieso que no sé donde estoy parado y que de todas formas me gusta. Ha de ser que soy medio masoquista, como casi todo el mundo; al final de las cuentas: Soy persona....</p>
+        <div class="post-list__meta"><time datetime="9 Dec 2012" class="post-list__meta--date date">9 Dec 2012</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2012/inspiracion-frustracion-y-transpiracion-sobre-como-los-trenes-cambian-de-direccion.html" title="Inspiración, frustración y transpiración: Sobre como los trenes cambian de dirección">Inspiración, frustración y transpiración: Sobre como los trenes cambian de dirección</a></h2>
+	<p class="excerpt">En un martes al azar, como en cualquier otro, uno puede elegir entre ver una serie hot y hacer algo importante. Hoy decidí hacer ambas, aunque en tiempos distintos. Me resulta curioso mencionarlo, porque a estas horas del día no he concluído ninguna. Para este martes en particular, tenía un...</p>
+        <div class="post-list__meta"><time datetime="4 Dec 2012" class="post-list__meta--date date">4 Dec 2012</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2012/primer-pago-de-adsense.html" title="Primer pago de Adsense">Primer pago de Adsense</a></h2>
+	<p class="excerpt">Sí. El año que terminó fue número primo, este año hay elecciones federales (quizás las más importantes en la historia de México), ya soy mayor de edad, pronto iré a la universidad, en diciembre el mundo se va a acabar&#8230; Y soy capaz de escribir, para inaugurar mi año bloggero:...</p>
+        <div class="post-list__meta"><time datetime="6 Feb 2012" class="post-list__meta--date date">6 Feb 2012</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2012/feliz-dia-de-reyes-tengo-cartera.html" title="Feliz día de reyes: ¡Tengo cartera!">Feliz día de reyes: ¡Tengo cartera!</a></h2>
+	<p class="excerpt">En varios aspectos personales, soy un caos, y eso no es secreto. Se nota a leguas que dejé de peinarme hace tiempo (ahora, mi cabello luce hermoso, como él solo (y sólo) sabe, sin gel). Mis conocidos cercanos (y aquellos no tan cercanos) saben que, hace tiempo, rara vez llevo...</p>
+        <div class="post-list__meta"><time datetime="7 Jan 2012" class="post-list__meta--date date">7 Jan 2012</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/principio-extremo.html" title="Principio extremo">Principio extremo</a></h2>
+	<p class="excerpt">Me gusta aprender cosas nuevas. En las olimpiadas (de Matemáticas, de Informática, Física y Química) he aprendido muchas de ellas: Algunas curiosas, algunas útiles, unas para compartir, y algunas nomás para presumir. El principio extremo es una cosa bien simple y que hay que tener en cuenta: Dado un conjunto...</p>
+        <div class="post-list__meta"><time datetime="17 Oct 2011" class="post-list__meta--date date">17 Oct 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/forobeta-donde-siempre-mejoramos-sortea-1000-usd.html" title="ForoBeta, donde siempre mejoramos, sortea 1000+ USD">ForoBeta, donde siempre mejoramos, sortea 1000+ USD</a></h2>
+	<p class="excerpt">Justo al inicio del 2011 (sí, el 1º de enero), fue activada mi cuenta en ForoBeta, el más grande foro de bloggers/webmasters de habla hispana. Hablo en serio cuando digo que es el más activo foro para bloggers. De hecho, está por llegar al top-1000 del Ranking Alexa mundial (sería...</p>
+        <div class="post-list__meta"><time datetime="30 Sep 2011" class="post-list__meta--date date">30 Sep 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/im-sam.html" title="I’m Sam">I’m Sam</a></h2>
+	<p class="excerpt">Hoy es lunes, y ha sido un interesante día. Apenas el sábado tuve al mismo tiempo la oportunidad y los pantalones para escupir las palabras: “Quiero pedirte permiso para ir a Villahermosa”. Me preguntó si quería o no quería sermón, y yo, atendiendo a la sugerencia de no sonar demasiado...</p>
+        <div class="post-list__meta"><time datetime="31 Jul 2011" class="post-list__meta--date date">31 Jul 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/google-penaliza-a-co-cc-y-de-paso-a-hitler.html" title="Google penaliza a CO.cc… ¡y de paso a Hitler!">Google penaliza a CO.cc… ¡y de paso a Hitler!</a></h2>
+	<p class="excerpt">Dejar de lado las cosas ñoñas es algo que no puedo. En serio, no puedo. Cada vez que lo intento, algo interesante resulta y termino haciendo algo ñoño. Hace uno o dos días, recibí vía email mi segundo mejor reporte de ingresos en eXponsor, que de una extraña manera me...</p>
+        <div class="post-list__meta"><time datetime="6 Jul 2011" class="post-list__meta--date date">6 Jul 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/final-ii.html" title="Final II">Final II</a></h2>
+	<p class="excerpt">Si eres fan de los videojuegos o las películas de miedo, este post tal vez no es para ti&#8230; tal vez sí. No se trata de una guerra, una invasión o una prueba de vida, se trata de esto: Koanata durmiendo (animación apng) Y sí, a veces también me he...</p>
+        <div class="post-list__meta"><time datetime="29 Jun 2011" class="post-list__meta--date date">29 Jun 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/aventuras-en-veracruj.html" title="Aventuras en Veracruj">Aventuras en Veracruj</a></h2>
+	<p class="excerpt">Ya se que casi siempre se escribe con z, y no con j. Pero este es mi blog, no tu blog, y con mi blog hago lo que yo quiera! &lt;img src=&#39;http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete+memes/cerealguy.png&#39; alt=&#39;:cerealguy:&#39; class=&#39;wp-smiley&#39; /&gt; Ya, -más- en serio: El fin de semana de hace dos semanas, varios grupos de...</p>
+        <div class="post-list__meta"><time datetime="30 May 2011" class="post-list__meta--date date">30 May 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/feliz-cumpleanos-laura.html" title="Feliz cumpleaños, Laura">Feliz cumpleaños, Laura</a></h2>
+	<p class="excerpt">Por ahora, sin más. Felices 18!
+</p>
+        <div class="post-list__meta"><time datetime="18 May 2011" class="post-list__meta--date date">18 May 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/de-que-se-trata-el-juego-de-la-primitiva-y-como-jugarlo-gratis-en-internet.html" title="De que se trata el juego de la primitiva, y como jugarlo gratis en Internet">De que se trata el juego de la primitiva, y como jugarlo gratis en Internet</a></h2>
+	<p class="excerpt">En el mundo hay diferentes sorteos, de varios tipos, precios y premios. En España hay, entre otros, uno que se conoce como &#8220;la primitiva&#8221;, más o menos comparable con los sorteos o quinielas que hay en México como Melate y Súper loto. En sorteos como este, se acumula una bolsa...</p>
+        <div class="post-list__meta"><time datetime="11 May 2011" class="post-list__meta--date date">11 May 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/la-realidad-a-menos-que-tus-ojos-sean-de-nino.html" title="La “realidad”, a menos que tus ojos sean de niño">La “realidad”, a menos que tus ojos sean de niño</a></h2>
+	<p class="excerpt">Lo que sería mi segundo post en un día (14 de abril) terminó por ser un post del día del niño&#8230; jaja Cuando era aún más pequeño, como muchos niños en el mundo, brincaba de una cama a otra, jugaba con palos de madera que podían tomar cualquier forma imaginable,...</p>
+        <div class="post-list__meta"><time datetime="30 Apr 2011" class="post-list__meta--date date">30 Apr 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/otra-cosa-que-nuestros-padres-creen-que-inventaron-dormir-temprano-porque-si-no.html" title="Otra cosa que nuestros padres creen que inventaron: Dormir temprano (porque si no…)">Otra cosa que nuestros padres creen que inventaron: Dormir temprano (porque si no…)</a></h2>
+	<p class="excerpt">Sentí ganas de levantarme e ir a hacer (deshacerme de, de hecho) pipi. Mientras me levantaba y dejaba la conversación con la Niña Zanahoria a espera de una respuesta sobre su loco amor por mis palabras, a Gabriel_Cabezón meditando sobre un nuevo truco en la línea de comanDOS, y tomaba...</p>
+        <div class="post-list__meta"><time datetime="23 Apr 2011" class="post-list__meta--date date">23 Apr 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/justhost-a-prueba.html" title="JustHost a prueba">JustHost a prueba</a></h2>
+	<p class="excerpt">No soy, ni de lejos, el juez pesadilla para JustHost, seguramente mis blogs no exijan demasiado a lo que promete ser mi hosting para la vida. Pero no me importa! De todos modos, para mí es noticia, y de vez en vez comparto los aconteceres de mi vida, así que&#8230;...</p>
+        <div class="post-list__meta"><time datetime="14 Apr 2011" class="post-list__meta--date date">14 Apr 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/sopa-de-habas.html" title="Sopa de habas">Sopa de habas</a></h2>
+	<p class="excerpt">Hace algún tiempo dejé este borrador guardado por ahí, seguro que algún día me sentaría a escribir, al menos, más que solo el título. ¿No sabes de que hablo? Ni te aflijas, no hace falta que me entiendas el día de hoy. Cerca del fin de las vacaciones de invierno...</p>
+        <div class="post-list__meta"><time datetime="11 Mar 2011" class="post-list__meta--date date">11 Mar 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/ubuntu-10-10-via-correo-tradicional.html" title="Ubuntu 10.10 vía correo (tradicional)">Ubuntu 10.10 vía correo (tradicional)</a></h2>
+	<p class="excerpt">Tal vez no les parezca ya tan tradicional el correo (que de hecho ahora hemos tenido que agregarle el calificativo para diferenciarlo del e-mail), sin embargo siempre le encontraremos alguna utilidad, ya sea en lo romántico o incluso en lo comercial. Canonical Ltd. (quien se encarga del desarrollo de *buntu)...</p>
+        <div class="post-list__meta"><time datetime="8 Mar 2011" class="post-list__meta--date date">8 Mar 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/super-poderes-inutiles.html" title="Super poderes inútiles">Super poderes inútiles</a></h2>
+	<p class="excerpt">Tengo que admitirlo: fui niño (aún lo soy) y, como tal, he soñado con tener super poderes, por mi mente han pasado cosas que vi en la tele o que me imaginé&#8230; Volar, tener súper fuerza, leer los pensamientos de otras personas, visión láser, visión de rayos X&#8230; algunos de...</p>
+        <div class="post-list__meta"><time datetime="7 Feb 2011" class="post-list__meta--date date">7 Feb 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/los-barriles-de-la-xxiv-omm.html" title="Los barriles de la XXIV OMM">Los barriles de la XXIV OMM</a></h2>
+	<p class="excerpt">Quiero advertir, antes de iniciar, que en el siguiente texto podria haber algo de humor friki o chistes locales, más o menos difundidos en las olimpiadas de Matemáticas, jamás con afán de ofender a alguien &lt;img src=&#39;http://blog.mautematico.com/wp-content/plugins/smilies-themer/kopete+memes/wink.png&#39; alt=&#39;;)&#39; class=&#39;wp-smiley&#39; /&gt; -si no entiendes o no te sientes identificado, no te...</p>
+        <div class="post-list__meta"><time datetime="14 Jan 2011" class="post-list__meta--date date">14 Jan 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/mi-primer-concierto-con-mago-de-oz.html" title="Mi primer concierto: Con Mägo de Oz">Mi primer concierto: Con Mägo de Oz</a></h2>
+	<p class="excerpt">¿Qué mejor manera de iniciar el año que disfrutando de un concierto de Mägo? No logro recordar con bastante detalle, aún no me recupero por completo y no se detalles como: donde fue el concierto, con quienes asistí, como se llamaban los grupos y bandas que abrieron&#8230; Se que alguien...</p>
+        <div class="post-list__meta"><time datetime="3 Jan 2011" class="post-list__meta--date date">3 Jan 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2011/feliz-dosmilonce-ws.html" title="Feliz dosmilonce.ws">Feliz dosmilonce.ws</a></h2>
+	<p class="excerpt">Nuevo año, nueva actitud. O al menos eso es lo que algunos dicen :). De cualquier manera, lo que no cambia es que 2011 es primo (al menos eso sospecho desde el 2007&#8230; -7a ONMAS-), y aunque eso quizás no signifique nada, es un bonito número :p. Hoy tengo ganas...</p>
+        <div class="post-list__meta"><time datetime="2 Jan 2011" class="post-list__meta--date date">2 Jan 2011</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/el-primero.html" title="El primero">El primero</a></h2>
+	<p class="excerpt">No, no el primer post, o el primer mil ocho mil post. Es otro tipo de primero.
+Hoy, hace un año, fue mi primer beso.
+</p>
+        <div class="post-list__meta"><time datetime="27 Dec 2010" class="post-list__meta--date date">27 Dec 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/calendarios-en-navidad.html" title="Calendarios en Navidad">Calendarios en Navidad</a></h2>
+	<p class="excerpt">Durante mucho tiempo (bueno, varios -creo que menos de diecisiete-) años me he preguntado: ¿Porqué las personas piden calendarios en ésta época del año?&#8230; En realidad, no son todas las personas, pero sí una buena parte de las que compran cosas en algunas tiendas, lo peor es que suelen hacerlo...</p>
+        <div class="post-list__meta"><time datetime="21 Dec 2010" class="post-list__meta--date date">21 Dec 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/el-tercer-invierno.html" title="El tercer invierno">El tercer invierno</a></h2>
+	<p class="excerpt">Puede que se me vuelva una costumbre escribir por aquí una nota al inicio de mis vacaciones de invierno, tal vez es solamente que las ideas que tengo para escribir últimamente no me agradan, la verdad no lo se. Pero este es (si mis recuerdos no están tan retorcidos) el...</p>
+        <div class="post-list__meta"><time datetime="13 Dec 2010" class="post-list__meta--date date">13 Dec 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/codigo-para-sumar-dos-numeros.html" title="Código para sumar dos números">Código para sumar dos números</a></h2>
+	<p class="excerpt">Dos posts seguidos sobre el mismo tema? :S&#8230; creo que le han absorbido las ideas a mi cabeza!&#8230; Hoy, pretendiendo que éste sea un post simple, voy a presentarles un código simple: uno en C++ que suma dos números dados por el usuario (a y b). AH!.. números enteros: #include...</p>
+        <div class="post-list__meta"><time datetime="2 Nov 2010" class="post-list__meta--date date">2 Nov 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/hola-mundo-en-cc.html" title="¡Hola Mundo! en C/C++">¡Hola Mundo! en C/C++</a></h2>
+	<p class="excerpt">El siguiente post es un borrador que dejé abandonado hace ya algún tiempo, con la idea en mente de publicar algunos códigos y problemas que he resuelto en lo que he logrado participar de la OMI :), ésta vez mostraré un par de códigos, uno en C y otro en...</p>
+        <div class="post-list__meta"><time datetime="13 Jul 2010" class="post-list__meta--date date">13 Jul 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/mi-dia-de-ayer.html" title="Mí día de Ayer">Mí día de Ayer</a></h2>
+	<p class="excerpt">Sí. No se me ocurrió un título más descriptivo para el post de hoy. La verdad es que ni siquiera iba a haber post de hoy, bueno, en realidad, sí iba a haberlo. Sería de Frets on Fire. Finalmente decidí este título, pues es lo que pretendo que trate el...</p>
+        <div class="post-list__meta"><time datetime="10 Jul 2010" class="post-list__meta--date date">10 Jul 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/compact-menu-2-extension-para-firefox.html" title="Compact Menu 2, Extensión para Firefox">Compact Menu 2, Extensión para Firefox</a></h2>
+	<p class="excerpt">Ya platicamos un poco sobre Mozilla Firefox, un navegador libre y multiplataforma que además soporta Extensiones. Bueno, Compact Menu 2 es una de estas tantas extensiones creadas por los usuarios de Firefox. La tarea de Compact Menu 2 es reemplazar la barra de menús (Archivo, Editar, Ver&#8230;) con un pequeño...</p>
+        <div class="post-list__meta"><time datetime="26 Jun 2010" class="post-list__meta--date date">26 Jun 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/nuevo-lookgle-google-con-fondo.html" title="Nuevo Lookgle, Google con fondo">Nuevo Lookgle, Google con fondo</a></h2>
+	<p class="excerpt">Que le ha pasado a Google!&#8230; me lo cambiaron :S&#8230; Ay, no!&#8230; esque le puse una imagen de fondo :). Pues resulta que (sí, hablaré de Google otra vez!) ahora Google permite cambiar ese blanco-jodeme-la-vista por una imagen de fondo en la página principal del buscador, tal como pueden observar...</p>
+        <div class="post-list__meta"><time datetime="10 Jun 2010" class="post-list__meta--date date">10 Jun 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/aproximados-de-pi-y-e-con-los-numeros-del-1-al-9.html" title="Aproximados de Pi y E con los numeros del 1 al 9">Aproximados de Pi y E con los numeros del 1 al 9</a></h2>
+	<p class="excerpt">Aproximado de Pi
+Aproximado de e
+
+</p>
+        <div class="post-list__meta"><time datetime="2 Jun 2010" class="post-list__meta--date date">2 Jun 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/30-anos-de-pacman.html" title="30 años de Pacman">30 años de Pacman</a></h2>
+	<p class="excerpt">Así que, la bolita amarilla cumple ya 30 años!&#8230; Cielos, ¡es más viejo que yo! Bueno, yo ya sabía que es más viejo, lo que no sabía es que hoy es su cumpleaños, y resulta que Google me lo dijo. Sí, Google. Verán, estaba probando un diseño para un proyecto...</p>
+        <div class="post-list__meta"><time datetime="21 May 2010" class="post-list__meta--date date">21 May 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/si-somos-pequenos.html" title="Sí, somos pequeños">Sí, somos pequeños</a></h2>
+	<p class="excerpt">Me dieron ganas de cambiar (nuevamente) el template (la plantilla) del blog, pero es que, con tantas que hay, y lo dificil (indesiso) que soy, no me decidía por uno&#8230; Al fin me topé con el que está puesto ahora (Jambo), aunque con lo caprichoso que soy puede que lo...</p>
+        <div class="post-list__meta"><time datetime="26 Apr 2010" class="post-list__meta--date date">26 Apr 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/cuidado-porque-muerden.html" title="Cuidado, porque muerden">Cuidado, porque muerden</a></h2>
+	<p class="excerpt">De izquierda a derecha: Esme, Vero, Alicia, Damaris, Victor, Oswaldo, Daniel, Pablo (arriba), Gabriel La verdad, no me consta que muerdan, pero así parece. Vean como estos raros ejemplares de un especimen denominado &lt;nerdus mate ñoñus secundarinus &gt; se protegen los unos a los otros, los machos de las hembras....</p>
+        <div class="post-list__meta"><time datetime="26 Apr 2010" class="post-list__meta--date date">26 Apr 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/firefox-3-6-2.html" title="Firefox 3.6.2">Firefox 3.6.2</a></h2>
+	<p class="excerpt">Logo Firefox En el mundo de La Red, necesitamos un navegador para surfear la web, una de las alternativas que podemos elegir es Mozilla Firefox, de la fundación Mozilla. Firefox es uno de los navegadores que más terreno ha ganado durante los últimos años, personalmente aún recuerdo cuando instalé la...</p>
+        <div class="post-list__meta"><time datetime="23 Mar 2010" class="post-list__meta--date date">23 Mar 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/girasol-azul.html" title="Girasol Azul">Girasol Azul</a></h2>
+	<p class="excerpt">
+¡oh! ¡¡¿me has llamado rara?!!, pero si soy tan común como un girasol azul
+aleabril
+</p>
+        <div class="post-list__meta"><time datetime="17 Mar 2010" class="post-list__meta--date date">17 Mar 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/hoy-no-hay-hamburguesas.html" title="Hoy no hay hamburguesas">Hoy no hay hamburguesas</a></h2>
+	<p class="excerpt"> &lt;img src=&#39;http://blog.mautematico.com/wp-content/plugins/smilies-themer/adiumicons/surprised.png&#39; alt=&#39;:o&#39; class=&#39;wp-smiley&#39; /&gt;  &lt;img src=&#39;http://blog.mautematico.com/wp-content/plugins/smilies-themer/adiumicons/sad.png&#39; alt=&#39;:(&#39; class=&#39;wp-smiley&#39; /&gt;  &lt;img src=&#39;http://blog.mautematico.com/wp-content/plugins/smilies-themer/adiumicons/emoticon_waii.png&#39; alt=&#39;8O&#39; class=&#39;wp-smiley&#39; /&gt;  &lt;img src=&#39;http://blog.mautematico.com/wp-content/plugins/smilies-themer/adiumicons/emoticon_surprised.png&#39; alt=&#39;:shock:&#39; class=&#39;wp-smiley&#39; /&gt; &lt;img src=&#39;http://blog.mautematico.com/wp-content/plugins/smilies-themer/adiumicons/crying.png&#39; alt=&#39;;-(&#39; class=&#39;wp-smiley&#39; /&gt; 
+</p>
+        <div class="post-list__meta"><time datetime="17 Feb 2010" class="post-list__meta--date date">17 Feb 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="/2010/un-ano-mas-tan-solo-un-ano-mas.html" title="Un año más, tan sólo un año más">Un año más, tan sólo un año más</a></h2>
+	<p class="excerpt">Es así como se pasa un año!&#8230; wuau, increible&#8230; Bueno, chance y ni idea tengas de que hablo: http://blog.mautematico.com/2009/02/10/hello-world/ (es muy curioso, pues estaba practicamente seguro que inicé con esto antes&#8230;) así es, hace ya un año (ayer se cumplió un año de hecho) que publiqué la primer entrada en...</p>
+        <div class="post-list__meta"><time datetime="11 Feb 2010" class="post-list__meta--date date">11 Feb 2010</time> &#8226; <span class="post-meta__tags">on </span></div>
+        <hr class="post-list__divider">
+      </li>
+    
+  </ol>
+
+  <hr class="post-list__divider ">
+
+  
+
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Anteriores</a>
-  {% else %}
-    <span class="pagination-item older">Anteriores</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Siguientes</a>
-  {% else %}
-    <span class="pagination-item newer">Siguientes</span>
-  {% endif %}
-</div>
+      </div>
+
+      <footer class="footer">
+  <span class="footer__copyright">&copy; 2016 Mauricio Navarro Miranda. All rights reserved.</span>
+</footer> 
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+    </div>
+  </body>
+</html>
