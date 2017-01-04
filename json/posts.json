@@ -2,6 +2,12 @@
     "posts": [
         
         {
+            "title": "Breve relato sobre un tocayo",
+            "url": "https://blog.mautematico.com/2017/breve-relato-sobre-un-tocayo.html",
+            "date": "2017-01-03T18:39:00-06:00"
+        },
+        
+        {
             "title": "La imagen &quot;scratch&quot; de docker",
             "url": "https://blog.mautematico.com/2016/la-imagen-scratch-de-docker.html",
             "date": "2016-11-10T17:25:00-06:00"
