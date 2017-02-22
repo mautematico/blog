@@ -5,9 +5,37 @@
     <description>Las Cosas son como deben, no como deberían Ser.</description>
     <link>https://blog.mautematico.com//</link>
     <atom:link href="https://blog.mautematico.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Feb 2017 22:14:54 -0600</pubDate>
-    <lastBuildDate>Fri, 17 Feb 2017 22:14:54 -0600</lastBuildDate>
+    <pubDate>Wed, 22 Feb 2017 12:55:19 -0600</pubDate>
+    <lastBuildDate>Wed, 22 Feb 2017 12:55:19 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Load Balancing Graylog2 with HAProxy and SRV records</title>
+        <description>&lt;p&gt;If you ever happen to use HAProxy to make load balance to your Graylog2/GELF inputs (you should try it, HAProxy is HAwesome!), I advice you to take a look to &lt;a href=&quot;http://siawyoung.com/coding/sysadmin/graylog2/load-balancing-graylog-2-with-haproxy.html#change-haproxys-health-check-to-graylog2s-rest-api&quot; title=&quot;Siaw Young&#39;s post&quot;&gt;Siaw Young’s post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As a plus, you may be using SRV record sets to maintain your Graylog2 cluster node list up to date.
+If that applies to you, give it a try to &lt;a href=&quot;https://github.com/elasticio/haproxy-srv/&quot; title=&quot;Flexible HAProxy auto configuration and auto service discovery for SkyDNS or Mesos-DNS&quot;&gt;haproxy-srv&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Looking for a starting template for haproxy-srv? Here you have!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+listen gelf :12201
+    mode tcp
+    balance roundrobin
+    option httpchk GET /api/system/lbstatus
+    
+        server gelf- : check port 12900
+    
+
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+        <pubDate>Wed, 22 Feb 2017 12:40:00 -0600</pubDate>
+        <link>https://blog.mautematico.com//2017/load-balancing-graylog2-with-haproxy-and-srv-records.html</link>
+        <guid isPermaLink="true">https://blog.mautematico.com//2017/load-balancing-graylog2-with-haproxy-and-srv-records.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Breve relato sobre un tocayo</title>
@@ -210,35 +238,6 @@ audio:x:29:pulse
         <pubDate>Fri, 13 Nov 2015 16:03:00 -0600</pubDate>
         <link>https://blog.mautematico.com//2015/amaranta-es-la-mejor-en-el-ingles.html</link>
         <guid isPermaLink="true">https://blog.mautematico.com//2015/amaranta-es-la-mejor-en-el-ingles.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>El reto de los diez pesos</title>
-        <description>&lt;p&gt;Amaranta, de &lt;a href=&quot;https://corajeycompasion.com&quot;&gt;Coraje y compasión&lt;/a&gt;, está haciendo &lt;a href=&quot;https://corajeycompasion.com/2015/el-reto-de-las-monedas-de-10-pesos-en-una-botella.html&quot;&gt;el reto de los diez pesos&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ella lo explica como sigue:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Consiste ahorrar en una botella de agua o de lo que sea monedas de 10 pesos. El punto de este reto es que todas las monedas de 10 pesos que caigan en tus manos vayan a parar a el bote.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Espero lograrlo, ahí vamos.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Deberías intentarlo, es un excelente reto.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;¡Definitivamente deberían intentarlo, como nosotros!&lt;/p&gt;
-
-&lt;p&gt;En esto, como en todo, estoy con Amaranta. :heart:&lt;/p&gt;
-</description>
-        <pubDate>Fri, 13 Nov 2015 13:05:00 -0600</pubDate>
-        <link>https://blog.mautematico.com//2015/el-reto-de-los-diez-pesos.html</link>
-        <guid isPermaLink="true">https://blog.mautematico.com//2015/el-reto-de-los-diez-pesos.html</guid>
         
         
       </item>

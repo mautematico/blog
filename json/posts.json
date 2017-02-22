@@ -2,6 +2,12 @@
     "posts": [
         
         {
+            "title": "Load Balancing Graylog2 with HAProxy and SRV records",
+            "url": "https://blog.mautematico.com/2017/load-balancing-graylog2-with-haproxy-and-srv-records.html",
+            "date": "2017-02-22T12:40:00-06:00"
+        },
+        
+        {
             "title": "Breve relato sobre un tocayo",
             "url": "https://blog.mautematico.com/2017/breve-relato-sobre-un-tocayo.html",
             "date": "2017-01-03T18:39:00-06:00"
