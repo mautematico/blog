@@ -13,6 +13,7 @@ If that applies to you, give it a try to [haproxy-srv][649f8b52].
 Looking for a starting template for haproxy-srv? Here you have!
 
 ```
+{% raw  %}
 {{#dns-srv "_gelf._tcp.internal.example.org"}}
 listen gelf :12201
     mode tcp
@@ -22,6 +23,7 @@ listen gelf :12201
         server gelf-{{@index}} {{ip}}:{{port}} check port 12900
     {{/each}}
 {{/dns-srv}}
+{% endraw %}
 ```
 
 [8517b56d]: http://siawyoung.com/coding/sysadmin/graylog2/load-balancing-graylog-2-with-haproxy.html#change-haproxys-health-check-to-graylog2s-rest-api "Siaw Young's post"
