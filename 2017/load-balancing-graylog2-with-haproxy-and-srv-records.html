@@ -150,13 +150,15 @@ If that applies to you, give it a try to <a href="https://github.com/elasticio/h
 <p>Looking for a starting template for haproxy-srv? Here you have!</p>
 
 <pre><code>
+{{#dns-srv "_gelf._tcp.internal.example.org"}}
 listen gelf :12201
     mode tcp
     balance roundrobin
     option httpchk GET /api/system/lbstatus
-    
-        server gelf- : check port 12900
-    
+    {{#each this}}
+        server gelf-{{@index}} {{ip}}:{{port}} check port 12900
+    {{/each}}
+{{/dns-srv}}
 
 </code></pre>
 

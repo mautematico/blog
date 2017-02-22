@@ -4,7 +4,7 @@
  <title>El rincón de mautemático</title>
  <link href="https://blog.mautematico.com//atom.xml" rel="self"/>
  <link href="https://blog.mautematico.com//"/>
- <updated>2017-02-22T12:58:14-06:00</updated>
+ <updated>2017-02-22T13:06:40-06:00</updated>
  <id>https://blog.mautematico.com</id>
  <author>
    <name>Mauricio Navarro Miranda</name>
@@ -25,13 +25,15 @@ If that applies to you, give it a try to &lt;a href=&quot;https://github.com/ela
 &lt;p&gt;Looking for a starting template for haproxy-srv? Here you have!&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
+{{#dns-srv &quot;_gelf._tcp.internal.example.org&quot;}}
 listen gelf :12201
     mode tcp
     balance roundrobin
     option httpchk GET /api/system/lbstatus
-    
-        server gelf- : check port 12900
-    
+    {{#each this}}
+        server gelf-{{@index}} {{ip}}:{{port}} check port 12900
+    {{/each}}
+{{/dns-srv}}
 
 &lt;/code&gt;&lt;/pre&gt;
 
