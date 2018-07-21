@@ -5,9 +5,20 @@
     <description>Las Cosas son como deben, no como deberían Ser.</description>
     <link>https://blog.mautematico.com//</link>
     <atom:link href="https://blog.mautematico.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Jul 2018 19:51:46 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Jul 2018 19:51:46 -0500</lastBuildDate>
+    <pubDate>Fri, 20 Jul 2018 19:57:49 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Jul 2018 19:57:49 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Estudiar en la UnADM</title>
+        <description>&lt;p&gt;:)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Jul 2018 16:38:00 -0500</pubDate>
+        <link>https://blog.mautematico.com//2018/estudiar-en-la-unadm.html</link>
+        <guid isPermaLink="true">https://blog.mautematico.com//2018/estudiar-en-la-unadm.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Load Balancing Graylog2 with HAProxy and SRV records</title>
@@ -219,27 +230,6 @@ audio:x:29:pulse
         <pubDate>Tue, 15 Dec 2015 11:24:00 -0600</pubDate>
         <link>https://blog.mautematico.com//2015/tres-lugares.html</link>
         <guid isPermaLink="true">https://blog.mautematico.com//2015/tres-lugares.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Amaranta es la mejor en el inglés</title>
-        <description>&lt;p&gt;Soy el más feliz y el más orgulloso de todo el universo.&lt;/p&gt;
-
-&lt;p&gt;El amor de mi vida está aprendiendo inglés a un excelente ritmo, y no sólo eso: ¡Es la mejor en su clase! &lt;br /&gt; Es la más lista, la más simpática, la más aplicada.&lt;/p&gt;
-
-&lt;p&gt;Saca puro diez en sus exámenes y, aún más importante que eso, su manejo del inglés ha mejorado muchísimo desde que comenzó. Siempre tenemos conversaciones muy divertidas, ¡y ahora las tenemos en un nuevo idioma!&lt;/p&gt;
-
-&lt;p&gt;He notado que desde que comenzó, ha ido adquiriendo una pronunciación y un &lt;em&gt;acento&lt;/em&gt; cada vez mejores. Todavía le cuestan un coquito las diferencias de la gramática inglesa con respecto a la gramática del español, como es natural; Pero cada vez su manejo tanto oral como escrito es mejor.&lt;/p&gt;
-
-&lt;p&gt;¡Ah! y está ampliando su vocabulario.&lt;/p&gt;
-
-&lt;p&gt;Ella es la mejor del mundo en el inglés. :heart:&lt;/p&gt;
-</description>
-        <pubDate>Fri, 13 Nov 2015 16:03:00 -0600</pubDate>
-        <link>https://blog.mautematico.com//2015/amaranta-es-la-mejor-en-el-ingles.html</link>
-        <guid isPermaLink="true">https://blog.mautematico.com//2015/amaranta-es-la-mejor-en-el-ingles.html</guid>
         
         
       </item>

@@ -2,6 +2,12 @@
     "posts": [
         
         {
+            "title": "Estudiar en la UnADM",
+            "url": "https://blog.mautematico.com/2018/estudiar-en-la-unadm.html",
+            "date": "2018-07-20T16:38:00-05:00"
+        },
+        
+        {
             "title": "Load Balancing Graylog2 with HAProxy and SRV records",
             "url": "https://blog.mautematico.com/2017/load-balancing-graylog2-with-haproxy-and-srv-records.html",
             "date": "2017-02-22T12:40:00-06:00"
