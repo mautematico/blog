@@ -5,9 +5,65 @@
     <description>Las Cosas son como deben, no como deberían Ser.</description>
     <link>https://blog.mautematico.com//</link>
     <atom:link href="https://blog.mautematico.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 21 Jul 2018 00:15:28 -0500</pubDate>
-    <lastBuildDate>Sat, 21 Jul 2018 00:15:28 -0500</lastBuildDate>
+    <pubDate>Mon, 04 Nov 2019 23:56:57 -0600</pubDate>
+    <lastBuildDate>Mon, 04 Nov 2019 23:56:57 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Me preguntan por ti</title>
+        <description>&lt;p&gt;Me es difícil salir.
+De hecho, me es difícil abrir la puerta –cualquier puerta.&lt;/p&gt;
+
+&lt;p&gt;Ya era parte de la rutina apuntar la mirada hacia donde seguramente estarías, pero ya no estás. Hoy me preguntaron directamente por ti, al no verte como de costumbre, y fue muy difícil responder; esto va a seguir pasando varios días o semanas más, cada vez menos.&lt;/p&gt;
+
+&lt;p&gt;Así es esto: Unos, como siempre fuiste tú, son más veloces y se adelantan en el camino. Otros rodamos en la silla y no mucho más.&lt;/p&gt;
+
+&lt;p&gt;Es que somos seres de costumbres, y los cambios cuestan. Este cambio me llegó repentinamente y no estaba preparado.
+Pero el mundo y la vida –mi mundo y mi vida- siguen aquí; vamos pa’lante con mucho amor.&lt;/p&gt;
+
+&lt;p&gt;Hoy hubo progreso con eso de volver a aprender a caminar.
+Es hora de marchar,
+Nos olemos luego.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Nov 2019 23:17:00 -0600</pubDate>
+        <link>https://blog.mautematico.com//2019/me-preguntan-por-ti.html</link>
+        <guid isPermaLink="true">https://blog.mautematico.com//2019/me-preguntan-por-ti.html</guid>
+        
+        
+        <category>set</category>
+        
+      </item>
+    
+      <item>
+        <title>Nos vemos en el río</title>
+        <description>&lt;p&gt;Hace dos días, tuve una pesadilla horrorosa: Te apartaban de mi, para que fueras a vivir a un lugar más amplio.
+Después, habiendo ya despertado, te vi triste mientras limpiaba el piso.&lt;/p&gt;
+
+&lt;p&gt;Tú no sabías hablar como las gentes, pero sí aprendiste a comunicarte con sinceridad. Y así te comunicaste siempre: Si había una puerta que abrir, la abrías; si había que escalarla, la escalabas. Aprendiste a tocar.&lt;/p&gt;
+
+&lt;p&gt;Protegiste siempre a tu familia y nos amaste a todos.&lt;/p&gt;
+
+&lt;p&gt;Hoy te fuiste adelante y vas corriendo a gran velocidad. A veces vas a mirar hacia atrás, pero no te detengas. Es tiempo de correr, con libertad.
+La seña de color rojo que es tu distintivo, se va a confundir entre el pelo bermejo; pero cuando te alcance me reconocerás por las bermudas y yo a ti por la particular forma de andar. ¡Pero practica tu salto, porque habrá muchos obstáculos con los cuales jugar!&lt;/p&gt;
+
+&lt;p&gt;No te apartaron de mi ni de nosotros: el amor que siempre mostraste a tu familia es bien correspondido por todos.
+Juega mucho en el río, juega con otros amigos.
+Ahí te vamos a alcanzar, pero a sabes que eres más veloz que todos, así que nos vamos a tardar un tiempo.&lt;/p&gt;
+
+&lt;p&gt;Después de todo, los lugares amplios son tus preferidos.
+Aliméntate bien y bebe suficiente; te mandamos un pequeño abrigo por si acaso, y las palabras más bonitas de todas.&lt;/p&gt;
+
+&lt;p&gt;Gracias por todo y que descanses.
+Nos olemos luego.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Nov 2019 12:46:00 -0600</pubDate>
+        <link>https://blog.mautematico.com//2019/nos-vemos-en-el-rio.html</link>
+        <guid isPermaLink="true">https://blog.mautematico.com//2019/nos-vemos-en-el-rio.html</guid>
+        
+        
+        <category>set</category>
+        
+      </item>
     
       <item>
         <title>Estudiar en la UnADM</title>
@@ -226,32 +282,6 @@ audio:x:29:pulse
         <pubDate>Wed, 30 Dec 2015 14:11:00 -0600</pubDate>
         <link>https://blog.mautematico.com//2015/spm.html</link>
         <guid isPermaLink="true">https://blog.mautematico.com//2015/spm.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Downgrade</title>
-        <description>&lt;ol&gt;
-  &lt;li&gt;Reducir &lt;code&gt;/dev/vdc1&lt;/code&gt; de 25G a 5G&lt;/li&gt;
-  &lt;li&gt;Eliminar &lt;code&gt;/dev/vdd1&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Con los &lt;code&gt;40G&lt;/code&gt; liberados, abrir un ticket pidiendo el &lt;em&gt;downgrade&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Tue, 15 Dec 2015 17:44:00 -0600</pubDate>
-        <link>https://blog.mautematico.com//2015/downgrade.html</link>
-        <guid isPermaLink="true">https://blog.mautematico.com//2015/downgrade.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tres lugares</title>
-        <description>&lt;p&gt;Hoy, en la combi, una pareja pagó tres lugares.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 15 Dec 2015 11:24:00 -0600</pubDate>
-        <link>https://blog.mautematico.com//2015/tres-lugares.html</link>
-        <guid isPermaLink="true">https://blog.mautematico.com//2015/tres-lugares.html</guid>
         
         
       </item>

@@ -2,6 +2,18 @@
     "posts": [
         
         {
+            "title": "Me preguntan por ti",
+            "url": "https://blog.mautematico.com/2019/me-preguntan-por-ti.html",
+            "date": "2019-11-04T23:17:00-06:00"
+        },
+        
+        {
+            "title": "Nos vemos en el río",
+            "url": "https://blog.mautematico.com/2019/nos-vemos-en-el-rio.html",
+            "date": "2019-11-03T12:46:00-06:00"
+        },
+        
+        {
             "title": "Estudiar en la UnADM",
             "url": "https://blog.mautematico.com/2018/estudiar-en-la-unadm.html",
             "date": "2018-07-20T16:38:00-05:00"

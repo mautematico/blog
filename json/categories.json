@@ -261,7 +261,9 @@
         
         "firefox os",
         
-        "unadm"
+        "unadm",
+        
+        "set"
         
     ]
 }
