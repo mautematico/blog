@@ -2,6 +2,12 @@
     "posts": [
         
         {
+            "title": "Es raro",
+            "url": "https://blog.mautematico.com/2019/es-raro.html",
+            "date": "2019-11-05T23:45:00-06:00"
+        },
+        
+        {
             "title": "Me preguntan por ti",
             "url": "https://blog.mautematico.com/2019/me-preguntan-por-ti.html",
             "date": "2019-11-04T23:17:00-06:00"
