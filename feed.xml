@@ -5,9 +5,30 @@
     <description>Las Cosas son como deben, no como deberían Ser.</description>
     <link>https://blog.mautematico.com//</link>
     <atom:link href="https://blog.mautematico.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 Nov 2019 00:01:39 -0600</pubDate>
-    <lastBuildDate>Thu, 07 Nov 2019 00:01:39 -0600</lastBuildDate>
+    <pubDate>Fri, 08 Nov 2019 00:19:26 -0600</pubDate>
+    <lastBuildDate>Fri, 08 Nov 2019 00:19:26 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Susto y noviembre sin ti</title>
+        <description>&lt;p&gt;Hoy se me hizo tarde porque me clavé en el trabajo, pero aquí estoy.&lt;/p&gt;
+
+&lt;p&gt;Hoy mayana y yo pasamos por donde tuviste tu primer gran susto (¡canijo perro!) y más tarde compramos una dona. Todavía más tarde, vimos el video de una pareja de amigos rescatando a un cachorro en problemas y le daban un hogar, fue muy bonito.&lt;/p&gt;
+
+&lt;p&gt;La calle sigue cerrada y, de hecho, ¡está cerrada por ambos lados!&lt;/p&gt;
+
+&lt;p&gt;Ayer un amigo compartió en el feis el video de algo así como la despedida del director técnico de su equipo nacional de futbol preferido; la canción de fondo era lo chistoso: Noviembre sin ti… ahora que reparé a pensarlo dos veces, ya no me parece divertido, sino todo lo contrario. :’(&lt;/p&gt;
+
+&lt;p&gt;Nos olemos luego.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Nov 2019 23:59:00 -0600</pubDate>
+        <link>https://blog.mautematico.com//2019/susto-y-noviembre-sin-ti.html</link>
+        <guid isPermaLink="true">https://blog.mautematico.com//2019/susto-y-noviembre-sin-ti.html</guid>
+        
+        
+        <category>set</category>
+        
+      </item>
     
       <item>
         <title>Planes</title>
@@ -249,49 +270,6 @@ http://stackoverflow.com/a/36160664&lt;/p&gt;
         <pubDate>Tue, 08 Nov 2016 17:05:00 -0600</pubDate>
         <link>https://blog.mautematico.com//2016/ansible-roles-may-contain-nested-plugins-and-modules.html</link>
         <guid isPermaLink="true">https://blog.mautematico.com//2016/ansible-roles-may-contain-nested-plugins-and-modules.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Los usuarios no deberían estar en el grupo &#39;audio&#39;</title>
-        <description>&lt;p&gt;Mi novia y yo compartimos computadora (aka &lt;em&gt;PC&lt;/em&gt;, &lt;em&gt;ordenador&lt;/em&gt;), y de un tiempo a la fecha algo andaba mal con el sonido.&lt;/p&gt;
-
-&lt;p&gt;Detalles técnicos aparte, el origen del problema era una política del sistema y pulseaudio. Tal política ocasionaba el bloqueo de la tarjeta de sonido, de forma que sólo un usuario podía reproducir (o grabar) sonido a la vez.&lt;/p&gt;
-
-&lt;p&gt;Si te pasa que sólo un usuario puede reproducir sonido en &lt;strong&gt;GNU/Linux&lt;/strong&gt;, esta podría ser la solución:&lt;/p&gt;
-
-&lt;h3 id=&quot;revisa-la-lista-de-usuarios-que-estn-en-el-grupo-audio&quot;&gt;Revisa la lista de usuarios que están en el grupo &lt;code&gt;audio&lt;/code&gt;:&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;mautematico@flex:~$ fgrep -ie &#39;audio&#39; /etc/group
-audio:x:29:pulse,mautematico,mariana
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;En mi caso, había tres usuarios: &lt;code&gt;mautematico&lt;/code&gt;, &lt;code&gt;mariana&lt;/code&gt; y &lt;code&gt;pulse&lt;/code&gt;. Los usuarios regulares no deberían estar en el grupo &lt;code&gt;audio&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;quita-los-usuarios-regulares-del-grupo-audio&quot;&gt;Quita los usuarios regulares del grupo &lt;code&gt;audio&lt;/code&gt;:&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;root@flex:~# deluser mautematico audio
-root@flex:~# deluser mariana audio
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;ahora-slo-debera-estar-pulse-en-el-grupo-audio&quot;&gt;Ahora sólo debería estar &lt;code&gt;pulse&lt;/code&gt; en el grupo &lt;code&gt;audio&lt;/code&gt;:&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;root@flex:~# fgrep -ie &#39;audio&#39; /etc/group
-audio:x:29:pulse
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;reinicia&quot;&gt;Reinicia:&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;root@flex:~# reboot
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;y-prueba&quot;&gt;Y prueba.&lt;/h3&gt;
-&lt;p&gt;¡Suerte!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 16 Jan 2016 11:34:00 -0600</pubDate>
-        <link>https://blog.mautematico.com//2016/los-usuarios-no-deberian-estar-en-el-grupo-audio.html</link>
-        <guid isPermaLink="true">https://blog.mautematico.com//2016/los-usuarios-no-deberian-estar-en-el-grupo-audio.html</guid>
         
         
       </item>
