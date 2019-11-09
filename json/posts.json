@@ -2,6 +2,12 @@
     "posts": [
         
         {
+            "title": "Cuida tu alimentación",
+            "url": "https://blog.mautematico.com/2019/cuida-tu-alimentacion.html",
+            "date": "2019-11-08T23:59:00-06:00"
+        },
+        
+        {
             "title": "Susto y noviembre sin ti",
             "url": "https://blog.mautematico.com/2019/susto-y-noviembre-sin-ti.html",
             "date": "2019-11-07T23:59:00-06:00"

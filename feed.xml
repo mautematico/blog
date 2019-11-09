@@ -5,9 +5,28 @@
     <description>Las Cosas son como deben, no como deberían Ser.</description>
     <link>https://blog.mautematico.com//</link>
     <atom:link href="https://blog.mautematico.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Nov 2019 00:19:26 -0600</pubDate>
-    <lastBuildDate>Fri, 08 Nov 2019 00:19:26 -0600</lastBuildDate>
+    <pubDate>Sat, 09 Nov 2019 01:18:52 -0600</pubDate>
+    <lastBuildDate>Sat, 09 Nov 2019 01:18:52 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Cuida tu alimentación</title>
+        <description>&lt;p&gt;Hoy aprendí que los perros de una misma camada pueden tener días de diferencia de concebidos (igual que muchos otros animales) y que eso es notorio en el desarrollo que tienen al nacer, es que pasé por la veterinaria a preguntar unas cosas.&lt;/p&gt;
+
+&lt;p&gt;En retrospectiva, la ventana limpia ni es tan importante y la prereriría sucia que todo esto que sucede. Noté lo de la ventana porque salimos a mirar qué ocasionaba unos ruidos en el patio.&lt;/p&gt;
+
+&lt;p&gt;Mayán te extraña mucho y te manda a decir que debes cuidar tu alimentación.&lt;/p&gt;
+
+&lt;p&gt;Nos olemos luego.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Nov 2019 23:59:00 -0600</pubDate>
+        <link>https://blog.mautematico.com//2019/cuida-tu-alimentacion.html</link>
+        <guid isPermaLink="true">https://blog.mautematico.com//2019/cuida-tu-alimentacion.html</guid>
+        
+        
+        <category>set</category>
+        
+      </item>
     
       <item>
         <title>Susto y noviembre sin ti</title>
@@ -237,39 +256,6 @@ CMD [&quot;/hello&quot;]
         <pubDate>Thu, 10 Nov 2016 17:25:00 -0600</pubDate>
         <link>https://blog.mautematico.com//2016/la-imagen-scratch-de-docker.html</link>
         <guid isPermaLink="true">https://blog.mautematico.com//2016/la-imagen-scratch-de-docker.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ansible roles may contain nested plugins and modules</title>
-        <description>&lt;p&gt;Sooner or later, you’re going to ask yourself &lt;strong&gt;Is it possible to import remote &lt;em&gt;Ansible modules&lt;/em&gt; to use them on my playbook&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Yes, you can.
-http://stackoverflow.com/a/36160664&lt;/p&gt;
-
-&lt;p&gt;If desired, you can for instance call this (taken from a remote git repository) Ansible action_plugin that allows you to reconnect ssh connections:&lt;/p&gt;
-
-&lt;p&gt;https://galaxy.ansible.com/udondan/ssh-reconnect/&lt;/p&gt;
-
-&lt;p&gt;It’s up to you if you use &lt;code&gt;ansible-galaxy&lt;/code&gt; to install the remote action_plugin, &lt;a href=&quot;http://docs.ansible.com/ansible/galaxy.html#version&quot;&gt;as described on the docs&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;ansible-galaxy install git+https://github.com/geerlingguy/ansible-role-apache.git,0b7cd353c0250e87a26e0499e59e7fd265cc2f25&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Or if you prefer to &lt;a href=&quot;http://docs.ansible.com/ansible/galaxy.html#dependencies&quot; title=&quot;Specify a list of Ansible role dependencies&quot;&gt;specify a list of role dependencies&lt;/a&gt; in the &lt;code&gt;meta/main.yml&lt;/code&gt; file&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;dependencies:
-  - src: geerlingguy.ansible
-  - src: git+https://github.com/geerlingguy/ansible-role-composer.git
-    version: 775396299f2da1f519f0d8885022ca2d6ee80ee8
-    name: composer
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Give it a try and may the force be with you!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 08 Nov 2016 17:05:00 -0600</pubDate>
-        <link>https://blog.mautematico.com//2016/ansible-roles-may-contain-nested-plugins-and-modules.html</link>
-        <guid isPermaLink="true">https://blog.mautematico.com//2016/ansible-roles-may-contain-nested-plugins-and-modules.html</guid>
         
         
       </item>
