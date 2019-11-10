@@ -2,6 +2,12 @@
     "posts": [
         
         {
+            "title": "Hoy vinieron todos",
+            "url": "https://blog.mautematico.com/2019/hoy-vinieron-todos.html",
+            "date": "2019-11-09T23:59:00-06:00"
+        },
+        
+        {
             "title": "Cuida tu alimentación",
             "url": "https://blog.mautematico.com/2019/cuida-tu-alimentacion.html",
             "date": "2019-11-08T23:59:00-06:00"

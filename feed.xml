@@ -5,9 +5,29 @@
     <description>Las Cosas son como deben, no como deberían Ser.</description>
     <link>https://blog.mautematico.com//</link>
     <atom:link href="https://blog.mautematico.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Nov 2019 01:18:52 -0600</pubDate>
-    <lastBuildDate>Sat, 09 Nov 2019 01:18:52 -0600</lastBuildDate>
+    <pubDate>Sun, 10 Nov 2019 01:19:23 -0600</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2019 01:19:23 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Hoy vinieron todos</title>
+        <description>&lt;p&gt;Este sábado vinieron todos los que suelen venir los sábados. Sigue siendo muy extraño para mi abrir la puerta sin compañía, ya me había acostumbrado.
+Platicamos un poco sobre ti, como ya es usual.&lt;/p&gt;
+
+&lt;p&gt;Tengo más de una semana sin ir a la otra tienda, y hoy mayán trajo tacos, taquitos de canasta… creo que esa fue la parte más dura del día, ya sabes por qué.&lt;/p&gt;
+
+&lt;p&gt;¿Por qué sucedieron así las cosas?&lt;/p&gt;
+
+&lt;p&gt;Nos olemos luego.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 09 Nov 2019 23:59:00 -0600</pubDate>
+        <link>https://blog.mautematico.com//2019/hoy-vinieron-todos.html</link>
+        <guid isPermaLink="true">https://blog.mautematico.com//2019/hoy-vinieron-todos.html</guid>
+        
+        
+        <category>set</category>
+        
+      </item>
     
       <item>
         <title>Cuida tu alimentación</title>
@@ -232,30 +252,6 @@ listen gelf :12201
         <pubDate>Tue, 03 Jan 2017 18:39:00 -0600</pubDate>
         <link>https://blog.mautematico.com//2017/breve-relato-sobre-un-tocayo.html</link>
         <guid isPermaLink="true">https://blog.mautematico.com//2017/breve-relato-sobre-un-tocayo.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>La imagen &quot;scratch&quot; de docker</title>
-        <description>&lt;p&gt;Hay una imagen mínima &lt;em&gt;reservada&lt;/em&gt; en Docker, de nombre scratch. Si quieres, puedes utilizar esta imagen mínima para crear tu propia imagen.&lt;/p&gt;
-
-&lt;p&gt;Pero hay una particularidad interesante respecto a scratch: No puedes descargarla vía pull, tampoco ejecutarla, y de hecho no puedes etiquetar ninguna imagen con el nombre scratch.&lt;/p&gt;
-
-&lt;p&gt;Lo que sí puedes es hacer referencia a scratch en tu Dockerfile. Por ejemplo, puedes crear una imagen mínima utilizando scratch de esta forma:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;FROM scratch
-ADD hello /
-CMD [&quot;/hello&quot;]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Para los curiosos, esto resultaría en la imagen &lt;code&gt;hello-world&lt;/code&gt; usada en los tutoriales de docker.&lt;/p&gt;
-
-&lt;p&gt;https://docs.docker.com/engine/userguide/eng-image/baseimages/#/creating-a-simple-base-image-using-scratch&lt;/p&gt;
-</description>
-        <pubDate>Thu, 10 Nov 2016 17:25:00 -0600</pubDate>
-        <link>https://blog.mautematico.com//2016/la-imagen-scratch-de-docker.html</link>
-        <guid isPermaLink="true">https://blog.mautematico.com//2016/la-imagen-scratch-de-docker.html</guid>
         
         
       </item>
