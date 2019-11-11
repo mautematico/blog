@@ -2,6 +2,12 @@
     "posts": [
         
         {
+            "title": "Atomizador",
+            "url": "https://blog.mautematico.com/2019/atomizador.html",
+            "date": "2019-11-10T23:41:00-06:00"
+        },
+        
+        {
             "title": "Hoy vinieron todos",
             "url": "https://blog.mautematico.com/2019/hoy-vinieron-todos.html",
             "date": "2019-11-09T23:59:00-06:00"

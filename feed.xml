@@ -5,9 +5,28 @@
     <description>Las Cosas son como deben, no como deberían Ser.</description>
     <link>https://blog.mautematico.com//</link>
     <atom:link href="https://blog.mautematico.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Nov 2019 01:19:23 -0600</pubDate>
-    <lastBuildDate>Sun, 10 Nov 2019 01:19:23 -0600</lastBuildDate>
+    <pubDate>Sun, 10 Nov 2019 23:48:54 -0600</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2019 23:48:54 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Atomizador</title>
+        <description>&lt;p&gt;Hoy encontré el atomizador amarillo sorpresivamente y aún tenía un poco de agua. Me causó conflicto y por un momento no supe qué hacer con él, así que decidí guardarlo para ya no tener que verlo; pero cuando me dirigía a vaciar el agua pensé que sería mejor idea usarlo para hidratar la tierra del lugar de descanso… estamos pensando sembrar pastito ahí :)&lt;/p&gt;
+
+&lt;p&gt;También hoy ocurrieron cosas relevantes en lo político a nivel internacional, a saber, los derefachos de mierda consumaron el golpe militar en contra de Evo Morales en Bolivia. Sé que es un tema distante de cuando hablábamos sobre caldito de pollo, pero es que es relevante.&lt;/p&gt;
+
+&lt;p&gt;Fascistas intervencionistas de mierda.&lt;/p&gt;
+
+&lt;p&gt;Nos olemos luego.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Nov 2019 23:41:00 -0600</pubDate>
+        <link>https://blog.mautematico.com//2019/atomizador.html</link>
+        <guid isPermaLink="true">https://blog.mautematico.com//2019/atomizador.html</guid>
+        
+        
+        <category>set</category>
+        
+      </item>
     
       <item>
         <title>Hoy vinieron todos</title>
@@ -222,36 +241,6 @@ listen gelf :12201
         <pubDate>Wed, 22 Feb 2017 12:40:00 -0600</pubDate>
         <link>https://blog.mautematico.com//2017/load-balancing-graylog2-with-haproxy-and-srv-records.html</link>
         <guid isPermaLink="true">https://blog.mautematico.com//2017/load-balancing-graylog2-with-haproxy-and-srv-records.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Breve relato sobre un tocayo</title>
-        <description>&lt;p&gt;A veces cuando uno camina descubre cosas. En una ocasión, caminaba por la Ciudad de México y encontré un puesto de tortas.&lt;/p&gt;
-
-&lt;p&gt;En esta ciudad, los puestos de tortas me resultan una curiosidad; como si &lt;em&gt;la fuerza&lt;/em&gt; los equilibrara. Todos parecen tener el mismo menú de tortas al mismo precio.&lt;/p&gt;
-
-&lt;p&gt;Entonces uno se concentra en elegir el más cómodo, el más cercano, o el más delicioso. ¡Pollo para cenar!&lt;/p&gt;
-
-&lt;p&gt;En una de mis caminatas, descubrí un puesto de tortas. Fue suficiente con probar uno de mis sabores favoritos del menú para elegir ese puesto como mi favorito de la zona.&lt;/p&gt;
-
-&lt;p&gt;Tras volver unas cuantas veces, me hice amigo del chef. Le pedí su número, porque cuando uno tiene el número del chef es más fácil adelantar un pedido por teléfono que cuando no lo tiene. Y resultó que somos tocayos.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Si dos personas tienen el mismo nombre, se dice que una de ellas es “tocayo” de la otra. [&lt;a href=&quot;https://es.wikipedia.org/wiki/Tocayo&quot; title=&quot;Tocayo&quot;&gt;ref&lt;/a&gt;]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;He seguido comiendo de vez en cuando las tortas que prepara mi tocayo. Son ricas, las recomiendo.&lt;/p&gt;
-
-&lt;p&gt;Ayer o antier estábamos platicando sobre vacaciones, años nuevos, trabajos y ahorros; supongo que lo hacíamos porque a uno le gusta pensar en esas cosas durante estas épocas del año. Resulta que mi tocayo está construyendo su casa, allá en su pueblo natal.&lt;/p&gt;
-
-&lt;p&gt;¡Punto para gryffindor!&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 03 Jan 2017 18:39:00 -0600</pubDate>
-        <link>https://blog.mautematico.com//2017/breve-relato-sobre-un-tocayo.html</link>
-        <guid isPermaLink="true">https://blog.mautematico.com//2017/breve-relato-sobre-un-tocayo.html</guid>
         
         
       </item>
