@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>https://blog.mautematico.com/2019/mercurio.html</loc>
+      
+        <lastmod>2019-11-11T23:53:00-06:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>https://blog.mautematico.com/2019/atomizador.html</loc>
       
         <lastmod>2019-11-10T23:41:00-06:00</lastmod>
@@ -1371,7 +1386,7 @@
     <url>
       <loc>https://blog.mautematico.com/404.html</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1386,7 +1401,7 @@
     <url>
       <loc>https://blog.mautematico.com/atom.xml</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1401,7 +1416,7 @@
     <url>
       <loc>https://blog.mautematico.com/json/categories.json</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1416,7 +1431,7 @@
     <url>
       <loc>https://blog.mautematico.com/categorias/</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1431,7 +1446,7 @@
     <url>
       <loc>https://blog.mautematico.com/feed.xml</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1446,7 +1461,7 @@
     <url>
       <loc>https://blog.mautematico.com/</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1461,7 +1476,7 @@
     <url>
       <loc>https://blog.mautematico.com/feed/</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1476,7 +1491,7 @@
     <url>
       <loc>https://blog.mautematico.com/js/main.js</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1491,7 +1506,7 @@
     <url>
       <loc>https://blog.mautematico.com/json/posts.json</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1508,7 +1523,7 @@
     <url>
       <loc>https://blog.mautematico.com/json/tags.json</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -1523,7 +1538,7 @@
     <url>
       <loc>https://blog.mautematico.com/etiquetas/</loc>
       
-        <lastmod>2019-11-10T23:48:54-06:00</lastmod>
+        <lastmod>2019-11-11T23:58:03-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

@@ -2,6 +2,12 @@
     "posts": [
         
         {
+            "title": "Mercurio",
+            "url": "https://blog.mautematico.com/2019/mercurio.html",
+            "date": "2019-11-11T23:53:00-06:00"
+        },
+        
+        {
             "title": "Atomizador",
             "url": "https://blog.mautematico.com/2019/atomizador.html",
             "date": "2019-11-10T23:41:00-06:00"

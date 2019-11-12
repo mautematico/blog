@@ -5,9 +5,28 @@
     <description>Las Cosas son como deben, no como deberían Ser.</description>
     <link>https://blog.mautematico.com//</link>
     <atom:link href="https://blog.mautematico.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Nov 2019 23:48:54 -0600</pubDate>
-    <lastBuildDate>Sun, 10 Nov 2019 23:48:54 -0600</lastBuildDate>
+    <pubDate>Mon, 11 Nov 2019 23:58:03 -0600</pubDate>
+    <lastBuildDate>Mon, 11 Nov 2019 23:58:03 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Mercurio</title>
+        <description>&lt;p&gt;Hoy, vimos a Mercurio pasar frente al Sol.&lt;/p&gt;
+
+&lt;p&gt;También, hoy viene Evo camino a México.&lt;/p&gt;
+
+&lt;p&gt;También, hoy con mayán vimos al cachorrito adorable.&lt;/p&gt;
+
+&lt;p&gt;Nos olemos luego.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Nov 2019 23:53:00 -0600</pubDate>
+        <link>https://blog.mautematico.com//2019/mercurio.html</link>
+        <guid isPermaLink="true">https://blog.mautematico.com//2019/mercurio.html</guid>
+        
+        
+        <category>set</category>
+        
+      </item>
     
       <item>
         <title>Atomizador</title>
@@ -212,36 +231,6 @@ Nos olemos luego.&lt;/p&gt;
         
         
         <category>unadm</category>
-        
-      </item>
-    
-      <item>
-        <title>Load Balancing Graylog2 with HAProxy and SRV records</title>
-        <description>&lt;p&gt;If you ever happen to use HAProxy to make load balance to your Graylog2/GELF inputs (you should try it, HAProxy is HAwesome!), I advice you to take a look to &lt;a href=&quot;http://siawyoung.com/coding/sysadmin/graylog2/load-balancing-graylog-2-with-haproxy.html#change-haproxys-health-check-to-graylog2s-rest-api&quot; title=&quot;Siaw Young&#39;s post&quot;&gt;Siaw Young’s post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;As a plus, you may be using SRV record sets to maintain your Graylog2 cluster node list up to date.
-If that applies to you, give it a try to &lt;a href=&quot;https://github.com/elasticio/haproxy-srv/&quot; title=&quot;Flexible HAProxy auto configuration and auto service discovery for SkyDNS or Mesos-DNS&quot;&gt;haproxy-srv&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Looking for a starting template for haproxy-srv? Here you have!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-{{#dns-srv &quot;_gelf._tcp.internal.example.org&quot;}}
-listen gelf :12201
-    mode tcp
-    balance roundrobin
-    option httpchk GET /api/system/lbstatus
-    {{#each this}}
-        server gelf-{{@index}} {{ip}}:{{port}} check port 12900
-    {{/each}}
-{{/dns-srv}}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-</description>
-        <pubDate>Wed, 22 Feb 2017 12:40:00 -0600</pubDate>
-        <link>https://blog.mautematico.com//2017/load-balancing-graylog2-with-haproxy-and-srv-records.html</link>
-        <guid isPermaLink="true">https://blog.mautematico.com//2017/load-balancing-graylog2-with-haproxy-and-srv-records.html</guid>
-        
         
       </item>
     
